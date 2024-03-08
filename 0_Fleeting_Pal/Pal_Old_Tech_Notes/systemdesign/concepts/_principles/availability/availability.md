@@ -1,0 +1,4 @@
+## Availability
+
+
+### Reliability Vs. Availability
