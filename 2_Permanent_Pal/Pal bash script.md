@@ -1,3 +1,9 @@
+---
+tags:
+ - tech/script
+ - tech/commands
+ 
+---
 
 [[archival]]
 
