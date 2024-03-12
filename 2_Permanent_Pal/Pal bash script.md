@@ -2,7 +2,7 @@
 tags:
  - tech/script
  - tech/commands
- 
+ - 
 ---
 
 [[archival]]
@@ -15,7 +15,7 @@ sh archival.sh ../../../Dropbox ~/Google\ Drive/Archive
 
 [[git]] [[backup]]
 
-```
+```bash
 sh backup_git.sh ../../../Dropbox/family-notes
 sh backup_git.sh ../../../Dropbox/life-notes
 sh backup_git.sh ../../../Dropbox/tech-notes
@@ -36,3 +36,10 @@ sh backup_git.sh ../../../Private/family-resources/
 
 ```
 
+### git sync plugin
+```bash
+cp -r ../../../Dropbox/obsidian-config/.obsidian-pal-mac-intel/plugins ../../../Dropbox/.obsidian-pal-mac-m1/plugins/
+cp ../../../Dropbox/obsidian-config/.obsidian-pal-mac-intel/community-plugins.json  ../../../Dropbox/.obsidian-pal-mac-m1/community-plugins.json
+cat ../../../Dropbox/.obsidian-pal-mac-m1/community-plugins.json
+ls ../../../Dropbox/.obsidian-pal-mac-m1/plugins
+```
