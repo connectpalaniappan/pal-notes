@@ -1,8 +1,9 @@
 ---
 tags:
- - tech/script
- - tech/commands
- - 
+ - resource/script
+ - resource/commands
+ - resource/git
+ - resource/backup
 ---
 
 [[archival]]

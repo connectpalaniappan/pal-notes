@@ -1,0 +1,33 @@
+- [[2024-03-13]] 5:19 PM — Synced 440 highlights from 31 documents.
+    - 25 highlights from To-Do
+    - 13 highlights from The Phoenix Project
+    - 24 highlights from Patterns of Enterprise Application Architecture (Addison-Wesley Signature Series (Fowler))
+    - 9 highlights from Regular Expressions Cookbook
+    - 4 highlights from Sed & Awk
+    - 6 highlights from Stumbling on Happiness
+    - 21 highlights from Kafka
+    - 28 highlights from Deep Work
+    - 51 highlights from Building Microservices
+    - 4 highlights from The Last Lecture
+    - 10 highlights from Freakonomics Rev Ed
+    - 4 highlights from Load Balancing With HAProxy
+    - 16 highlights from The Design of Everyday Things
+    - 24 highlights from Measure What Matters
+    - 152 highlights from Scalability Rules
+    - 20 highlights from Ikigai
+    - 1 highlights from The Next Chapter of Reader: Public Beta
+    - 1 highlights from My Complete Productivity System
+    - 1 highlights from How to Organize Your Notes in Obsidian // the LATCH Method
+    - 2 highlights from Setting Up a Global .Gitignore File — Sebastian De Deyne
+    - 8 highlights from The Lazy Person’s Guide to a More Productive Life
+    - 1 highlights from How to become 37.78 times better at anything | Atomic Habits summary (by James Clear)
+    - 1 highlights from Read After Write Consistency |MP|0
+    - 1 highlights from Feed Detail Update
+    - 1 highlights from Convertible: Using Ffmpeg to Convert Audio Files
+    - 1 highlights from Millionaire Interview 381
+    - 1 highlights from Building a Data Lake With Adam Ferrari
+    - 3 highlights from Dropbox Interview
+    - 1 highlights from Microservices Patterns
+    - 5 highlights from Klarna says its AI assistant does the work of 700 people after it laid off 700 people
+    - 1 highlights from How I Capture & PROCESS Using Readwise & Obsidian
+
