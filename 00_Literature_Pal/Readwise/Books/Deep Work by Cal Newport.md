@@ -1,14 +1,13 @@
 ---
-Title: Deep Work
-Full Title: Deep Work
-Author: Cal Newport
-Notes: 
+title: Deep Work
+full Title: Deep Work
+author: Cal Newport
+note: 
 URL: 
-Published date: 
-Category:: books
-Source: kindle
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+published date: 
+category: books
+source: kindle
+note created: 2024-03-14
 ---
 author:: [[Cal Newport]]
 note:: 
@@ -16,7 +15,7 @@ source:: [[kindle]]
 url:: 
 image_url:: [books image URL](https://images-na.ssl-images-amazon.com/images/I/51vmivI5KvL._SL200_.jpg)
 category:: [[books]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2018-11-27]]
 published_date:: [[]]
 summary:: None

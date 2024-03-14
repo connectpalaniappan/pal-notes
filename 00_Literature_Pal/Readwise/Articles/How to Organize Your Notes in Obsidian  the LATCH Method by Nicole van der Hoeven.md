@@ -1,23 +1,22 @@
 ---
-Title: How to Organize Your Notes in Obsidian // the LATCH Method
-Full Title: How to Organize Your Notes in Obsidian // the LATCH Method
-Author: Nicole van der Hoeven
-Notes: 
+title: How to Organize Your Notes in Obsidian // the LATCH Method
+full Title: How to Organize Your Notes in Obsidian // the LATCH Method
+author: Nicole van der Hoeven
+note: 
 URL: https://youtube.com/watch?v=vS-b_RUtL1A&si=X2Qck37E7ebb6TR7
-Published date: 2022-11-04
-Category:: articles
-Source: reader
+published date: 2022-11-04
+category: articles
+source: reader
 tags: [life, resource/obsidian, work/highlight, medium/articles, author/Nicole_van_der_Hoeven, reader/reader, date/2024-02-27]
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+note created: 2024-03-14
 ---
 author:: [[Nicole van der Hoeven]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://youtube.com/watch?v=vS-b_RUtL1A&si=X2Qck37E7ebb6TR7)
 image_url:: [articles image URL](https://i.ytimg.com/vi/vS-b_RUtL1A/maxresdefault.jpg)
 category:: [[articles]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2024-02-27]]
 published_date:: [[2022-11-04]]
 summary:: Wondering how to organize your notes in Obsidian? In this video, I talk about some methods in Obsidian for imposing structure and organization, the LATCH method for adding data to your data, and which methods I would use in Obsidian for each part of LATCH (Location, Alphabet, Time, Category, and Hierarchy). This is not meant to be a definitive or prescriptive guide for how YOU should organize your notes. Instead, take this as a look into how *I* prefer to do it, in the hopes that you may find inspiration for how you'd like to do it as well.

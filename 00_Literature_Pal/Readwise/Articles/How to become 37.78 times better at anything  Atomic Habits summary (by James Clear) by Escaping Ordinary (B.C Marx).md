@@ -1,23 +1,22 @@
 ---
-Title: How to become 37.78 times better at anything | Atomic Habits summary (by James Clear)
-Full Title: How to become 37.78 times better at anything | Atomic Habits summary (by James Clear)
-Author: Escaping Ordinary (B.C Marx)
-Notes: 
+title: How to become 37.78 times better at anything | Atomic Habits summary (by James Clear)
+full Title: How to become 37.78 times better at anything | Atomic Habits summary (by James Clear)
+author: Escaping Ordinary (B.C Marx)
+note: 
 URL: https://www.youtube.com/watch?v=PZ7lDrwYdZc
-Published date: 2021-10-06
-Category:: articles
-Source: reader
-tags: [resource/life, people/pal, people/family, work/highlight, medium/articles, author/Escaping_Ordinary__B_C_Marx_, reader/reader, date/2024-03-01]
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+published date: 2021-10-06
+category: articles
+source: reader
+tags: [life, pal, people/family, work/highlight, medium/articles, author/Escaping_Ordinary__B_C_Marx_, reader/reader, date/2024-03-01]
+note created: 2024-03-14
 ---
 author:: [[Escaping Ordinary (B.C Marx)]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://www.youtube.com/watch?v=PZ7lDrwYdZc)
 image_url:: [articles image URL](https://i.ytimg.com/vi/PZ7lDrwYdZc/maxresdefault.jpg)
 category:: [[articles]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2024-03-01]]
 published_date:: [[2021-10-06]]
 summary:: The document provides a detailed summary of the book "Atomic Habits" by James Clear, focusing on the concept that small changes in daily habits can lead to significant improvements over time. It delves into the importance of creating systems rather than just setting goals and emphasizes the power of habit loops in shaping behavior. The text discusses strategies for making habits more attractive, easier, and satisfying, highlighting the role of environment and primal motivators in habit formation. It also touches on the significance of immediate and delayed rewards in sustaining good habits and offers tips on how to stick with positive habits daily.

@@ -1,22 +1,21 @@
 ---
-Title: Millionaire Interview 381
-Full Title: Millionaire Interview 381
-Author: ESI
-Notes: 
+title: Millionaire Interview 381
+full Title: Millionaire Interview 381
+author: ESI
+note: 
 URL: https://esimoney.com/millionaire-interview-381/
-Published date: 2024-02-26
-Category:: articles
-Source: reader
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+published date: 2024-02-26
+category: articles
+source: reader
+note created: 2024-03-14
 ---
 author:: [[ESI]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://esimoney.com/millionaire-interview-381/)
 image_url:: [articles image URL](https://esimoney.com/wp-content/uploads/2024/03/Beach-on-Grand-Turk-new.jpg)
 category:: [[articles]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2024-03-05]]
 published_date:: [[2024-02-26]]
 summary:: Here’s our latest interview with a millionaire as we seek to learn from those who have grown their wealth to high heights. If you’d like to be considered for an interview, drop me a note and we can chat about specifics. This interview took place in August. My questions are in bold italics and their […]

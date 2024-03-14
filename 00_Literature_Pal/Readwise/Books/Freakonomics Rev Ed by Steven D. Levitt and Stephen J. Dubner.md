@@ -1,14 +1,13 @@
 ---
-Title: Freakonomics Rev Ed
-Full Title: Freakonomics Rev Ed
-Author: Steven D. Levitt and Stephen J. Dubner
-Notes: 
+title: Freakonomics Rev Ed
+full Title: Freakonomics Rev Ed
+author: Steven D. Levitt and Stephen J. Dubner
+note: 
 URL: 
-Published date: 
-Category:: books
-Source: kindle
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+published date: 
+category: books
+source: kindle
+note created: 2024-03-14
 ---
 author:: [[Steven D. Levitt and Stephen J. Dubner]]
 note:: 
@@ -16,7 +15,7 @@ source:: [[kindle]]
 url:: 
 image_url:: [books image URL](https://images-na.ssl-images-amazon.com/images/I/517AD412OOL._SL200_.jpg)
 category:: [[books]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2020-01-02]]
 published_date:: [[]]
 summary:: None

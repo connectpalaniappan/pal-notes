@@ -1,14 +1,13 @@
 ---
-Title: The Phoenix Project
-Full Title: The Phoenix Project
-Author: Gene Kim, Kevin Behr, George Spafford
-Notes: 
+title: The Phoenix Project
+full Title: The Phoenix Project
+author: Gene Kim, Kevin Behr, George Spafford
+note: 
 URL: 
-Published date: 
-Category:: books
-Source: kindle
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+published date: 
+category: books
+source: kindle
+note created: 2024-03-14
 ---
 author:: [[Gene Kim, Kevin Behr, George Spafford]]
 note:: 
@@ -16,7 +15,7 @@ source:: [[kindle]]
 url:: 
 image_url:: [books image URL](https://images-na.ssl-images-amazon.com/images/I/51zDZ1s4hCL._SL200_.jpg)
 category:: [[books]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2018-03-20]]
 published_date:: [[]]
 summary:: None

@@ -1,14 +1,13 @@
 ---
-Title: Building a Data Lake With Adam Ferrari
-Full Title: Building a Data Lake With Adam Ferrari
-Author: Software Engineering Daily
-Notes: 
+title: Building a Data Lake With Adam Ferrari
+full Title: Building a Data Lake With Adam Ferrari
+author: Software Engineering Daily
+note: 
 URL: https://share.snipd.com/episode/dc0b821f-c59a-4d6b-8129-a47ce47ce1b5
-Published date: 
-Category:: podcasts
-Source: snipd
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+published date: 
+category: podcasts
+source: snipd
+note created: 2024-03-14
 ---
 author:: [[Software Engineering Daily]]
 note:: 
@@ -16,7 +15,7 @@ source:: [[snipd]]
 url:: [podcasts URL](https://share.snipd.com/episode/dc0b821f-c59a-4d6b-8129-a47ce47ce1b5)
 image_url:: [podcasts image URL](https://wsrv.nl/?url=http%3A%2F%2Fsoftwareengineeringdaily.com%2Fwp-content%2Fuploads%2F2024%2F02%2Fsed_logo.png&w=100&h=100)
 category:: [[podcasts]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2024-03-06]]
 published_date:: [[]]
 summary:: None

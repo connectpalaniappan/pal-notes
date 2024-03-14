@@ -1,22 +1,21 @@
 ---
-Title: My Complete Productivity System
-Full Title: My Complete Productivity System
-Author: Ali Abdaal
-Notes: 
+title: My Complete Productivity System
+full Title: My Complete Productivity System
+author: Ali Abdaal
+note: 
 URL: https://www.youtube.com/watch?v=tQSKyvjsUuI
-Published date: 2022-03-25
-Category:: articles
-Source: reader
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+published date: 2022-03-25
+category: articles
+source: reader
+note created: 2024-03-14
 ---
 author:: [[Ali Abdaal]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://www.youtube.com/watch?v=tQSKyvjsUuI)
 image_url:: [articles image URL](https://i.ytimg.com/vi/tQSKyvjsUuI/hqdefault.jpg)
 category:: [[articles]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2024-02-27]]
 published_date:: [[2022-03-25]]
 summary:: Ali discusses his complete productivity system that includes coordinating, communicating, and consuming. He uses tools like Fantastical for calendars, Google Drive for file management, Todoist for task management, Notion for team projects, Texts.com for messaging apps, Slack for team communication, Superhuman for email, and Loom for screen recording.

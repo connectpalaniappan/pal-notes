@@ -1,14 +1,13 @@
 ---
-Title: Dropbox Interview
-Full Title: Dropbox Interview
-Author: System Design
-Notes: 
+title: Dropbox Interview
+full Title: Dropbox Interview
+author: System Design
+note: 
 URL: https://share.snipd.com/episode/5611f21f-e21c-4aad-8517-cbf69a6c2698
-Published date: 
-Category:: podcasts
-Source: snipd
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+published date: 
+category: podcasts
+source: snipd
+note created: 2024-03-14
 ---
 author:: [[System Design]]
 note:: 
@@ -16,7 +15,7 @@ source:: [[snipd]]
 url:: [podcasts URL](https://share.snipd.com/episode/5611f21f-e21c-4aad-8517-cbf69a6c2698)
 image_url:: [podcasts image URL](https://wsrv.nl/?url=https%3A%2F%2Fstorage.buzzsprout.com%2Fvariants%2F8nk8itdhc6oegfm9zrjzo9f5gh4k%2F60854458c4d1acdf4e1c2f79c4137142d85d78e379bdafbd69bd34c85f5819ad.jpg&w=100&h=100)
 category:: [[podcasts]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2024-03-06]]
 published_date:: [[]]
 summary:: None

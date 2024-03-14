@@ -1,14 +1,13 @@
 ---
-Title: The Last Lecture
-Full Title: The Last Lecture
-Author: Randy Pausch and Jeffrey Zaslow
-Notes: 
+title: The Last Lecture
+full Title: The Last Lecture
+author: Randy Pausch and Jeffrey Zaslow
+note: 
 URL: 
-Published date: 
-Category:: books
-Source: kindle
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+published date: 
+category: books
+source: kindle
+note created: 2024-03-14
 ---
 author:: [[Randy Pausch and Jeffrey Zaslow]]
 note:: 
@@ -16,7 +15,7 @@ source:: [[kindle]]
 url:: 
 image_url:: [books image URL](https://images-na.ssl-images-amazon.com/images/I/41Sy7h6f0qL._SL200_.jpg)
 category:: [[books]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2020-01-02]]
 published_date:: [[]]
 summary:: None

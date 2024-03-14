@@ -1,23 +1,22 @@
 ---
-Title: Feed Detail Update
-Full Title: Feed Detail Update
-Author: linkedin.com
-Notes: 
+title: Feed Detail Update
+full Title: Feed Detail Update
+author: linkedin.com
+note: 
 URL: https://www.linkedin.com/feed/update/urn:li:activity:7115309646508167168/
-Published date: 2024-03-02
-Category:: articles
-Source: reader
-tags: [resource/life, people/pal, medium/articles, author/linkedin_com, reader/reader, date/2024-03-02]
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+published date: 2024-03-02
+category: articles
+source: reader
+tags: [life, pal, medium/articles, author/linkedin_com, reader/reader, date/2024-03-02]
+note created: 2024-03-14
 ---
 author:: [[linkedin.com]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://www.linkedin.com/feed/update/urn:li:activity:7115309646508167168/)
 image_url:: [articles image URL](https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png)
 category:: [[articles]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2024-03-02]]
 published_date:: [[2024-03-02]]
 summary:: The text emphasizes the importance of having a supportive team behind a leader, guiding and holding them accountable to be their best self. It suggests creating a personal Board of Directors to help achieve personal growth and excellence. It highlights the idea that to be the best for others, one must first be the best version of themselves.

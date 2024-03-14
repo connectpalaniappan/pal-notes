@@ -1,14 +1,13 @@
 ---
-Title: Regular Expressions Cookbook
-Full Title: Regular Expressions Cookbook
-Author: Jan Goyvaerts, Steven Levithan
-Notes: 
+title: Regular Expressions Cookbook
+full Title: Regular Expressions Cookbook
+author: Jan Goyvaerts, Steven Levithan
+note: 
 URL: 
-Published date: 
-Category:: books
-Source: kindle
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+published date: 
+category: books
+source: kindle
+note created: 2024-03-14
 ---
 author:: [[Jan Goyvaerts, Steven Levithan]]
 note:: 
@@ -16,7 +15,7 @@ source:: [[kindle]]
 url:: 
 image_url:: [books image URL](https://images-na.ssl-images-amazon.com/images/I/51JETzsPyVL._SL200_.jpg)
 category:: [[books]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2018-04-21]]
 published_date:: [[]]
 summary:: None

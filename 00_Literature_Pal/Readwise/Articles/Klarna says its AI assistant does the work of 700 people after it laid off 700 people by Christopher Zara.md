@@ -1,23 +1,22 @@
 ---
-Title: Klarna says its AI assistant does the work of 700 people after it laid off 700 people
-Full Title: Klarna says its AI assistant does the work of 700 people after it laid off 700 people
-Author: Christopher Zara
-Notes: 
+title: Klarna says its AI assistant does the work of 700 people after it laid off 700 people
+full Title: Klarna says its AI assistant does the work of 700 people after it laid off 700 people
+author: Christopher Zara
+note: 
 URL: https://www.fastcompany.com/91039401/klarna-ai-virtual-assistant-does-the-work-of-700-humans-after-layoffs
-Published date: 2024-02-27
-Category:: articles
-Source: reader
-tags: [resource/life, medium/articles, people/pal, reader/readwise, resource/life, medium/articles, author/Christopher_Zara, reader/reader, date/2024-03-13]
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+published date: 2024-02-27
+category: articles
+source: reader
+tags: [life, medium/articles, pal, reader/readwise, resource/life, medium/articles, author/Christopher_Zara, reader/reader, date/2024-03-13]
+note created: 2024-03-14
 ---
 author:: [[Christopher Zara]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://www.fastcompany.com/91039401/klarna-ai-virtual-assistant-does-the-work-of-700-humans-after-layoffs)
 image_url:: [articles image URL](https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2024/02/p-1-91039401-klarna-ai-chatbot-layoff.jpg)
 category:: [[articles]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2024-03-13]]
 published_date:: [[2024-02-27]]
 summary:: Klarna, a Swedish fintech company that faced criticism for laying off 700 employees, is now highlighting the efficiency of its AI assistant powered by OpenAI. The virtual assistant handles customer communications, enhances shopper satisfaction, and contributes to better financial outcomes. Klarna estimates that the chatbot could boost profits by $40 million in 2024 and has expanded its AI offerings globally to cover various tasks, including customer service. Despite the controversy surrounding the layoffs, Klarna asserts that its AI assistant is equivalent to the work of 700 full-time human agents, emphasizing the growing role of AI in improving company operations and customer interactions.

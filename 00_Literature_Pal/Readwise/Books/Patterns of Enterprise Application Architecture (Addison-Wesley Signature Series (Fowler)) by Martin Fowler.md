@@ -1,14 +1,13 @@
 ---
-Title: Patterns of Enterprise Application Architecture (Addison-Wesley Signature Series (Fowler))
-Full Title: Patterns of Enterprise Application Architecture (Addison-Wesley Signature Series (Fowler))
-Author: Martin Fowler
-Notes: 
+title: Patterns of Enterprise Application Architecture (Addison-Wesley Signature Series (Fowler))
+full Title: Patterns of Enterprise Application Architecture (Addison-Wesley Signature Series (Fowler))
+author: Martin Fowler
+note: 
 URL: 
-Published date: 
-Category:: books
-Source: kindle
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+published date: 
+category: books
+source: kindle
+note created: 2024-03-14
 ---
 author:: [[Martin Fowler]]
 note:: 
@@ -16,7 +15,7 @@ source:: [[kindle]]
 url:: 
 image_url:: [books image URL](https://images-na.ssl-images-amazon.com/images/I/51X%2Br%2BOdV3L._SL200_.jpg)
 category:: [[books]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2018-04-21]]
 published_date:: [[]]
 summary:: None

@@ -1,14 +1,13 @@
 ---
-Title: The Design of Everyday Things
-Full Title: The Design of Everyday Things
-Author: Don Norman
-Notes: 
+title: The Design of Everyday Things
+full Title: The Design of Everyday Things
+author: Don Norman
+note: 
 URL: 
-Published date: 
-Category:: books
-Source: kindle
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+published date: 
+category: books
+source: kindle
+note created: 2024-03-14
 ---
 author:: [[Don Norman]]
 note:: 
@@ -16,7 +15,7 @@ source:: [[kindle]]
 url:: 
 image_url:: [books image URL](https://images-na.ssl-images-amazon.com/images/I/416Hql52NCL._SL200_.jpg)
 category:: [[books]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2021-02-06]]
 published_date:: [[]]
 summary:: None

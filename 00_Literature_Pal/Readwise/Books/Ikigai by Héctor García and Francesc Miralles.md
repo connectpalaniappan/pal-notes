@@ -1,14 +1,13 @@
 ---
-Title: Ikigai
-Full Title: Ikigai
-Author: Héctor García and Francesc Miralles
-Notes: 
+title: Ikigai
+full Title: Ikigai
+author: Héctor García and Francesc Miralles
+note: 
 URL: 
-Published date: 
-Category:: books
-Source: kindle
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+published date: 
+category: books
+source: kindle
+note created: 2024-03-14
 ---
 author:: [[Héctor García and Francesc Miralles]]
 note:: 
@@ -16,7 +15,7 @@ source:: [[kindle]]
 url:: 
 image_url:: [books image URL](https://images-na.ssl-images-amazon.com/images/I/51Hls-Umt1L._SL200_.jpg)
 category:: [[books]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2024-01-20]]
 published_date:: [[]]
 summary:: None

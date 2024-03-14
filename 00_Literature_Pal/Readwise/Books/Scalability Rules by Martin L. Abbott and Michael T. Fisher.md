@@ -1,14 +1,13 @@
 ---
-Title: Scalability Rules
-Full Title: Scalability Rules
-Author: Martin L. Abbott and Michael T. Fisher
-Notes: 
+title: Scalability Rules
+full Title: Scalability Rules
+author: Martin L. Abbott and Michael T. Fisher
+note: 
 URL: 
-Published date: 
-Category:: books
-Source: kindle
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+published date: 
+category: books
+source: kindle
+note created: 2024-03-14
 ---
 author:: [[Martin L. Abbott and Michael T. Fisher]]
 note:: 
@@ -16,7 +15,7 @@ source:: [[kindle]]
 url:: 
 image_url:: [books image URL](https://images-na.ssl-images-amazon.com/images/I/51RQ9OuU4qL._SL200_.jpg)
 category:: [[books]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2022-02-09]]
 published_date:: [[]]
 summary:: None

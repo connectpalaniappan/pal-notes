@@ -1,4 +1,4 @@
-- [[2024-03-13]] 5:19 PM — Synced 440 highlights from 31 documents.
+- [[2024-03-14]] 12:09 AM — Synced 440 highlights from 31 documents.
     - 25 highlights from To-Do
     - 13 highlights from The Phoenix Project
     - 24 highlights from Patterns of Enterprise Application Architecture (Addison-Wesley Signature Series (Fowler))

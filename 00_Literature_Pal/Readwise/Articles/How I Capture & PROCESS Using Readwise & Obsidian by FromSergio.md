@@ -1,23 +1,22 @@
 ---
-Title: How I Capture & PROCESS Using Readwise & Obsidian
-Full Title: How I Capture & PROCESS Using Readwise & Obsidian
-Author: FromSergio
-Notes: [[obsidian]]
+title: How I Capture & PROCESS Using Readwise & Obsidian
+full Title: How I Capture & PROCESS Using Readwise & Obsidian
+author: FromSergio
+note: [[obsidian]]
 URL: https://www.youtube.com/watch?v=CH84CsBViOs&ab_channel=FromSergio
-Published date: 2023-07-26
-Category:: articles
-Source: reader
+published date: 2023-07-26
+category: articles
+source: reader
 tags: [author/fromsergio, resource/obsidian, medium/articles, author/FromSergio, reader/reader, date/2024-03-13]
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+note created: 2024-03-14
 ---
 author:: [[FromSergio]]
 note:: [[obsidian]]
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://www.youtube.com/watch?v=CH84CsBViOs&ab_channel=FromSergio)
 image_url:: [articles image URL](https://i.ytimg.com/vi/CH84CsBViOs/maxresdefault.jpg)
 category:: [[articles]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2024-03-13]]
 published_date:: [[2023-07-26]]
 summary:: To try everything Brilliant has to offer—free—for a full 30 days, visit https://brilliant.org/FromSergio . The first 200 of you will get 20% off Brilliant’s annual premium subscription.

@@ -1,14 +1,13 @@
 ---
-Title: Stumbling on Happiness
-Full Title: Stumbling on Happiness
-Author: Daniel Gilbert
-Notes: 
+title: Stumbling on Happiness
+full Title: Stumbling on Happiness
+author: Daniel Gilbert
+note: 
 URL: 
-Published date: 
-Category:: books
-Source: kindle
-Note Created: <% tp.date.now("dddd Do MMMM YYYY HH:mm") %>
-Last modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm") %>
+published date: 
+category: books
+source: kindle
+note created: 2024-03-14
 ---
 author:: [[Daniel Gilbert]]
 note:: 
@@ -16,7 +15,7 @@ source:: [[kindle]]
 url:: 
 image_url:: [books image URL](https://images-na.ssl-images-amazon.com/images/I/51OOOMK5tcL._SL200_.jpg)
 category:: [[books]]
-date:: [[2024-03-13]]
+date:: [[2024-03-14]]
 last_highlighted_date:: [[2018-09-01]]
 published_date:: [[]]
 summary:: None
