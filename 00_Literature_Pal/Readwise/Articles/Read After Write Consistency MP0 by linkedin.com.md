@@ -7,12 +7,15 @@ URL: https://www.linkedin.com/posts/saurabh-dashora_database-replication-lag-can
 published date: 2023-10-05
 category: articles
 source: reader
-tags: [article, pal, readwise, tech, medium/articles, author/linkedin_com, reader/reader, date/2024-03-02]
+tags: [people/pal, readwise, tech, medium/articles, author/linkedin_com, reader/reader, date/2024-03-02, area/reader]
 note created: 2024-03-14
+assigned to: people/pal
+priority: P4
+work: document
 ---
 author:: [[linkedin.com]]
 note:: 
-source:: [[Reader]]
+source:: [[reader]]
 url:: [articles URL](https://www.linkedin.com/posts/saurabh-dashora_database-replication-lag-can-make-your-users-activity-7115579447520444416-d_y_?utm_medium=member_android)
 image_url:: [articles image URL](https://media.licdn.com/dms/image/D4D22AQGnWo9-6TCmwg/feedshare-shrink_2048_1536/0/1696486335489?e=2147483647&v=beta&t=ydGoUP6rWNZWGMtUCM5dku1kJB2UVl7Sg6ntEznpZtI)
 category:: [[articles]]

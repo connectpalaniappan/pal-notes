@@ -7,12 +7,15 @@ URL: https://readwise.io/reader/document_raw_content/149509172
 published date: 2018-10-10
 category: articles
 source: reader
-tags: [medium/pdfs, reader/readwise, medium/articles, author/Chris_Richardson, reader/reader, date/2024-03-10]
+tags: [medium/pdfs, reader/readwise, medium/articles, author/Chris_Richardson, reader/reader, date/2024-03-10, area/reader]
 note created: 2024-03-14
+assigned to: people/pal
+priority: P4
+work: document
 ---
 author:: [[Chris Richardson]]
 note:: 
-source:: [[Reader]]
+source:: [[reader]]
 url:: [articles URL](https://readwise.io/reader/document_raw_content/149509172)
 image_url:: [articles image URL](https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png)
 category:: [[articles]]

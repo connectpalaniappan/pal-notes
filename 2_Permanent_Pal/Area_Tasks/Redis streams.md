@@ -5,7 +5,7 @@ tags:
   - resource/tech
   - resource/redis
   - people/priya
-  - area/employee
+  - area/employee_architect
   - date/2024-03-13
 work: analysis
 ---

@@ -8,6 +8,9 @@ published date:
 category: podcasts
 source: snipd
 note created: 2024-03-14
+assigned to: people/pal
+priority: P4
+work: document
 ---
 author:: [[System Design]]
 note:: 

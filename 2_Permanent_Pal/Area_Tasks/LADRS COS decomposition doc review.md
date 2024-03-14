@@ -5,7 +5,7 @@ tags:
   - resource/tech
   - resource/monolith
   - people/priya
-  - area/employee
+  - area/employee_architect
   - date/2024-03-14
 work: review
 ---

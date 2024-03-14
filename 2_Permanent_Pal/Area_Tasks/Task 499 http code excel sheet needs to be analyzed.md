@@ -3,11 +3,11 @@ tags:
   - resource/tech
   - resource/http
   - people/shashwat
-  - area/employee
+  - area/employee_cosresiliency
   - date/2024-03-14
 priority: P1
 assigned to: people/pal
-work: ask
+work: analysis
 ---
 
 reference:: [[HTTP request code]]

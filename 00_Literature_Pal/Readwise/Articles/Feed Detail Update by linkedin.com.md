@@ -7,12 +7,15 @@ URL: https://www.linkedin.com/feed/update/urn:li:activity:7115309646508167168/
 published date: 2024-03-02
 category: articles
 source: reader
-tags: [life, pal, medium/articles, author/linkedin_com, reader/reader, date/2024-03-02]
+tags: [medium/articles, author/linkedin_com, reader/reader, date/2024-03-02, area/reader]
 note created: 2024-03-14
+assigned to: people/pal
+priority: P4
+work: document
 ---
 author:: [[linkedin.com]]
 note:: 
-source:: [[Reader]]
+source:: [[reader]]
 url:: [articles URL](https://www.linkedin.com/feed/update/urn:li:activity:7115309646508167168/)
 image_url:: [articles image URL](https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png)
 category:: [[articles]]

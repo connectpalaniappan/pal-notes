@@ -7,12 +7,15 @@ URL: https://sebastiandedeyne.com/setting-up-a-global-gitignore-file/
 published date: 2020-03-12
 category: articles
 source: reader
-tags: [pal, tech, medium/articles, author/sebastiandedeyne_com, reader/reader, date/2024-02-29]
+tags: [medium/articles, author/sebastiandedeyne_com, reader/reader, date/2024-02-29, area/reader]
 note created: 2024-03-14
+assigned to: people/pal
+priority: P4
+work: document
 ---
 author:: [[sebastiandedeyne.com]]
 note:: 
-source:: [[Reader]]
+source:: [[reader]]
 url:: [articles URL](https://sebastiandedeyne.com/setting-up-a-global-gitignore-file/)
 image_url:: [articles image URL](https://sebastiandedeyne.com/media/me.jpg)
 category:: [[articles]]

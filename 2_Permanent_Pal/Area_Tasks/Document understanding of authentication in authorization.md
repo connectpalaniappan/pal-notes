@@ -4,10 +4,9 @@ assigned to: people/pal
 tags:
   - resource/tech
   - resource/authorization
-  - area/employee
+  - area/employee_capability
   - date/2024-03-13
-work:
-  - analysis
+work: analysis
 ---
 
 reference:: [[tech-notes/Pal/2_Permanent_Tech/Authorization|Authorization]]

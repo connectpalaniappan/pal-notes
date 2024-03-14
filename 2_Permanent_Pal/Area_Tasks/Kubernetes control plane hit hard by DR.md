@@ -6,7 +6,7 @@ tags:
   - resource/kubernetes
   - resource/controlplane
   - people/krupesh
-  - area/employee
+  - area/employee_Kubernetes
   - date/2024-03-14
 work: ask
 ---

@@ -7,12 +7,15 @@ URL: https://www.fastcompany.com/91039401/klarna-ai-virtual-assistant-does-the-w
 published date: 2024-02-27
 category: articles
 source: reader
-tags: [life, medium/articles, pal, reader/readwise, resource/life, medium/articles, author/Christopher_Zara, reader/reader, date/2024-03-13]
+tags: [medium/articles, reader/readwise, resource/life, medium/articles, author/Christopher_Zara, reader/reader, date/2024-03-13, area/reader]
 note created: 2024-03-14
+assigned to: people/pal
+priority: P4
+work: document
 ---
 author:: [[Christopher Zara]]
 note:: 
-source:: [[Reader]]
+source:: [[reader]]
 url:: [articles URL](https://www.fastcompany.com/91039401/klarna-ai-virtual-assistant-does-the-work-of-700-humans-after-layoffs)
 image_url:: [articles image URL](https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2024/02/p-1-91039401-klarna-ai-chatbot-layoff.jpg)
 category:: [[articles]]

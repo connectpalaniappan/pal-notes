@@ -3,7 +3,7 @@ tags:
   - resource/tech
   - resource/pubsub
   - people/ankit
-  - area/employee
+  - area/employee_architect
   - date/2024-03-13
 priority: P2
 assigned to: people/pal

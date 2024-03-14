@@ -6,8 +6,7 @@ tags:
   - resource/plugin
   - date/2024-03-13
   - area/obsidian
-work:
-  - analysis
+work: analysis
 assigned to: people/pal
 ---
 

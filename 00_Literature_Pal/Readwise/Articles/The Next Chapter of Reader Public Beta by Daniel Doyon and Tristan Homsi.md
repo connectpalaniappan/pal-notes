@@ -8,10 +8,13 @@ published date: 2022-12-14
 category: articles
 source: reader
 note created: 2024-03-14
+assigned to: people/pal
+priority: P4
+work: document
 ---
 author:: [[Daniel Doyon and Tristan Homsi]]
 note:: 
-source:: [[Reader]]
+source:: [[reader]]
 url:: [articles URL](https://blog.readwise.io/the-next-chapter-of-reader-public-beta/)
 image_url:: [articles image URL](https://s3.amazonaws.com/readwiseio/2022/12/OG-Reader-1.png)
 category:: [[articles]]

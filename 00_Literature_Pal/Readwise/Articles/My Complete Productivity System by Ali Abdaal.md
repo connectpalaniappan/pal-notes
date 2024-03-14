@@ -8,10 +8,13 @@ published date: 2022-03-25
 category: articles
 source: reader
 note created: 2024-03-14
+assigned to: people/pal
+priority: P4
+work: document
 ---
 author:: [[Ali Abdaal]]
 note:: 
-source:: [[Reader]]
+source:: [[reader]]
 url:: [articles URL](https://www.youtube.com/watch?v=tQSKyvjsUuI)
 image_url:: [articles image URL](https://i.ytimg.com/vi/tQSKyvjsUuI/hqdefault.jpg)
 category:: [[articles]]

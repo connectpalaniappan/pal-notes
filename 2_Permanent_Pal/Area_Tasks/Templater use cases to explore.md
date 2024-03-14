@@ -1,13 +1,11 @@
 ---
 tags:
   - area/obsidian
-  - work/analysis
   - priority/p4
   - resource/obsidian
   - archive/created
 priority: P4
-work:
-  - analysis
+work: analysis
 assigned to: people/pal
 ---
 
