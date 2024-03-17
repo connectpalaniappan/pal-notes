@@ -17,11 +17,11 @@ sh archival.sh ../../../Dropbox ~/Google\ Drive/Archive
 [[git]] [[backup]]
 
 ```bash
-sh backup_git.sh ../../../Dropbox/family-notes
-sh backup_git.sh ../../../Dropbox/life-notes
-sh backup_git.sh ../../../Dropbox/tech-notes
-sh backup_git.sh ../../../Dropbox/pal-notes
-sh backup_git.sh ../../../Dropbox/uma-notes
+sh backup_git.sh ../../family-notes
+sh backup_git.sh ../../life-notes
+sh backup_git.sh ../../tech-notes
+sh backup_git.sh ../../pal-notes
+sh backup_git.sh ../../uma-notes
 
 cp -r ../../../Dropbox/.obsidian-pal-mac-intel/* ../../../Dropbox/obsidian-config/.obsidian-pal-mac-intel
 cp -r ../../../Dropbox/.obsidian-pal-mac-m1/* ../../../Dropbox/obsidian-config/.obsidian-pal-mac-m1
