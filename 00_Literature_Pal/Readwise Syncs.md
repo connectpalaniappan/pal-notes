@@ -31,3 +31,16 @@
     - 5 highlights from Klarna says its AI assistant does the work of 700 people after it laid off 700 people
     - 1 highlights from How I Capture & PROCESS Using Readwise & Obsidian
 
+- [[2024-03-14]] 9:52 PM — Synced 3 highlights from 1 document.
+    - 3 highlights from Best practices for building an incident management plan and process
+
+- [[2024-03-14]] 11:07 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-03-16]] 9:04 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-03-16]] 7:22 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from Dropbox Interview
+
+- [[2024-03-16]] 9:24 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Obsidian for Project and Task Management: A GTD Inspired Vault for Beginning and Advanced Users
+

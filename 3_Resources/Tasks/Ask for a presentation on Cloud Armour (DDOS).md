@@ -1,6 +1,6 @@
 ---
 tags:
-  - area/area/employee_cosoncalltechtalk
+  - area/employee_cosoncalltechtalk
   - people/richard
   - date/2024-03-14
   - area

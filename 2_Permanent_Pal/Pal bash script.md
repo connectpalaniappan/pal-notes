@@ -39,8 +39,8 @@ sh backup_git.sh ../../../Private/family-resources/
 
 ### git sync plugin
 ```bash
-cp -r ../../../Dropbox/obsidian-config/.obsidian-pal-mac-intel/plugins ../../../Dropbox/.obsidian-pal-mac-m1/plugins/
-cp ../../../Dropbox/obsidian-config/.obsidian-pal-mac-intel/community-plugins.json  ../../../Dropbox/.obsidian-pal-mac-m1/community-plugins.json
+cp -r ../../../Dropbox/obsidian-config/.obsidian-pal-mac-m1/plugins ../../../Dropbox/.obsidian-pal-mac-intel/plugins/
+cp ../../../Dropbox/obsidian-config/.obsidian-pal-mac-m1/community-plugins.json  ../../../Dropbox/.obsidian-pal-mac-intel/community-plugins.json
 cat ../../../Dropbox/.obsidian-pal-mac-m1/community-plugins.json
 ls ../../../Dropbox/.obsidian-pal-mac-m1/plugins
 ```

@@ -1,9 +1,9 @@
 ---
 tags:
- - area/parents_talk
- - people/
+ - area/adhoc_learning
+ - people/shashwat
  - date/2024-03-14
 priority: P2
 assigned to: people/pal
-work: inform 
+work: ask 
 ---

@@ -64,3 +64,28 @@ summary:: None
 > Ye em e, i will say, i have, like, washed a, you too, video of a guy explaining drop boxes architecture. I wasd tot, like six months ago, maybe so i might have had so much sletter information here, but and ame lot of things to think through a somt in. So ne right. Well, de in the interview. Sen cer in the pogesenc oge, i'm to stop now.
 
 
+## New highlights added March 16, 2024 at 7:22 PM
+### Time 0:00:00
+[[2024-03-10]] 11:03
+> Episode AI notes
+> 1. Designing a cloud storage system similar to Dropbox involves discussing its functionality of backing up and retrieving files from anywhere.
+> 2. Preparing for mock interviews is crucial for success in upcoming interviews.
+> 3. The least recently used (LRU) policy is often a suitable choice for replacement policy in complex systems like Dropbox, focusing on scalability and business requirements.
+
+
+### Time 0:12:59
+[[2024-03-16]] 12:27
+> Importance of Metadata in File Management
+> Summary:
+> In file management, metadata is crucial for tracking changes in files and ensuring synchronization between local systems and cloud servers.
+> The client application is responsible for uploading and downloading files while detecting changes based on metadata. This metadata includes a manifest of all files, the last edit time for each file, and a log of every edit for accurate synchronization.
+> Essentially, metadata plays a key role in maintaining file integrity and version control in cloud storage systems.
+> Transcript:
+> Speaker 1
+> Riht o, im going the no, just to be cleared. And it takes a little further, you know, yat once you've decided that a part of a file is changed, you initiate the upload to your server, you probably need to pass in some associate. O mediata. Rihtlike no. So tell it. O, here's the file name. Here is the like offset of wak y. Now, this is the tenth block in the file. Am, and here the time stamp that you pulled the file. Ot, so like that. Semy sense.
+> Speaker 2
+> Yip, that make sense. Just to play a backright? For the client application essentially is responsible for up loading and down loading files, as well as detecting changes in each file based on, you know, some representation of meda Data it. Oh, is there anything that you can elaborate on in terms of what the meta data looks like? It sounds like, you know, you're getting to a key part of this climt application and our cloud star service, which is, we need to be keeping track of some sort of meda data in order to make Sure that our file system is insink with what is on the cloud, right?
+> Speaker 1
+> Yes, sir. I think yonow things sold what we usoner tstore, like kind of a manifest of all the files that we have. We nee, o, say, for every file, what was the last time that it was edited? And then we need it winchester actually, like every time that it was edited. Riht, so maybe yif tlike you think of a table with a primary key, it's like the primary key is a file name plus the time stamp.
+
+

@@ -11,3 +11,5 @@ work: analysis
 ---
 
 Understand the concept
+
+[[Redis streams]]

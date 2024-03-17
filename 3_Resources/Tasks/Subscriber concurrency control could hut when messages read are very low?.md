@@ -12,4 +12,4 @@ work: analysis
 
 reference:: [[Pubsub]]
 
-[[Pubsub Subscribers]] [[concurrency]] control could hurt when the messages read are very low? 
+[[Pubsub Subscribers]] [[tech-notes/Pal/2_Permanent_Tech/Concurrency]] control could hurt when the messages read are very low? 
