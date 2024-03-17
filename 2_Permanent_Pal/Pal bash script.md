@@ -23,15 +23,14 @@ sh backup_git.sh ../../tech-notes
 sh backup_git.sh ../../pal-notes
 sh backup_git.sh ../../uma-notes
 
-cp -r ../../../Dropbox/.obsidian-pal-mac-intel/* ../../../Dropbox/obsidian-config/.obsidian-pal-mac-intel
-cp -r ../../../Dropbox/.obsidian-pal-mac-m1/* ../../../Dropbox/obsidian-config/.obsidian-pal-mac-m1
-cp -r ../../../Dropbox/.obsidian-uma/* ../../../Dropbox/obsidian-config/.obsidian-uma
-sh backup_git.sh ../../../Dropbox/obsidian-config/
+cp -r ../../.obsidian-pal-mac-intel/* ../../obsidian-config/.obsidian-pal-mac-intel
+cp -r ../../.obsidian-pal-mac-m1/* ../../obsidian-config/.obsidian-pal-mac-m1
+cp -r ../../.obsidian-uma/* ../../obsidian-config/.obsidian-uma
+sh backup_git.sh .
 
-sh backup_git.sh ../../life-resources/
-sh backup_git.sh . 
-sh backup_git.sh ../../tech-coding/code-practice/
-sh backup_git.sh ../../tech-resources/
+sh backup_git.sh ../../../Public/life-resources/
+sh backup_git.sh ../../../Public/tech-coding/code-practice
+sh backup_git.sh ../../../Public/tech-resources/
 
 sh backup_git.sh ../../../Private/family-resources/
 
