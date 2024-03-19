@@ -14,7 +14,7 @@ sh archival.sh ../../../Public ~/Google\ Drive/Archive
 sh archival.sh ../../../Dropbox ~/Google\ Drive/Archive
 ```
 
-[[git]] [[backup]]
+[[Git]] [[backup]]
 
 ```bash
 sh backup_git.sh ../../family-notes
@@ -22,11 +22,12 @@ sh backup_git.sh ../../life-notes
 sh backup_git.sh ../../tech-notes
 sh backup_git.sh ../../pal-notes
 sh backup_git.sh ../../uma-notes
+sh backup_git.sh .
 
 cp -r ../../.obsidian-pal-mac-intel/* ../../obsidian-config/.obsidian-pal-mac-intel
 cp -r ../../.obsidian-pal-mac-m1/* ../../obsidian-config/.obsidian-pal-mac-m1
 cp -r ../../.obsidian-uma/* ../../obsidian-config/.obsidian-uma
-sh backup_git.sh .
+sh backup_git.sh ../../obsidian-config
 
 sh backup_git.sh ../../../Public/life-resources/
 sh backup_git.sh ../../../Public/tech-coding/code-practice

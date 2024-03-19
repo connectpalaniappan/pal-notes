@@ -13,7 +13,7 @@ Needs to be documented in [[Incident Management]]
 
 ```mermaid
 flowchart LR
- Start[Alert Occurred] --> COSonCallTakeCharge[COS on-call takes charge as mitigator]
+ Start[Alert Occurred] --> COSonCallTakeCharge[Page Primary Cosoncall]
  subgraph Declare Incident or not 
    COSonCallTakeCharge --> Analysis{Is it Production Issue?}
    Analysis --> |Yes| Impact{Understand the impact} 
@@ -26,7 +26,7 @@ flowchart LR
    Inform --> Declare 
    Declare --> IdentifySymptom
    IdentifySymptom --> |Yes|Mitigate[Mitigate the problem]
-   IdentifySymptom --> |No|PageSecondaryCOSonCall[Page Secondary COS on-call to be Incident mitigator]
+   IdentifySymptom --> |No|PageSecondaryCOSonCall[Page Secondary COS on-call]
  end
  subgraph Fix Problem
    Mitigate --> IdentifyProblem{Identified the problem?}
@@ -97,7 +97,7 @@ Declare the incident
 
 ```mermaid
 flowchart LR
- subgraph COSon-call as mitigator 
+ subgraph COSon-call  
    Mitigator[Cosoncall primary posts on Slack channel #monolith-alerts-discussion] --> PageIncidentOnCall[Page Incident on call manager]
    Mitigator --> CreateMitigatorSlackChannel[COS on-call primary creates a private slack channel to discuss on the symptoms to mitigate]
   end 
@@ -258,11 +258,15 @@ flowchart LR
 Start[Start Investigation] --> HighErrorRate[Error rate is high]
 HighErrorRate --> 5xx[5xx thrown by a service] 
 5xx --> IdentifytheService{Identify the service}
-IdentifytheService --> |Customer microservice| CustomerOnCall[Page customer on-call to be the mitigator]
+IdentifytheService --> |Customer microservice| CustomerOnCall[Page customer on-call]
 ```
 
 #### Upstream service problem 
 
+### Collect evidences 
+#### High memory evidences 
+
+#### High thread evidences
 
 ### Mitigate the problem 
 
