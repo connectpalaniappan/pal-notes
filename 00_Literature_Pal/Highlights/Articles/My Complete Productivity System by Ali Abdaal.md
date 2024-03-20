@@ -14,7 +14,7 @@ work: document
 ---
 author:: [[Ali Abdaal]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://www.youtube.com/watch?v=tQSKyvjsUuI)
 image_url:: [articles image URL](https://i.ytimg.com/vi/tQSKyvjsUuI/hqdefault.jpg)
 category:: [[articles]]
@@ -48,7 +48,7 @@ work: document
 ---
 author:: [[Ali Abdaal]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://www.youtube.com/watch?v=tQSKyvjsUuI)
 image_url:: [articles image URL](https://i.ytimg.com/vi/tQSKyvjsUuI/hqdefault.jpg)
 category:: [[articles]]

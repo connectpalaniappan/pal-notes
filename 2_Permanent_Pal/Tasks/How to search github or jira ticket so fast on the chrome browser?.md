@@ -1,6 +1,6 @@
 ---
 tags:
- - area/adhoc_learning
+ - area/family_knowledge_explore
  - people/krupesh
  - date/2024-03-14
 priority: P3

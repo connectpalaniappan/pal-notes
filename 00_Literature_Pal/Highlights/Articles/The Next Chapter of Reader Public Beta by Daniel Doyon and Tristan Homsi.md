@@ -14,7 +14,7 @@ work: document
 ---
 author:: [[Daniel Doyon and Tristan Homsi]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://blog.readwise.io/the-next-chapter-of-reader-public-beta/)
 image_url:: [articles image URL](https://s3.amazonaws.com/readwiseio/2022/12/OG-Reader-1.png)
 category:: [[articles]]
@@ -48,7 +48,7 @@ work: document
 ---
 author:: [[Daniel Doyon and Tristan Homsi]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://blog.readwise.io/the-next-chapter-of-reader-public-beta/)
 image_url:: [articles image URL](https://s3.amazonaws.com/readwiseio/2022/12/OG-Reader-1.png)
 category:: [[articles]]

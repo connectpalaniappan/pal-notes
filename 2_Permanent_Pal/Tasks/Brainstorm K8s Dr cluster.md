@@ -1,10 +1,10 @@
 ---
 tags:
-  - resource/tech
+  - resource/technology
   - resource/kubernetes
   - resource/controlplane
   - people/krupesh
-  - area/employee_kubernetes
+  - area/tech_kubernetes
   - date/2024-03-14
 priority: P2
 assigned to: people/pal

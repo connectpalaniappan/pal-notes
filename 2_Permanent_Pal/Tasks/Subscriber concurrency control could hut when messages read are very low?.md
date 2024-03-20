@@ -1,9 +1,9 @@
 ---
 tags:
-  - resource/tech
+  - resource/technology
   - resource/pubsub
   - people/ankit
-  - area/employee_architect
+  - area/family_knowledge_explore
   - date/2024-03-13
 priority: P2
 assigned to: people/pal

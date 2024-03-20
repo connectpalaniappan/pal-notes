@@ -14,7 +14,7 @@ work: document
 ---
 author:: [[ESI]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://esimoney.com/millionaire-interview-381/)
 image_url:: [articles image URL](https://esimoney.com/wp-content/uploads/2024/03/Beach-on-Grand-Turk-new.jpg)
 category:: [[articles]]
@@ -49,7 +49,7 @@ work: document
 ---
 author:: [[ESI]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://esimoney.com/millionaire-interview-381/)
 image_url:: [articles image URL](https://esimoney.com/wp-content/uploads/2024/03/Beach-on-Grand-Turk-new.jpg)
 category:: [[articles]]

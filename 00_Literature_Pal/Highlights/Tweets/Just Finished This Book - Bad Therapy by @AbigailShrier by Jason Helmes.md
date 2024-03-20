@@ -13,7 +13,7 @@ work: document
 ---
 author:: [[Jason Helmes]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [tweets URL](https://twitter.com/anymanfitness/status/1765817754538348633/?rw_tt_thread=True)
 image_url:: [tweets image URL](https://pbs.twimg.com/profile_images/1631404901896011779/GUIdqL7P.jpg)
 category:: [[tweets]]

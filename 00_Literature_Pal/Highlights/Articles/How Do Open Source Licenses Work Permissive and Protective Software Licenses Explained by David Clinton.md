@@ -13,7 +13,7 @@ work: document
 ---
 author:: [[David Clinton]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://www.freecodecamp.org/news/permissive-and-protective-software-licenses/)
 image_url:: [articles image URL](https://www.freecodecamp.org/news/content/images/2024/02/katerina-pavlyuchkova-FQYCJSqER_0-unsplash.jpg)
 category:: [[articles]]

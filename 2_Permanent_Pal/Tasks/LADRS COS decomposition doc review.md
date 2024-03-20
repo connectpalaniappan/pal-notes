@@ -2,10 +2,10 @@
 priority: P2
 assigned to: people/pal
 tags:
-  - resource/tech
+  - resource/technology
   - resource/monolith
   - people/priya
-  - area/employee_architect
+  - area/family_knowledge_explore
   - date/2024-03-14
 work: review
 ---

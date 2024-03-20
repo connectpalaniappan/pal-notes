@@ -17,7 +17,7 @@ note:: Take some highlights and try this prompt again.
 2. What are some of the key features and functionalities of Obsidian for project and task management?
 3. Can Obsidian be customized to fit the needs of different types of projects and tasks?
 The video tutorial "Obsidian for Project and Task Management: A GTD Inspired Vault for Beginning and Advanced Users" provides an overview of the Obsidian note-taking app and how to use it for task and project management. The presenter discusses their personal journey from paper-based task management to digital systems, and explains why they chose Obsidian. They go through the app's settings and core plugins, as well as community plugins that can be added for additional functionality. The aim is to provide a minimal and functional approach to note-taking and task management.
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://www.youtube.com/watch?v=ipqyIBIekMc&ab_channel=FranciscoMonroy)
 image_url:: [articles image URL](https://i.ytimg.com/vi/ipqyIBIekMc/maxresdefault.jpg)
 category:: [[articles]]
@@ -73,7 +73,7 @@ note:: Take some highlights and try this prompt again.
 2. What are some of the key features and functionalities of Obsidian for project and task management?
 3. Can Obsidian be customized to fit the needs of different types of projects and tasks?
 The video tutorial "Obsidian for Project and Task Management: A GTD Inspired Vault for Beginning and Advanced Users" provides an overview of the Obsidian note-taking app and how to use it for task and project management. The presenter discusses their personal journey from paper-based task management to digital systems, and explains why they chose Obsidian. They go through the app's settings and core plugins, as well as community plugins that can be added for additional functionality. The aim is to provide a minimal and functional approach to note-taking and task management.
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://www.youtube.com/watch?v=ipqyIBIekMc&ab_channel=FranciscoMonroy)
 image_url:: [articles image URL](https://i.ytimg.com/vi/ipqyIBIekMc/maxresdefault.jpg)
 category:: [[articles]]

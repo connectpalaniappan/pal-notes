@@ -1,6 +1,6 @@
 ---
 tags:
-  - area/employee_cosoncalltechtalk
+  - area/employee_cosobservability
   - people/Brandon
   - date/2024-03-14
 priority: P3

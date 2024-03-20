@@ -7,7 +7,7 @@ URL: https://www.youtube.com/watch?v=CH84CsBViOs&ab_channel=FromSergio
 published date: 2023-07-26
 category: articles
 source: reader
-tags: [author/fromsergio, resource/obsidian, medium/articles, author/FromSergio, reader/reader, date/2024-03-13, area/reader]
+tags: [author/fromsergio, resource/obsidian, medium/articles, author/fromsergio, reader/reader, date/2024-03-13, area/family_knowledge_explore]
 note created: 2024-03-14
 assigned to: people/pal
 priority: P4
@@ -15,7 +15,7 @@ work: document
 ---
 author:: [[FromSergio]]
 note:: [[obsidian]]
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://www.youtube.com/watch?v=CH84CsBViOs&ab_channel=FromSergio)
 image_url:: [articles image URL](https://i.ytimg.com/vi/CH84CsBViOs/maxresdefault.jpg)
 category:: [[articles]]
@@ -71,7 +71,7 @@ work: document
 ---
 author:: [[FromSergio]]
 note:: [[obsidian]]
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://www.youtube.com/watch?v=CH84CsBViOs&ab_channel=FromSergio)
 image_url:: [articles image URL](https://i.ytimg.com/vi/CH84CsBViOs/maxresdefault.jpg)
 category:: [[articles]]

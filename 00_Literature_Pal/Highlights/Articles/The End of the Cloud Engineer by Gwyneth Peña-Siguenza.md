@@ -13,7 +13,7 @@ work: document
 ---
 author:: [[Gwyneth Peña-Siguenza]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://www.madebygps.com/the-end-of-the-cloud-engineer/)
 image_url:: [articles image URL](https://www.madebygps.com/favicon.png)
 category:: [[articles]]

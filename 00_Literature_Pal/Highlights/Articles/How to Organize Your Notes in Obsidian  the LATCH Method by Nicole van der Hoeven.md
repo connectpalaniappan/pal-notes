@@ -7,7 +7,7 @@ URL: https://youtube.com/watch?v=vS-b_RUtL1A&si=X2Qck37E7ebb6TR7
 published date: 2022-11-04
 category: articles
 source: reader
-tags: [resource/obsidian, medium/articles, author/Nicole_van_der_Hoeven, reader/reader, date/2024-02-27, area/reader]
+tags: [resource/obsidian, medium/articles, author/Nicole_van_der_Hoeven, reader/reader, date/2024-02-27, area/family_knowledge_explore]
 note created: 2024-03-14
 assigned to: people/pal
 priority: P4
@@ -15,7 +15,7 @@ work: document
 ---
 author:: [[Nicole van der Hoeven]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://youtube.com/watch?v=vS-b_RUtL1A&si=X2Qck37E7ebb6TR7)
 image_url:: [articles image URL](https://i.ytimg.com/vi/vS-b_RUtL1A/maxresdefault.jpg)
 category:: [[articles]]
@@ -72,7 +72,7 @@ work: document
 ---
 author:: [[Nicole van der Hoeven]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://youtube.com/watch?v=vS-b_RUtL1A&si=X2Qck37E7ebb6TR7)
 image_url:: [articles image URL](https://i.ytimg.com/vi/vS-b_RUtL1A/maxresdefault.jpg)
 category:: [[articles]]

@@ -13,7 +13,7 @@ work: document
 ---
 author:: [[Mangabo Kolawole]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://dev.to/koladev/tools-that-make-me-productive-as-a-software-engineer-2dge)
 image_url:: [articles image URL](https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6v1m9goak6xir3tl8jba.png)
 category:: [[articles]]

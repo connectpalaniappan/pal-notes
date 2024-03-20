@@ -1,6 +1,6 @@
 ---
 tags:
-  - area/employee_cosoncallrunbook
+  - area/employee_cosobservability
   - date/2024-03-14
 priority: P1
 assigned to: people/pal

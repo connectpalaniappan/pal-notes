@@ -7,7 +7,7 @@ URL: https://firehydrant.com/blog/incident-management-best-practices-before-the-
 published date: 2022-04-05
 category: articles
 source: reader
-tags: [people/pal, resource/tech, medium/articles, author/Robert_Ross, reader/reader, date/2024-03-15, area/reader]
+tags: [people/pal, resource/technology, medium/articles, author/Robert_Ross, reader/reader, date/2024-03-15, area/family_knowledge_explore]
 created: 2024-03-14
 assigned to: people/pal
 priority: P4
@@ -15,7 +15,7 @@ work: document
 ---
 author:: [[Robert Ross]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://firehydrant.com/blog/incident-management-best-practices-before-the-incident/)
 image_url:: [articles image URL](https://images.ctfassets.net/y2i7p4tdvyl2/2KQQ0GsTqgx7fPYriuYJmL/7197483e314a5c52db4ced02094a101d/Untitled_Artwork__7_.png?w=1032&h=516&q=50)
 category:: [[articles]]
@@ -61,7 +61,7 @@ work: document
 ---
 author:: [[Robert Ross]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://firehydrant.com/blog/incident-management-best-practices-before-the-incident/)
 image_url:: [articles image URL](https://images.ctfassets.net/y2i7p4tdvyl2/2KQQ0GsTqgx7fPYriuYJmL/7197483e314a5c52db4ced02094a101d/Untitled_Artwork__7_.png?w=1032&h=516&q=50)
 category:: [[articles]]

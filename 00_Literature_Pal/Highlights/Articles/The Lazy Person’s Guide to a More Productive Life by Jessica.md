@@ -14,7 +14,7 @@ work: document
 ---
 author:: [[Jessica]]
 note:: The article provides a guide for lazy people to become more productive by prioritizing goals, breaking tasks into smaller pieces, eliminating distractions, automating tasks, delegating tasks, outsourcing tasks, optimizing environment, optimizing tasks and routines, embracing laziness, setting a timer, and trimming the fat. By following these tips, people can eliminate wasted time and focus on what really matters.
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://anindigoday.com/the-lazy-persons-guide-to-a-more-productive-life/)
 image_url:: [articles image URL](https://anindigoday.com/wp-content/uploads/2024/02/Headshots-w-phone-and-computer-and-white-tee-9.jpg)
 category:: [[articles]]
@@ -101,7 +101,7 @@ work: document
 ---
 author:: [[Jessica]]
 note:: The article provides a guide for lazy people to become more productive by prioritizing goals, breaking tasks into smaller pieces, eliminating distractions, automating tasks, delegating tasks, outsourcing tasks, optimizing environment, optimizing tasks and routines, embracing laziness, setting a timer, and trimming the fat. By following these tips, people can eliminate wasted time and focus on what really matters.
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://anindigoday.com/the-lazy-persons-guide-to-a-more-productive-life/)
 image_url:: [articles image URL](https://anindigoday.com/wp-content/uploads/2024/02/Headshots-w-phone-and-computer-and-white-tee-9.jpg)
 category:: [[articles]]

@@ -7,7 +7,7 @@ URL: https://quantixed.org/2021/11/20/convertible-using-ffmpeg-to-convert-audio-
 published date: 2021-11-20
 category: articles
 source: reader
-tags: [medium/articles, author/quantixed, reader/reader, date/2024-03-03, area/reader]
+tags: [medium/articles, author/quantixed, reader/reader, date/2024-03-03, area/family_knowledge_explore]
 note created: 2024-03-14
 assigned to: people/pal
 priority: P4
@@ -15,7 +15,7 @@ work: document
 ---
 author:: [[quantixed]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://quantixed.org/2021/11/20/convertible-using-ffmpeg-to-convert-audio-files/)
 image_url:: [articles image URL](https://i0.wp.com/quantixed.org/wp-content/uploads/2017/12/cropped-qlogo512x512-01.png?fit=512%2C512&ssl=1)
 category:: [[articles]]
@@ -48,7 +48,7 @@ work: document
 ---
 author:: [[quantixed]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://quantixed.org/2021/11/20/convertible-using-ffmpeg-to-convert-audio-files/)
 image_url:: [articles image URL](https://i0.wp.com/quantixed.org/wp-content/uploads/2017/12/cropped-qlogo512x512-01.png?fit=512%2C512&ssl=1)
 category:: [[articles]]

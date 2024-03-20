@@ -7,7 +7,7 @@ URL: https://www.youtube.com/watch?v=PZ7lDrwYdZc
 published date: 2021-10-06
 category: articles
 source: reader
-tags: [people/family, medium/articles, author/Escaping_Ordinary__B_C_Marx_, reader/reader, date/2024-03-01, area/reader]
+tags: [people/family, medium/articles, author/Escaping_Ordinary__B_C_Marx_, reader/reader, date/2024-03-01, area/family_knowledge_explore]
 note created: 2024-03-14
 assigned to: people/pal
 priority: P4
@@ -15,7 +15,7 @@ work: document
 ---
 author:: [[Escaping Ordinary (B.C Marx)]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://www.youtube.com/watch?v=PZ7lDrwYdZc)
 image_url:: [articles image URL](https://i.ytimg.com/vi/PZ7lDrwYdZc/maxresdefault.jpg)
 category:: [[articles]]
@@ -49,7 +49,7 @@ work: document
 ---
 author:: [[Escaping Ordinary (B.C Marx)]]
 note:: 
-source:: [[reader]]
+source:: [[Reader]]
 url:: [articles URL](https://www.youtube.com/watch?v=PZ7lDrwYdZc)
 image_url:: [articles image URL](https://i.ytimg.com/vi/PZ7lDrwYdZc/maxresdefault.jpg)
 category:: [[articles]]

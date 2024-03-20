@@ -2,7 +2,7 @@
 priority: P2
 assigned to: people/pal
 tags:
-  - resource/tech
+  - resource/technology
   - resource/authorization
   - area/employee_capability
   - date/2024-03-13

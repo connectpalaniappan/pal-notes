@@ -88,3 +88,11 @@
 - [[2024-03-17]] 11:42 PM — Synced 1 highlight from 1 document.
     - 1 highlights from Just Finished This Book - Bad Therapy by @AbigailShrier
 
+- [[2024-03-19]] 1:03 PM — Synced 10 highlights from 1 document.
+    - 10 highlights from How LinkedIn Uses Caching to Serve 5M Profile Reads/Sec?
+
+- [[2024-03-19]] 1:25 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-03-19]] 5:20 PM — Synced 14 highlights from 1 document.
+    - 14 highlights from The Architecture of DoorDash's Search Engine
+
