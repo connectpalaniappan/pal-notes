@@ -1,10 +1,9 @@
 ---
 tags:
- - area_pal/kubernetes
- - people/krupesh
- - date/2024-03-14
+ - area_family/obsidian
+ - date/2024-03-21
+ - nexus/note_task
 priority: P2
 assigned to: people/pal
 work: ask 
 ---
-

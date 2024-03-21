@@ -8,6 +8,8 @@ assigned to: people/pal
 work: ask 
 ---
 
+Krupesh's suggestion: Site search in chrome extension 
+
 How to search github or jira ticket so fast on the chrome browser?
 > [!ai]+ AI
 >

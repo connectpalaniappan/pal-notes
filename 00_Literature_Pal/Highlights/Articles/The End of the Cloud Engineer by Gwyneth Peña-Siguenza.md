@@ -14,15 +14,15 @@ work: document
 author:: [[Gwyneth Peña-Siguenza]]
 note:: 
 source:: [[Reader]]
-url:: [articles URL](https://www.madebygps.com/the-end-of-the-cloud-engineer/)
-image_url:: [articles image URL](https://www.madebygps.com/favicon.png)
+url:: [[The End of the Cloud Engineer|articles URL]]
+image_url:: [[www_madebygps_com.|articles image URL]]
 category:: [[articles]]
 date:: [[2024-03-17]]
 last_highlighted_date:: [[2024-03-18]]
 published_date:: [[2024-01-19]]
 summary:: 💡First of all, if you're aiming to become a cloud engineer and are currently learning, please don't stop—this is just my opinion, and I don't foresee any massive changes happening right away. So, you better get to studying! Second, while the
 
-![rw-book-cover](https://www.madebygps.com/favicon.png)
+![[www_madebygps_com.|rw-book-cover]]
 
 ## Highlights
 ### id694335223

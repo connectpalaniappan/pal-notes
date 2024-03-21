@@ -16,8 +16,8 @@ work: document
 author:: [[FromSergio]]
 note:: [[obsidian]]
 source:: [[Reader]]
-url:: [articles URL](https://www.youtube.com/watch?v=CH84CsBViOs&ab_channel=FromSergio)
-image_url:: [articles image URL](https://i.ytimg.com/vi/CH84CsBViOs/maxresdefault.jpg)
+url:: [[www_youtube_com.How I Capture  PROCESS using Readwise  Obsidian|articles URL]]
+image_url:: [[i_ytimg_com.|articles image URL]]
 category:: [[articles]]
 date:: [[2024-03-14]]
 last_highlighted_date:: [[2024-03-13]]
@@ -47,7 +47,7 @@ Graph View Video - https://youtu.be/Z8WIALfgaA
 
 Some of the above are affiliate links which means I get a small commission at no extra cost to you, which helps support the channel.
 
-![rw-book-cover](https://i.ytimg.com/vi/CH84CsBViOs/maxresdefault.jpg)
+![[i_ytimg_com.|rw-book-cover]]
 
 ## Highlights
 ### id692420175
@@ -72,8 +72,8 @@ work: document
 author:: [[FromSergio]]
 note:: [[obsidian]]
 source:: [[Reader]]
-url:: [articles URL](https://www.youtube.com/watch?v=CH84CsBViOs&ab_channel=FromSergio)
-image_url:: [articles image URL](https://i.ytimg.com/vi/CH84CsBViOs/maxresdefault.jpg)
+url:: [[www_youtube_com.How I Capture  PROCESS using Readwise  Obsidian|articles URL]]
+image_url:: [[i_ytimg_com.|articles image URL]]
 category:: [[articles]]
 date:: [[2024-03-17]]
 last_highlighted_date:: [[2024-03-13]]
@@ -103,7 +103,7 @@ Graph View Video - https://youtu.be/Z8WIALfgaA
 
 Some of the above are affiliate links which means I get a small commission at no extra cost to you, which helps support the channel.
 
-![rw-book-cover](https://i.ytimg.com/vi/CH84CsBViOs/maxresdefault.jpg)
+![[i_ytimg_com.|rw-book-cover]]
 
 ## Highlights
 ### id692420175
