@@ -1,6 +1,6 @@
 ---
 tags:
-  - project/family_tax_file
+  - project_family/tax_file
   - date/2024-03-14
 priority: P1
 assignedTo: people/uma

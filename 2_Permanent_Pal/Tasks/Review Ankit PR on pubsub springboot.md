@@ -1,6 +1,6 @@
 ---
 tags:
- - area/employee_cosresiliency
+ - area_pal/employee_cosresiliency
  - people/ankit
  - date/2024-03-14
 priority: P1

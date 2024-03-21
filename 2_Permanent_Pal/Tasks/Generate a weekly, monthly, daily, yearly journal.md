@@ -1,6 +1,6 @@
 ---
 tags:
- - area/tech_obsidian
+ - area_family/obsidian
  - people/pal
  - date/2024-03-19
 ---
@@ -60,6 +60,7 @@ tags:
 > [!ai]+ AI
 >
 > To help generate ideas for a weekly, monthly, daily, or yearly journal with a focus on gratitude, here are some prompts and suggestions:
+> 
 > Weekly Gratitude Journal:
 > - List 3-5 things you were grateful for each day of the week
 > - Reflect on a specific moment or experience that brought you joy or peace
@@ -68,6 +69,7 @@ tags:
 > - Identify and reflect on recurring themes or sources of gratitude throughout the month
 > - Note any new skills, knowledge, or growth experiences you're grateful for
 > - Celebrate and appreciate personal or professional milestones or achievements
+> 
 > Daily Gratitude Journal:
 > - Start or end each day by listing 3 things you're grateful for (big or small)
 > - Describe a positive interaction or kind gesture you experienced or witnessed
@@ -90,27 +92,32 @@ tags:
 > [!ai]+ AI
 >
 > Here are some ideas to brainstorm for generating a weekly, monthly, daily, and yearly journal focused on personal growth:
+> 
 > Weekly Journal:
 > • Set small weekly goals in different areas (health, relationships, skills, etc.)
 > • Track habits you want to build or break each week
 > • Review weekly highs and lows, lessons learned
 > • Plan the upcoming week's schedule and priorities
+> 
 > Monthly Journal:
 > • Reflect on overall progress towards monthly goals
 > • Identify themes, patterns or areas needing more focus
 > • Celebrate monthly wins and accomplishments
 > • Plan for the new month's goals and habits to track
+> 
 > Daily Journal:
 > • Morning pages - stream of consciousness writing
 > • Gratitude lists
 > • Habit tracking (workouts, water intake, etc.)
 > • Evening review of the day's highs/lows
+> 
 > Yearly Journal:
 > • Life vision and big picture goals for the year
 > • Monthly or quarterly goal planning
 > • Seasonal routines or reset periods
 > • Major milestones, accomplishments and lessons
 > • Overarching themes you want to focus on
+> 
 > Other Ideas:
 > • Quotes or affirmations for inspiration
 > • Reading logs or book notes

@@ -7,7 +7,7 @@ URL: https://firehydrant.com/blog/incident-management-best-practices-before-the-
 published date: 2022-04-05
 category: articles
 source: reader
-tags: [people/pal, resource/technology, medium/articles, author/Robert_Ross, reader/reader, date/2024-03-15, area/family_knowledge_explore]
+tags: [people/pal, resource/technology, medium/articles, author/Robert_Ross, reader/reader, date/2024-03-15, area_family/knowledge_explore]
 created: 2024-03-14
 assigned to: people/pal
 priority: P4

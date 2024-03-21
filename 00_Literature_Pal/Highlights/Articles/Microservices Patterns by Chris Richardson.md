@@ -7,7 +7,7 @@ URL: https://readwise.io/reader/document_raw_content/149509172
 published date: 2018-10-10
 category: articles
 source: reader
-tags: [medium/pdfs, reader/readwise, medium/articles, author/Chris_Richardson, reader/reader, date/2024-03-10, area/family_knowledge_explore]
+tags: [medium/pdfs, reader/readwise, medium/articles, author/Chris_Richardson, reader/reader, date/2024-03-10, area_family/knowledge_explore]
 note created: 2024-03-14
 assigned to: people/pal
 priority: P4

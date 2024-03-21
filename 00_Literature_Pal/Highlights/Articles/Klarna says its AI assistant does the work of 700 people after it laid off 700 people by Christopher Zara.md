@@ -7,7 +7,7 @@ URL: https://www.fastcompany.com/91039401/klarna-ai-virtual-assistant-does-the-w
 published date: 2024-02-27
 category: articles
 source: reader
-tags: [medium/articles, reader/readwise, resource/life, medium/articles, author/Christopher_Zara, reader/reader, date/2024-03-13, area/family_knowledge_explore]
+tags: [medium/articles, reader/readwise, resource/life, medium/articles, author/Christopher_Zara, reader/reader, date/2024-03-13, area_family/knowledge_explore]
 note created: 2024-03-14
 assigned to: people/pal
 priority: P4

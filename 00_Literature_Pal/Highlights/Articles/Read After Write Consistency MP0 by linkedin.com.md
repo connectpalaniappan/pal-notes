@@ -7,7 +7,7 @@ URL: https://www.linkedin.com/posts/saurabh-dashora_database-replication-lag-can
 published date: 2023-10-05
 category: articles
 source: reader
-tags: [people/pal, reader/readwise, resource, medium/articles, author/linkedin_com, reader/reader, date/2024-03-02, area/family_knowledge_explore]
+tags: [people/pal, reader/readwise, resource, medium/articles, author/linkedin_com, reader/reader, date/2024-03-02, area_family/knowledge_explore]
 note created: 2024-03-14
 assigned to: people/pal
 priority: P4

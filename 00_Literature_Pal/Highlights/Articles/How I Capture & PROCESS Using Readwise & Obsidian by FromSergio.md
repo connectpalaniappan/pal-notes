@@ -7,7 +7,7 @@ URL: https://www.youtube.com/watch?v=CH84CsBViOs&ab_channel=FromSergio
 published date: 2023-07-26
 category: articles
 source: reader
-tags: [author/fromsergio, resource/obsidian, medium/articles, author/fromsergio, reader/reader, date/2024-03-13, area/family_knowledge_explore]
+tags: [author/fromsergio, resource/obsidian, medium/articles, author/fromsergio, reader/reader, date/2024-03-13, area_family/knowledge_explore]
 note created: 2024-03-14
 assigned to: people/pal
 priority: P4

@@ -7,7 +7,7 @@ URL: https://quantixed.org/2021/11/20/convertible-using-ffmpeg-to-convert-audio-
 published date: 2021-11-20
 category: articles
 source: reader
-tags: [medium/articles, author/quantixed, reader/reader, date/2024-03-03, area/family_knowledge_explore]
+tags: [medium/articles, author/quantixed, reader/reader, date/2024-03-03, area_family/knowledge_explore]
 note created: 2024-03-14
 assigned to: people/pal
 priority: P4

@@ -3,7 +3,7 @@ tags:
   - resource/technology
   - resource/http
   - people/shashwat
-  - area/employee_cosresiliency
+  - area_pal/employee_cosresiliency
   - date/2024-03-14
 priority: P1
 assigned to: people/pal

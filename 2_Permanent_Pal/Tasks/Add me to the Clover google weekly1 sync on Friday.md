@@ -1,6 +1,6 @@
 ---
 tags:
- - area/tech_kubernetes
+ - area_pal/kubernetes
  - people/krupesh
  - date/2024-03-14
 priority: P2

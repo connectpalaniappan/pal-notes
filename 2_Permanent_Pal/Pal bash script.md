@@ -16,7 +16,7 @@ sh archival.sh ../../../Dropbox ~/Google\ Drive/Archive
 
 [[Git]] [[backup]]
 
-```bash
+```
 sh backup_git.sh ../../family-notes
 sh backup_git.sh ../../life-notes
 sh backup_git.sh ../../tech-notes

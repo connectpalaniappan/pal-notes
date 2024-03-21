@@ -1,6 +1,6 @@
 ---
 tags:
-  - area/employee_cosobservability
+  - area_pal/employee_cosobservability
   - people/TODO
   - date/2024-03-14
 priority: P3

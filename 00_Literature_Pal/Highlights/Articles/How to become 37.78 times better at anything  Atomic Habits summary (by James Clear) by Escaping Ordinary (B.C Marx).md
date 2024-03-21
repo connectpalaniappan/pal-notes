@@ -7,7 +7,7 @@ URL: https://www.youtube.com/watch?v=PZ7lDrwYdZc
 published date: 2021-10-06
 category: articles
 source: reader
-tags: [people/family, medium/articles, author/Escaping_Ordinary__B_C_Marx_, reader/reader, date/2024-03-01, area/family_knowledge_explore]
+tags: [people/family, medium/articles, author/Escaping_Ordinary__B_C_Marx_, reader/reader, date/2024-03-01, area_family/knowledge_explore]
 note created: 2024-03-14
 assigned to: people/pal
 priority: P4

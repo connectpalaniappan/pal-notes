@@ -96,3 +96,5 @@
 - [[2024-03-19]] 5:20 PM — Synced 14 highlights from 1 document.
     - 14 highlights from The Architecture of DoorDash's Search Engine
 
+- [[2024-03-20]] 5:45 PM — Synced 0 highlights from 0 documents.
+

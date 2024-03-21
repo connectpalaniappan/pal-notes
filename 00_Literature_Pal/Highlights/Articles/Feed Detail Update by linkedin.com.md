@@ -7,7 +7,7 @@ URL: https://www.linkedin.com/feed/update/urn:li:activity:7115309646508167168/
 published date: 2024-03-02
 category: articles
 source: reader
-tags: [medium/articles, author/linkedin_com, reader/reader, date/2024-03-02, area/family_knowledge_explore]
+tags: [medium/articles, author/linkedin_com, reader/reader, date/2024-03-02, area_family/knowledge_explore]
 note created: 2024-03-14
 assigned to: people/pal
 priority: P4

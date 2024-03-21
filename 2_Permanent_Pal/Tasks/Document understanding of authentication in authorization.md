@@ -4,7 +4,7 @@ assigned to: people/pal
 tags:
   - resource/technology
   - resource/authorization
-  - area/employee_capability
+  - area_pal/employee_capability
   - date/2024-03-13
 work: analysis
 ---

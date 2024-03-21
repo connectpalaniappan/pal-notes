@@ -4,7 +4,7 @@ tags:
   - resource/kubernetes
   - resource/controlplane
   - people/krupesh
-  - area/tech_kubernetes
+  - area_pal/kubernetes
   - date/2024-03-14
 priority: P2
 assigned to: people/pal

@@ -1,6 +1,6 @@
 ---
 tags:
- - area/family_knowledge_explore
+ - area_family/knowledge_explore
  - people/shashwat
  - date/2024-03-14
 priority: P2

@@ -1,9 +1,8 @@
 ---
 tags:
-  - area/
+  - area_pal/employee_cosobservability
   - people/
   - date/2024-03-14
-  - area
 priority: P3
 assigned to: people/pal
 work: ask

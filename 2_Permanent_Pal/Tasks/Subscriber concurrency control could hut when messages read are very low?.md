@@ -3,7 +3,7 @@ tags:
   - resource/technology
   - resource/pubsub
   - people/ankit
-  - area/family_knowledge_explore
+  - area_family/knowledge_explore
   - date/2024-03-13
 priority: P2
 assigned to: people/pal
