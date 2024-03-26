@@ -6,21 +6,23 @@ URL: https://www.freecodecamp.org/news/permissive-and-protective-software-licens
 published date: 2024-02-28
 category: articles
 source: reader
-created: 2024-03-17
-assigned to: people/pal
+tags: [medium/articles, author/David_Clinton, reader/reader, date/2024-03-18, area/reader]
+created: 2024-03-25
+assignedTo: people/pal
 priority: P4
 work: document
 ---
 author:: [[David Clinton]]
 note:: 
-source:: [[Reader]]
+source:: [[reader]]
 url:: [articles URL](https://www.freecodecamp.org/news/permissive-and-protective-software-licenses/)
 image_url:: [articles image URL](https://www.freecodecamp.org/news/content/images/2024/02/katerina-pavlyuchkova-FQYCJSqER_0-unsplash.jpg)
 category:: [[articles]]
-date:: [[2024-03-17]]
+date:: [[2024-03-25]]
 last_highlighted_date:: [[2024-03-18]]
 published_date:: [[2024-02-28]]
 summary:: Open source licenses come in two categories: permissive and protective. Permissive licenses, like the 2-Clause BSD License and the MIT License, grant users wide flexibility in using, modifying, and distributing software while also imposing certain obligations such as including copyright notices. Protective licenses, such as the GNU General Public License and the Mozilla Public License, ensure that derivative works are also licensed under the same terms, promoting the software's continued openness and development. Understanding these distinctions is crucial when working with open source resources to avoid infringing on others' rights.
+
 
 ![rw-book-cover](https://www.freecodecamp.org/news/content/images/2024/02/katerina-pavlyuchkova-FQYCJSqER_0-unsplash.jpg)
 

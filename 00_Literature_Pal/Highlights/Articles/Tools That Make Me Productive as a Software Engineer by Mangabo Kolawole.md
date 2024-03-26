@@ -6,21 +6,23 @@ URL: https://dev.to/koladev/tools-that-make-me-productive-as-a-software-engineer
 published date: 2024-03-03
 category: articles
 source: reader
-created: 2024-03-17
-assigned to: people/pal
+tags: [medium/articles, author/Mangabo_Kolawole, reader/reader, date/2024-03-18, area/reader]
+created: 2024-03-25
+assignedTo: people/pal
 priority: P4
 work: document
 ---
 author:: [[Mangabo Kolawole]]
 note:: 
-source:: [[Reader]]
+source:: [[reader]]
 url:: [articles URL](https://dev.to/koladev/tools-that-make-me-productive-as-a-software-engineer-2dge)
 image_url:: [articles image URL](https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6v1m9goak6xir3tl8jba.png)
 category:: [[articles]]
-date:: [[2024-03-17]]
+date:: [[2024-03-25]]
 last_highlighted_date:: [[2024-03-18]]
 published_date:: [[2024-03-03]]
 summary:: The document discusses the essential tools that a software engineer uses to enhance productivity across various tasks like task management, documentation, and development. For task management, tools like Notion and Linear are highlighted for their organizational capabilities. Documentation tools like Obsidian and Excalidraw are emphasized for their note-taking and visual diagram creation features. The document also delves into development tools like Jetbrains for coding efficiency and testing tools like Insomnia and Postman. Lastly, AI tools such as ChatGPT and Phind.ai are mentioned for their role in enhancing coding productivity with a clear understanding of their benefits and limitations.
+
 
 ![rw-book-cover](https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6v1m9goak6xir3tl8jba.png)
 

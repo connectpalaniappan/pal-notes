@@ -6,21 +6,23 @@ URL: https://www.infoq.com/news/2024/02/uber-cachefront/?utm_campaign=infoq_cont
 published date: 2024-02-29
 category: articles
 source: reader
-created: 2024-03-17
-assigned to: people/pal
+tags: [medium/articles, author/Eran_Stiller, reader/reader, date/2024-03-18, area/reader]
+created: 2024-03-25
+assignedTo: people/pal
 priority: P4
 work: document
 ---
 author:: [[Eran Stiller]]
 note:: 
-source:: [[Reader]]
+source:: [[reader]]
 url:: [articles URL](https://www.infoq.com/news/2024/02/uber-cachefront/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global)
 image_url:: [articles image URL](https://res.infoq.com/news/2024/02/uber-cachefront/en/headerimage/CacheFront-Cover-1709203664304.jpg)
 category:: [[articles]]
-date:: [[2024-03-17]]
+date:: [[2024-03-25]]
 last_highlighted_date:: [[2024-03-18]]
 published_date:: [[2024-02-29]]
 summary:: Uber developed an innovative caching solution, CacheFront, for its in-house distributed database, Docstore. CacheFront enables over 40M reads per second from online storage and achieves substantial performance improvements, including a 75% reduction in P75 latency and over 67% reduction in P99.9 latency, demonstrating its effectiveness in enhancing system efficiency and scalability. By Eran Stiller
+
 
 ![rw-book-cover](https://res.infoq.com/news/2024/02/uber-cachefront/en/headerimage/CacheFront-Cover-1709203664304.jpg)
 

@@ -1,11 +1,12 @@
 ---
 tags:
- - people/pal
- - date/2024-03-14
- - project_pal/architect
-assigned to: people/pal
+  - people/pal
+  - date/2024-03-14
+  - project/pal_architect
+assignedTo: people/pal
 priority: P1
 work: implement
+status: In_Progress
 ---
 
 ## Agenda

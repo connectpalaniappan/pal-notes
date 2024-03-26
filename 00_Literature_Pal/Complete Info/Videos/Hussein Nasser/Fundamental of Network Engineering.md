@@ -1,6 +1,6 @@
 ---
 tags:
- - author/Hussein Nasser
+ - author/HusseinNasser
  - people/pal
  - date/2024-03-21
 ---

@@ -6,23 +6,25 @@ URL: https://www.madebygps.com/the-end-of-the-cloud-engineer/
 published date: 2024-01-19
 category: articles
 source: reader
-created: 2024-03-17
-assigned to: people/pal
+tags: [medium/articles, author/Gwyneth_Peña-Siguenza, reader/reader, date/2024-03-18, area/reader]
+created: 2024-03-25
+assignedTo: people/pal
 priority: P4
 work: document
 ---
 author:: [[Gwyneth Peña-Siguenza]]
 note:: 
-source:: [[Reader]]
-url:: [[The End of the Cloud Engineer|articles URL]]
-image_url:: [[www_madebygps_com.|articles image URL]]
+source:: [[reader]]
+url:: [articles URL](https://www.madebygps.com/the-end-of-the-cloud-engineer/)
+image_url:: [articles image URL](https://www.madebygps.com/favicon.png)
 category:: [[articles]]
-date:: [[2024-03-17]]
+date:: [[2024-03-25]]
 last_highlighted_date:: [[2024-03-18]]
 published_date:: [[2024-01-19]]
 summary:: 💡First of all, if you're aiming to become a cloud engineer and are currently learning, please don't stop—this is just my opinion, and I don't foresee any massive changes happening right away. So, you better get to studying! Second, while the
 
-![[www_madebygps_com.|rw-book-cover]]
+
+![rw-book-cover](https://www.madebygps.com/favicon.png)
 
 ## Highlights
 ### id694335223
