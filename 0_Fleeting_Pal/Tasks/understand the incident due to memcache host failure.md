@@ -10,6 +10,52 @@ work: ask
 status: Todo
 ---
 
+
+1. Memcache node failure [https://clovernetwork.grafana.net/goto/MVYr6CJIR?orgId=1](https://clovernetwork.grafana.net/goto/MVYr6CJIR?orgId=1) . From machines `message` log, 
+	1. `30:48` there was a puppet run 
+	2. `32:xx` bad state was around; no metrics from memcache 
+	3. `37:44` Google rebooted the node at  physically.
+	4. `37:xx` recovered from bad state 
+	5. `38:02` node rebooted 
+	6. `39:xx` metrics flowed from memcached 
+2. We now block on a very common flow (this seems new) 
+3. the node was not down, but in a degraded mode which could amplify the timeout/offline status.
+	1. only thing I can think off is that the "bad" node did not fail completely.. but for some time became unresponsive. ie.. it was visible, but did not react. That way COS still "see" the node and keep on retrying.
+4. <mark style="background: #FF5582A6;">How does redistribute failure reason work?</mark> 
+	1. <mark style="background: #BBFABBA6;">Move on to functional nodes when nodes fail.
+	2. In this failure mode, the failure of a node will cause its current queue and future requests to move to the next logical node in the cluster for a given key.
+	3. this operation will fallback to database on failure? </mark>
+5. <mark style="background: #FF5582A6;">How does cancel failure reason work? </mark>
+	1. <mark style="background: #BBFABBA6;">Automatically cancel all operations heading towards a downed node. 
+	2. this operation will fallback to database on failure </mark>
+6. <mark style="background: #FF5582A6;">How does retry failure reason work? </mark>
+	1. <mark style="background: #BBFABBA6;">Continue to retry a failing node until it comes back up. </mark>
+	2. <mark style="background: #BBFABBA6;">This failure mode is appropriate when you have a rare short downtime of a memcached node that will be back quickly, and your app is written to not wait very long for async command completion.</mark>
+	3. <mark style="background: #BBFABBA6;">this operation will fallback to database on failure </mark>
+7. <mark style="background: #BBFABBA6;"><mark style="background: #FF5582A6;">How does fallback happen to database? </mark></mark>
+	1. <mark style="background: #BBFABBA6;">Fail to get the data from memcache </mark>
+	2. <mark style="background: #BBFABBA6;">Lookup database on failure </mark>
+	3. <mark style="background: #BBFABBA6;"> Whenever a cache is missed, it loads the data from database and sets it in memcache () </mark>
+8. <mark style="background: #FF5582A6;">How does memcache health check work? </mark>
+	1. 
+9. 95% requests failed 
+	1. `477` requests over `2000`ms sustained, the rest just error due to queue buildup. [https://clovernetwork.grafana.net/goto/JB6Zk3JSR?orgId=1](https://clovernetwork.grafana.net/goto/JB6Zk3JSR?orgId=1) 
+	2.  <mark style="background: #FF5582A6;">wonder what tx those `477` are? </mark>
+	3. https://clovernetwork.grafana.net/goto/L1vKeCJIg?orgId=1 HAProxy metrics 
+10. Dedupe 
+	1. https://clovernetwork.grafana.net/goto/JB6Zk3JSR?orgId=1 <mark style="background: #FF5582A6;">why are we doing dedupe in memcache? not in redis, right?</mark> 
+		1. Move to memcache was done in 2016/17 
+	2. <mark style="background: #FF5582A6;">why are we doing a set expire on a line_item update (!?) for dedupe... ?</mark>
+		1. 
+	3. <mark style="background: #FF5582A6;">why would we store a value in memcache on a line_item update to an order?</mark> 
+11. Analysis 
+	1. <mark style="background: #FF5582A6;">Try to stop memcache in lower environments and see the impact?</mark> 
+12. Improvements
+	1. Ticket to lower memcache timeouts 
+	2. Need to change the failover mechanism? 
+	3. Discuss on breaking caches into functional groups 
+	4. offloading the memcache lookup to a different executor to not block event executors
+
 Is it possible for a memcache node to pass health checks when called using spymemcache library client but not process any request? 
 > [!ai]+ AI
 >

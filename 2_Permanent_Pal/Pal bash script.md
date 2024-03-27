@@ -8,7 +8,7 @@ tags:
 
 [[archival]]
 
-```
+```shell
 sh archival.sh ../../../Private ~/Google\ Drive/Archive
 sh archival.sh ../../../Public ~/Google\ Drive/Archive
 sh archival.sh ../../../Dropbox ~/Google\ Drive/Archive
@@ -16,7 +16,7 @@ sh archival.sh ../../../Dropbox ~/Google\ Drive/Archive
 
 [[Git]] [[backup]]
 
-```
+```bash
 sh backup_git.sh ../../family-notes
 sh backup_git.sh ../../life-notes
 sh backup_git.sh ../../tech-notes
@@ -38,8 +38,9 @@ sh backup_git.sh ../../../Private/family-resources/
 ```
 
 ### git sync plugin
+
 ```bash
-cp -r ../../../Dropbox/obsidian-config/.obsidian-pal-mac-m1/plugins/ ../../../Dropbox/.obsidian-pal-mac-intel/plugins/
+cp -rf ../../../Dropbox/obsidian-config/.obsidian-pal-mac-m1/plugins/ ../../../Dropbox/.obsidian-pal-mac-intel/plugins/
 cp ../../../Dropbox/obsidian-config/.obsidian-pal-mac-m1/community-plugins.json  ../../../Dropbox/.obsidian-pal-mac-intel/community-plugins.json
 cat ../../../Dropbox/.obsidian-pal-mac-m1/community-plugins.json
 ls ../../../Dropbox/.obsidian-pal-mac-m1/plugins

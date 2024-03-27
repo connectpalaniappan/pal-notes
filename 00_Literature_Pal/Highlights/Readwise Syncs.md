@@ -42,3 +42,15 @@
     - 1 highlights from Todoist Filters
     - 48 highlights from How to Finish One Month of Work Today
 
+- [[2024-03-26]] 7:56 AM — Synced 4 highlights from 1 document.
+    - 4 highlights from The LeetCode Fallacy
+
+- [[2024-03-26]] 10:54 AM — Synced 14 highlights from 1 document.
+    - 14 highlights from How to Start a Career in Cloud Computing in 2024
+
+- [[2024-03-26]] 6:22 PM — Synced 3 highlights from 1 document.
+    - 3 highlights from Mock Google Coding Interview With a Meta Intern
+
+- [[2024-03-26]] 7:32 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Mock Google Coding Interview With a Meta Intern
+

@@ -9,6 +9,99 @@ work: analysis
 
 Needs to be documented in [[Incident Management]]
 
+--------
+## Alert Investigation 
+
+## Impact Analysis 
+### One vs multiple nodes 
+### One vs multiple type of nodes 
+### Metric analysis 
+
+## Declare the incident 
+
+## Note the timeline 
+
+### Determine the timeline 
+### Issue occurred due an internal change
+
+### Issue occurred due to external factors 
+
+## Identify the problem 
+
+### Node out of rotation 
+
+### Load shedding problem 
+
+### High 5xx error rate 
+
+### High 499 error rate 
+
+### High memory problem 
+
+### High disk problem 
+
+### High error in logs 
+
+### Meta primary database problem 
+
+### Meta secondary database problem 
+
+### Order primary sharded database problem 
+
+### Order secondary sharded database problem 
+
+### Memcache problem 
+
+### Snowflake problem 
+
+### Kafka problem 
+
+### Pubsub problem 
+
+### Web dashboard problem 
+
+### Downstream service problem 
+
+### Upstream service problem 
+
+## Mitigate the problem 
+
+### Memory mitigation 
+
+### Thread mitigation 
+
+### Database mitigation 
+
+### Caffeine cache mitigation 
+
+### Memcache mitigation 
+
+### Snowflake mitigation 
+
+### Kafka mitigation 
+
+### Pubsub mitigation 
+
+### Downstream service mitigation 
+
+### Upstream service mitigation 
+
+## Root cause analysis 
+
+## Fix the problem 
+
+### Server feature turn off 
+
+### Setting turn off 
+
+### Hotfix deployment 
+
+### Post incident work 
+
+
+--------
+
+
 ### Alert investigation
 
 ```mermaid
