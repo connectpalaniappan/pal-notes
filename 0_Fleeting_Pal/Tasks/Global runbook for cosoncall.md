@@ -8,49 +8,156 @@ work: analysis
 ---
 
 Needs to be documented in [[Incident Management]]
+[[Grafana queries]]
 
 --------
 ## Alert Investigation 
 
+- [ ] Alert occurred 
+- [ ] Paged primary COS on-call 
+- [ ] Is it production issue? 
+	- [ ] Yes: impact understood? 
+		- [ ] High: Declare the incident
+		- [ ] Low: Continue investigation 
+		- [ ] No: Page secondary COS on-call 
+	- [ ] Post in #monolith-alerts-discussion channel 
+- [ ] Symptom identified? 
+	- [ ] Yes: Know a way to mitigate the problem? 
+		- [ ] Yes: Problem mitigated 
+		- [ ] No: Page secondary COS on-call 
+	- [ ] No: Page secondary COS on-call 
+- [ ] Problem identified? 
+	- [ ] Yes: Know a way to fix the problem?  
+		- [ ] Yes: Problem Fixed
+		- [ ] No: Page secondary COS on-call 
+	- [ ] No: Page secondary COS on-call 
+- [ ] Post-analyze the problem 
+
 ## Impact Analysis 
+
 ### One vs multiple nodes 
-### One vs multiple type of nodes 
+
+- [ ] Check for one or multiple nodes 
+	- [ ] Multiple node --> High 
+	- [ ] One node --> Low 
+- [ ] Identified impact? 
+	- [ ] High: Move to verifying whether it is is one or multiple groups 
+	- [ ] Low: Continue investigation with declaring incident 
+### One vs multiple groups
+
+- [ ] Impact groups? 
+	- [ ] COSDevice: Device users are impacted -->  High
+	- [ ] COSAPI: Webdashboard, Third-party developers, Microservice are impacted  --> High 
+	- [ ] COSPayment: Payment non critical traffic are impacted --> High 
+	- [ ] SupportServer: ??
+	- [ ] COSBatch: Quartz job are impacted --> Low 
+	- [ ] COSBoarding: Boarding traffic impacted --> Low 
+	- [ ] COSAPK: APK traffic impacted --> Low 
+- [ ] Identified impact? 
+	- [ ] High: Move to metric analysis 
+	- [ ] Low: Continue investigation with declaring incident 
 ### Metric analysis 
+
+- [ ] Analyze the following metrics 
+	- [ ] Response time metric i.e. latency 
+	- [ ] Error rate metric 
+	- [ ] Traffic drop metric 
+	- [ ] Availability metric 
+- [ ] Identified impact?
+	- [ ] High: Declare the incident 
+	- [ ] Low: Continue investigation with declaring incident 
 
 ## Declare the incident 
 
-## Note the timeline 
+- [ ] Page Incident on-call manager 
+- [ ]  Incident on-call manager 
+	- [ ] Create INC JIRA ticket 
+	- [ ] Create a public slack channel for noting down events and communication 
+	- [ ] Create a google meet for mitigation efforts 
+	- [ ] COS on-call joins the google meet 
+- [ ] COS on-call 
+	- [ ] Create a private slack channel to discuss the symptoms and fixes 
+	- [ ] Let the leadership(Priya/Mohit/Vinayak) know about the channel to add engineers. 
 
-### Determine the timeline 
-### Issue occurred due an internal change
+## Determine the timeline 
 
-### Issue occurred due to external factors 
+- [ ] From the alert triggered, determine the start time of the incident 
+- [ ] incident ended, determine the end time too. 
 
-## Identify the problem 
+## Identify the symptom  
 
 ### Node out of rotation 
+- [ ] Node taken out of rotation? 
+	- [ ] Yes, Manual GC Triggered? 
+	- [ ] Manually taken out of rotation 
+	- [ ] Meta primary not serving traffic ?
+	- [ ] Order primaries not serving traffic ? 
 
-### Load shedding problem 
 
-### High 5xx error rate 
+### Increase in traffic 
+
+- [ ] Disaster Recovery cutover? 
+	- [ ] Can be ignored as traffic increases when a passive region becomes active 
+- [ ] Spike in traffic increase 
+	- [ ] Could be DDoS ? Page Security on-call 
+- [ ] Gradual increase in traffic 
+	- [ ] Page SRE-on-call 
+
+### High memory problem 
+- [ ] Take a heap dump using rundeck job 
+- [ ] Mitigation options
+	- [ ] [Increase jvm memory]()
+	- [ ] 
+
+### High thread problem 
+- [ ] Take a thread dump using rundeck job  
+- [ ] Thread not revealing anything 
+	- [ ] Enable thread dumps
+- [ ] Mitigation options
+	- [ ] [Disable server feature]() for non-critical features 
+	- [ ] [Puppet config change]() to limit thread pool size
+	- [ ] [Rolling restart the nodes]()
+
+### High disk problem 
+- [ ] 
+
+### High 5xx error 
+
+- [ ] Load shedding in event executor
+- [ ] Load shedding in http executor
+- [ ] Internal downstream service returning 5xx
+	- [ ] Page team responsible for 5xx 
+	- [ ] Mitigation options
+		- [ ] [Disable server feature]() for non-critical features 
+- [ ] External service returning 5xx 
+	- [ ] Page team responsible for 5xx
+	- [ ] Mitigation options
+		- [ ] [Disable server feature]() for non-critical features 
 
 ### High 499 error rate 
 
-### High memory problem 
+- [ ] Increase in traffic ? 
 
-### High disk problem 
+### Database problem 
+- [ ] Completely down 
+- [ ] Connection issues 
+- [ ] High CPU 
+	- [ ] Full table scan in a table  
+	- [ ] High number of scanned rows 
+		- [ ] Handler 
+			- [ ] [Disable the handler in HAProxy]() 
+		- [ ] Batch job  [Grafana slowquery logs]() 
+			- [ ] [Pause the batch job]() 
+- [ ] Table missing 
+	- [ ] [Rollback latest release]()
+	- [ ] [Fix the schema problem]()
 
-### High error in logs 
-
-### Meta primary database problem 
-
-### Meta secondary database problem 
-
-### Order primary sharded database problem 
-
-### Order secondary sharded database problem 
+### Redis problem 
+- [ ] Virtual node down 
 
 ### Memcache problem 
+- [ ] Virtual node down 
+- [ ] Virtual node partially down (Health check passing, not serving requests)
 
 ### Snowflake problem 
 
@@ -64,39 +171,117 @@ Needs to be documented in [[Incident Management]]
 
 ### Upstream service problem 
 
+
 ## Mitigate the problem 
 
-### Memory mitigation 
+#### Virtual node down 
+- [ ] Page SRE-on-call
+	- [ ] Create an Google priority P1 ticket 
+	- [ ] Understand the impact of the node failure on users 
 
-### Thread mitigation 
+#### Rolling restart the application nodes 
+- [ ] Via rundeck job [NA COSDevice]() [NA COSAPI]() [NA COSAPK]()
+	- [ ] failure: Page SRE-on-call 
 
-### Database mitigation 
+#### Take a node out of rotation 
 
-### Caffeine cache mitigation 
+#### Add additional application nodes  
 
-### Memcache mitigation 
+#### Rollback to a previous version 
 
-### Snowflake mitigation 
+#### Rollback the DR process 
 
-### Kafka mitigation 
+#### Block a specific handler request in HAProxy 
 
-### Pubsub mitigation 
+#### Turning off a server feature 
 
-### Downstream service mitigation 
+- [ ] Create an RM ticket 
+- [ ] Page release on-call 
+- [ ] Create a ticket for the respective team to find the root cause
 
-### Upstream service mitigation 
+#### Turning off a setting 
+
+#### Puppet config change 
+
+#### Revert a puppet change
+
+#### Revert a terraform change 
+
+#### Pause a batch job 
+
+#### Restart the database nodes 
+
+#### Add additional database nodes 
+
+#### Restoring from backup 
+
+#### Disabling network access to impacted nodes 
+
+#### Enable settings in 
+
+#### Turning webdashboard off 
 
 ## Root cause analysis 
 
+### Application 
+
+
+
+#### High 5xx error rate 
+- [ ] No server feature. No mitigation. 
+	- [ ] [[Hotfix deployment]] to add server feature 
+- [ ] Server feature helped to mitigate 
+	- [ ] [[Normal release]]
+		- [ ] Internal service returning 5xx
+			- [ ] Rate-limit request sent to external service 
+			- [ ] Enable circuit breaking 
+		- [ ] External service returning 5xx 
+			- [ ] Rate-limit requests sent to external service 
+			- [ ] Enable circuit breaking 
+
+#### Increase in specific error log 
+- [ ] Errors not impacting users 
+	- [ ] Impact certain processing, change log level to WARN 
+	- [ ] Only for informational purposes, change log level to INFO 
+- [ ] Errors impacting users - Identify the specific root cause 
+
+#### High thread count 
+- [ ] Loadshed tasks by having a bounded queue 
+- [ ] 
+
+#### Threads dying 
+- [ ] Due to exception 
+	- [ ] Add exception blocks to catch failures that would lead to thread termination 
+#### High number of rows read 
+- [ ] Huge number of rows scanned 
+	- [ ] [Shift the query to replica]() 
+	- [ ] Batch job can batch the database requests 
+- [ ] Full table scan 
+	- [ ] In a select query --> Adding an index might help? [Grafana metric]()
+	- [ ] In a subquery of insert/update --> Replace with join
+
+#### Conflicts in writes 
+- [ ] Unique key constraint violation 
+	- [ ] Insert Ignore 
+	- [ ] Upsert 
+### Database 
+
+
+
+
+
+
 ## Fix the problem 
-
-### Server feature turn off 
-
-### Setting turn off 
 
 ### Hotfix deployment 
 
-### Post incident work 
+### Normal release 
+
+
+## Post incident work 
+
+- [ ] Follow up tickets are created 
+- [ ] 
 
 
 --------

@@ -54,3 +54,41 @@
 - [[2024-03-26]] 7:32 PM — Synced 1 highlight from 1 document.
     - 1 highlights from Mock Google Coding Interview With a Meta Intern
 
+- [[2024-03-27]] 10:24 AM — Synced 9 highlights from 1 document.
+    - 9 highlights from The Human Side of Postmortems
+
+- [[2024-03-27]] 9:56 PM — Synced 12 highlights from 1 document.
+    - 12 highlights from The Human Side of Postmortems
+
+- [[2024-03-28]] 4:07 AM — Synced 10 highlights from 1 document.
+    - 10 highlights from The Human Side of Postmortems
+
+- [[2024-03-28]] 7:45 PM — Synced 4 highlights from 1 document.
+    - 4 highlights from SDC#29 - Don't Cache Without Asking Questions
+
+- [[2024-03-28]] 10:29 PM — Synced 17 highlights from 1 document.
+    - 17 highlights from SDC#29 - Don't Cache Without Asking Questions
+
+- [[2024-03-29]] 8:12 AM — Synced 8 highlights from 1 document.
+    - 8 highlights from Monitoring Distributed Systems
+
+- [[2024-03-29]] 7:04 PM — Synced 16 highlights from 1 document.
+    - 16 highlights from Monitoring Distributed Systems
+
+- [[2024-03-29]] 8:10 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Monitoring Distributed Systems
+
+- [[2024-03-30]] 3:42 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from It's All a Numbers Game - The Dirty Little Secret of Scalable Systems • Martin Thompson • GOTO 2012
+
+- [[2024-03-30]] 5:48 PM — Synced 4 highlights from 2 documents.
+    - 3 highlights from It's All a Numbers Game - The Dirty Little Secret of Scalable Systems • Martin Thompson • GOTO 2012
+    - 1 highlights from How Quora Scaled MySQL to 100k+ Queries Per Second
+
+- [[2024-03-31]] 1:04 PM — Synced 3 highlights from 1 document.
+    - 3 highlights from It's All a Numbers Game - The Dirty Little Secret of Scalable Systems • Martin Thompson • GOTO 2012
+
+- [[2024-04-01]] 10:56 AM — Synced 24 highlights from 2 documents.
+    - 23 highlights from Do Software Architects Code?
+    - 1 highlights from How We Scaled the GitHub API With a Sharded, Replicated Rate Limiter in Redis - The GitHub Blog |A|0
+
