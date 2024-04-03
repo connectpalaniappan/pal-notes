@@ -12,7 +12,7 @@ assignedTo: people/pal
 priority: P4
 work: document
 ---
-author:: [[System Design]]
+author:: [[System design]]
 note:: 
 source:: [[snipd]]
 url:: [podcasts URL](https://share.snipd.com/episode/5611f21f-e21c-4aad-8517-cbf69a6c2698)

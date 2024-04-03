@@ -17,7 +17,7 @@ tags:
 - [[Blind 75 questions]] practice with [[Prasanna]]
 
 
-[[System Design]] to identify patterns 
+[[System design]] to identify patterns 
 -  [[Fundamental of Network Engineering]] by [[Hussein Nasser]]. Udemy course 
 - [[Gaurav sen]] system design 20 mins youtube channel 
 - [[Grokking the system design]]

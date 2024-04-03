@@ -92,3 +92,29 @@
     - 23 highlights from Do Software Architects Code?
     - 1 highlights from How We Scaled the GitHub API With a Sharded, Replicated Rate Limiter in Redis - The GitHub Blog |A|0
 
+- [[2024-04-01]] 8:23 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from First Principles: The Building Blocks of True Knowledge
+
+- [[2024-04-01]] 10:23 PM — Synced 21 highlights from 2 documents.
+    - 5 highlights from Lettuce Joins Redis’ Official Client Family
+    - 16 highlights from How Facebook Could Have Built Threads 30X Faster & Cheaper
+
+- [[2024-04-02]] 7:57 AM — Synced 23 highlights from 1 document.
+    - 23 highlights from First Principles: The Building Blocks of True Knowledge
+
+- [[2024-04-02]] 9:45 AM — Synced 2 highlights from 1 document.
+    - 2 highlights from First Principles: The Building Blocks of True Knowledge
+
+- [[2024-04-02]] 12:12 PM — Synced 5 highlights from 1 document.
+    - 5 highlights from First Principles: The Building Blocks of True Knowledge
+
+- [[2024-04-02]] 11:24 PM — Synced 5 highlights from 1 document.
+    - 5 highlights from First Principles: The Building Blocks of True Knowledge
+
+- [[2024-04-03]] 9:53 AM — Synced 38 highlights from 5 documents.
+    - 11 highlights from How First Principles Thinking Fails
+    - 5 highlights from Startups Shouldn't Raise Money
+    - 14 highlights from The Games People Play With Cash Flow
+    - 3 highlights from How to Become a Broad-thinker: Principles and Methods
+    - 5 highlights from Methods Vs. Principles
+
