@@ -118,3 +118,10 @@
     - 3 highlights from How to Become a Broad-thinker: Principles and Methods
     - 5 highlights from Methods Vs. Principles
 
+- [[2024-04-03]] 11:54 AM — Synced 9 highlights from 3 documents.
+    - 4 highlights from Keep Politics and Religion Out of the Office
+    - 2 highlights from [Podcast #1] the Importance of Understanding Perspective
+    - 3 highlights from Systems-Thinking as a Trait for Career Success
+
+- [[2024-04-04]] 12:19 PM — Synced 0 highlights from 0 documents.
+

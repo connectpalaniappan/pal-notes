@@ -14,7 +14,7 @@ sh archival.sh ../../../Public ~/Google\ Drive/Archive
 sh archival.sh ../../../Dropbox ~/Google\ Drive/Archive
 ```
 
-[[Git]] [[backup]]
+[[Git]] [[Data Backup]]
 
 ```bash
 sh backup_git.sh ../../family-notes

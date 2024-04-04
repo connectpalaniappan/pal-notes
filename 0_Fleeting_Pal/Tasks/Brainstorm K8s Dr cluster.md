@@ -12,7 +12,7 @@ assignedTo: people/pal
 work: analysis
 ---
 
-reference:: [[Disaster recovery]]
+reference:: [[tech-notes/Pal/2_Permanent_Tech/Disaster recovery]]
 
 also brainstorm on how to migrate all microservices into K8s DR clusters in bulk after batch 1 is completed successfully. What is batch 1?
 
