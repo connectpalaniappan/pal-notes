@@ -125,3 +125,26 @@
 
 - [[2024-04-04]] 12:19 PM — Synced 0 highlights from 0 documents.
 
+- [[2024-04-04]] 4:21 PM — Synced 3 highlights from 2 documents.
+    - 2 highlights from Become Master in Tree
+    - 1 highlights from Become Master in Recursion
+
+- [[2024-04-05]] 9:45 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from 14 Patterns to Ace Any Coding Interview Question Leetcode | Hacker Noon |A|0
+
+- [[2024-04-05]] 1:41 PM — Synced 7 highlights from 1 document.
+    - 7 highlights from How Quora Scaled MySQL to 100k+ Queries Per Second
+
+- [[2024-04-05]] 8:22 PM — Synced 8 highlights from 1 document.
+    - 8 highlights from How Quora Scaled MySQL to 100k+ Queries Per Second
+
+- [[2024-04-06]] 9:12 PM — Synced 9 highlights from 1 document.
+    - 9 highlights from A Technical Deep Dive on Event Driven Architectures
+
+- [[2024-04-07]] 5:38 PM — Synced 9 highlights from 2 documents.
+    - 3 highlights from A Technical Deep Dive on Event Driven Architectures
+    - 6 highlights from SQL vs noSQL Databases
+
+- [[2024-04-08]] 9:13 AM — Synced 6 highlights from 1 document.
+    - 6 highlights from A Technical Deep Dive on Event Driven Architectures
+

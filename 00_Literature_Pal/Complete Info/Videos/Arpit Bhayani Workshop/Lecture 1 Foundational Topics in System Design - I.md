@@ -99,7 +99,7 @@ revise regularly - every week linked to the previous week - exponential increase
 - approach 1: cron-job
 - approach 2: offloading to the data store
 
-Now we’re converging on our DB - one of Redis or DynamoDB
+Now we’re converging on our [[tech-notes/Pal/2_Permanent_Tech/Database|DB]] - one of Redis or DynamoDB
 
 ### Which one to pick?
 
