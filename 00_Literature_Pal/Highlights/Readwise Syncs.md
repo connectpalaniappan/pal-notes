@@ -148,3 +148,19 @@
 - [[2024-04-08]] 9:13 AM — Synced 6 highlights from 1 document.
     - 6 highlights from A Technical Deep Dive on Event Driven Architectures
 
+- [[2024-04-09]] 9:34 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-04-10]] 10:21 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-04-11]] 10:48 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-04-11]] 6:41 PM — Synced 3 highlights from 1 document.
+    - 3 highlights from Weekend Maintenance Kicks an Italian Bank Offline for Days
+
+- [[2024-04-12]] 7:17 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-04-13]] 8:12 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-04-14]] 3:45 PM — Synced 4 highlights from 1 document.
+    - 4 highlights from How Pinterest Rebuilt Their Logging Stack
+
