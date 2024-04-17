@@ -54,7 +54,7 @@ Needs to be documented in [[Incident Management]]
 	- [ ] Availability metric 
 - [ ] Identified impact?
 	- [ ] High: 
-	- [ ] Low: Continue investigation with declaring incident 
+	- [ ] Low: Continue investigation without declaring incident 
 
 ### One vs multiple nodes 
 - [ ] Check for one or multiple nodes 
@@ -93,30 +93,69 @@ Needs to be documented in [[Incident Management]]
 
 ## Identify the problem and mitigation based on the symptom 
 
+### Global load balancer 
+Currently setup only in NA provides TCP level DDoS protection, High availability for HAProxy instances, Single anycast IP with nearest region routing capabilities (and forwarding rule manipulation to target HAProxy servers), TCP-PROXY protocol, that send the session un-altered into our HAProxy balancers, where we inspect the TCP/SSL stream (we need to see TCP native stream).
+
+#### Sudden spike in the request 
+- [ ] Understand the symptom and related metrics 
+	- [ ] New connection per second metric [Grafana](https://clovernetwork.grafana.net/d/cd860e4e-4d5c-4f10-82a1-be79c88dde2f/gcp-balancer-tcp-proxy?orgId=1&viewPanel=14)
+	- [ ] Spike could have been followed by a drop. Drop could have caused by downstream components. When the component recovered, Load balancer could have started processing the retry requests coming from clients. 
+- [ ] Probable causes 
+	- [ ] [HAProxy sudden drop in request]()
+
 ### HAProxy
+HAProxy provides Layer 7 load balancing, manipulate the TCP/SSL stream heavily, fingerprinting our device fleet for exceptions and then a large amount of manipulation of HTTP(S) payloads and streams depending on which interface we are using (api/c+d/www/boarding). We also fix device/client issues on the fly as well as protect against various exploits and issues.
 #### HAProxy load shedding
-- [ ] Identify the problem
+- [ ] Understand the symptom and related metrics
 	- [ ] HAProxy backend sessions touched the maximum connection (maxconn) limit (NA cosdevice limit: 60K) [Grafana](https://clovernetwork.grafana.net/d/a3fa960a-837a-4440-8b9b-05a44e3af8cc/haproxy-platform?orgId=1&viewPanel=87)
-	- [ ] Indicates the backend application is degraded in processing capability
-	- [ ] HAProxy backend session queue would be filled up. All these requests would soon time-out returning 5xx to clients [Grafana](https://clovernetwork.grafana.net/d/a3fa960a-837a-4440-8b9b-05a44e3af8cc/haproxy-platform?orgId=1&viewPanel=4)
-	- [ ] HAProxy queue time would have increased. This indicates request have been held in a queue for certain seconds. Ideally should be close to zero [Grafana](https://clovernetwork.grafana.net/d/a3fa960a-837a-4440-8b9b-05a44e3af8cc/haproxy-platform?orgId=1&viewPanel=90)
-- [ ] Potential causes 
+	- [ ] MaxConn limit helps to stop hundreds of thousands of sessions being send to the COS servers and bogging them down, but rather fail fast and let clients retry without storming herd effect on the application nodes.
+	- [ ] Symptom clearly indicates the backend application is degraded in processing capability
+	- [ ] Related symptom to watch out for [HAProxy http request queue size increasing]() 
+- [ ] Probable causes 
 	- [ ] [High 5xx error](#high-5xx-error)
 	- [ ] [Increase in traffic](#increase-in-traffic)
 
-#### Increase in traffic
-- [ ] Increase in traffic [Grafana](https://clovernetwork.grafana.net/d/a3fa960a-837a-4440-8b9b-05a44e3af8cc/haproxy-platform?viewPanel=panel-88)
-	- [ ] Spiky increase in traffic 
-		- [ ] Could be DDoS ? Page Security on-call 
+#### HAProxy backend queue size increasing 
+- [ ] Understand the symptom and related metrics
+	- [ ] HAProxy will place the transaction into the backend queue and if it is not serviced, it will generate a `503` and send it back to the client.
+	- [ ] HAProxy queue size when the request has not been assigned a backend [Grafana](https://clovernetwork.grafana.net/d/a3fa960a-837a-4440-8b9b-05a44e3af8cc/haproxy-platform?orgId=1&viewPanel=4)
+	- [ ] HAProxy queue time would also have increased. This indicates how long request has not been assigned a backend. [Grafana](https://clovernetwork.grafana.net/d/a3fa960a-837a-4440-8b9b-05a44e3af8cc/haproxy-platform?orgId=1&viewPanel=90)  
+	- [ ] Ideally these should be close to zero to indicate system stability. 
+- [ ] Probable causes 
+	- [ ] [COS load shedding]()
+
+#### HAProxy sudden drop in request 
+- [ ] Understand the symptom and related metrics 
+	- [ ] Frontend session count dropped [Grafana](https://clovernetwork.grafana.net/d/a3fa960a-837a-4440-8b9b-05a44e3af8cc/haproxy-platform?orgId=1&viewPanel=73) 
+	- [ ] Total request could would also indicate the slow down [Grafana](https://clovernetwork.grafana.net/d/a3fa960a-837a-4440-8b9b-05a44e3af8cc/haproxy-platform?viewPanel=panel-88)
+- [ ] Probable causes 
+	- [ ] [COS load shedding]()
+#### HAProxy Increase in traffic
+- [ ] Understand the symptom and related metrics
+	- [ ] Increase in traffic [Grafana](https://clovernetwork.grafana.net/d/a3fa960a-837a-4440-8b9b-05a44e3af8cc/haproxy-platform?viewPanel=panel-88)
+- [ ] Probable causes 
 	- [ ]  Gradual increase in traffic 
 		- [ ] Page SRE-on-call 
-- [ ] Disaster Recovery cutover? 
-	- [ ] Can be ignored as traffic increases when a passive region becomes active 
+	- [ ] Spiky increase in traffic 
+		- [ ] Could be DDoS ? Slack or Security on-call 
+		- [ ] Device tries due to 499 error 
+	- [ ] Disaster Recovery cutover? 
+		- [ ] Can be ignored as traffic increases when a passive region becomes active 
+
+#### HAProxy marking COS nodes as unavailable 
+- [ ] Understand the symptom and related metrics 
+	- [ ] How long a give node was marked as down? [Grafana](https://clovernetwork.grafana.net/d/a3fa960a-837a-4440-8b9b-05a44e3af8cc/haproxy-platform?orgId=1&viewPanel=53)
+- [ ] Probable causes 
+	- [ ] [COS nodes out of rotation]()
+
+### Signalscience WAF 
+
 
 ### COS application 
+Clover operating system (COS) is the monolithic service which provides both metadata information about merchants, developers, resellers, developer apps and so on. Also provides key feature set of product such as orders, non-critical payments, push notification publishing and so on. And also cross cutting concerns such as authentication, capability i.e. authorization, rate-limiting, and so on. 
 
 #### COS errors 
-- [ ] Identify the problem
+- [ ] Understand the symptom and related metrics
 	- [ ] [Database table missing](#database-table-missing) 
 	- [ ] [Downstream service or platform not responding](#downstream-service-or-platform-not-responding)
 - [ ] Mitigation options 
@@ -127,12 +166,12 @@ Needs to be documented in [[Incident Management]]
 
 #### COS node restarted
 #### COS node out of rotation
-- [ ] Identify the problem
+- [ ] Understand the symptom and related metrics
 	- [ ] COS nodes would be taken out of rotation due to health checks failing in HAProxy. 
 	- [ ] HAProxy marking a node as not being available [Grafana](https://clovernetwork.grafana.net/d/a3fa960a-837a-4440-8b9b-05a44e3af8cc/haproxy-platform?orgId=1&viewPanel=53)
 	- [ ] COS health check endpoint might have high latency [Grafana](https://clovernetwork.grafana.net/d/NNFA_2JVz/cos-monitoring?orgId=1&viewPanel=87)
 	- [ ] Which nodes are taken out of rotation? [NA device SLB](http://slbdevice01.prod.iad04.clover.network:9876/#client_devices)
-- [ ] Potential causes  
+- [ ] Probable causes  
 	- [ ] [Code deployment in-progress](#cos-code-deployment-inprogress)
 	- [ ] [High memory](#cos-high-memory)
 	- [ ] [Manually taken out of rotation]() --> Page SRE-on-call 
@@ -140,31 +179,38 @@ Needs to be documented in [[Incident Management]]
 	- [ ] Order primaries not serving traffic ? 
 
 #### COS code deployment issues 
-- [ ] Identify the problem
+- [ ] Understand the symptom and related metrics
 	- [ ] Ensure release is happening 
 	- [ ] Ensure the node deployments have completed [Grafana][https://grafana.corp.clover.com/d/xKr00vgVz/na-prod-release-status?orgId=1&search=open&folder=current] 
 	- [ ] Continue investigation if the alert did not resolve 
 - [ ] 
 
 #### COS High CPU 
+- [ ] Understand the symptom and related metrics
 - [ ] Mitigation options 
 	- [ ] [Increase application resources](#increase-application-resources) 
 
 #### COS High memory 
-- [ ] Identify the problem 
+- [ ] Understand the symptom and related metrics
 	- [ ] High JVM memory utilization in percentage [Grafana](https://clovernetwork.grafana.net/d/NNFA_2JVz/cos-monitoring?orgId=1&viewPanel=130)
 	- [ ] Manual GC triggered [Grafana](https://clovernetwork.grafana.net/d/NNFA_2JVz/cos-monitoring?orgId=1&viewPanel=99)
 		- [ ] Better to disable manual GC trigger as it hides the memory problem and also has not helped a lot in reducing the memory [How?](https://github.corp.clover.com/clover/puppet/pull/9072)
 	- [ ] Take a heap dump using rundeck job to identify the problem 
 		- [ ] rundeck failure --> Page SRE on call 
-- [ ] Mitigation options
-	- [ ] [Increase jvm memory]()
 - [ ] Probable causes 
 	- [ ] [Database high number of rows examined](#database-high-number-of-rows-examined)
+- [ ] Mitigation options
+	- [ ] [Increase jvm memory]()
 - [ ] 
 
+#### COS garbage collection is high 
+- [ ] Understand the symptom and related metrics
+	- [ ] Not able to find the cause, add the jvmargument to take a heap dump before full GC [Instructions](https://confluence.corp.clover.com/display/ENG/How+to+add+JVM+arguments+to+a+specific+COS+node)
+- [ ] Probable causes 
+- [ ] Mitigation options 
+
 #### COS high thread 
-- [ ] Identify the problem 
+- [ ] Understand the symptom and related metrics
 	- [ ] Take a thread dump using rundeck job  
 	- [ ] Thread not revealing anything 
 		- [ ] Enable thread dumps
@@ -172,13 +218,13 @@ Needs to be documented in [[Incident Management]]
 	- [ ] [Disable server feature](#block-the-feature-behind-the-server-feature-flag) for non-critical features 
 	- [ ] [Puppet config change]() to limit thread pool size
 	- [ ] [Rolling restart the nodes]()
-- [ ] Potential causes  
+- [ ] Probable causes
 	- [ ] Instantiating thread creation classes in method invocation rather than as a singleton 
 - [ ] Short-term fixes 
 	- [ ] Load shed tasks by having a bounded queue 
 
 #### COS threads dying 
-- [ ] Potential causes  
+- [ ] Understand the symptom and related metrics
 	- [ ] Due to exception 
 - [ ] Short-term fixes 
 	- [ ] Add exception blocks to catch failures that would lead to thread termination 
@@ -188,19 +234,19 @@ Needs to be documented in [[Incident Management]]
 - [ ] 
 
 #### COS drop in 2xx requests 
-- [ ] Identify the problem
+- [ ] Understand the symptom and related metrics
 	- [ ] HAProxy should show the degradation i.e. drop in 2xx [Grafana](https://clovernetwork.grafana.net/d/a3fa960a-837a-4440-8b9b-05a44e3af8cc/haproxy-platform?orgId=1&viewPanel=88)
 	- [ ] Application reporting 2xx count [Grafana]() [Datadog Cosdevice]() [Datadog cosapi]() [Datadog cosbatch]()
-- [ ] Potential causes 
+- [ ] Probable causes 
 	- [ ] [High 5xx error](#high-5xx-error)
 
 #### COS high 5xx error
-- [ ] Identify the problem
+- [ ] Understand the symptom and related metrics
 	- [ ] HAProxy showing high 5xx error [Grafana](https://clovernetwork.grafana.net/d/a3fa960a-837a-4440-8b9b-05a44e3af8cc/haproxy-platform?orgId=1&viewPanel=86)
 	- [ ] Application reporting 5xx error [Grafana](), [Datadog cosdevice](https://app.datadoghq.com/s/21a22b455/pev-fbd-9ft), [Datadog cosapi](), [Datadog cosbatch](), 
 - [ ] Mitigation options 
 	- [ ] 
-- [ ] Potential causes 
+- [ ] Probable causes 
 	- [ ] [COS load shedding](#cos-load-shedding)
 	- [ ] [Node taken out of rotation]()
 	- [ ] [Shared resource](#shared-resource)
@@ -212,7 +258,7 @@ Needs to be documented in [[Incident Management]]
 - [ ] Increase in traffic ? 
 
 #### COS load shedding
-- [ ] Potential causes 
+- [ ] Probable causes 
 	- [ ] [Event executor blocked](#event-executor-blocked)
 	- [ ] [Http executor blocked](#http-executor-blocked)
 
@@ -225,10 +271,21 @@ Needs to be documented in [[Incident Management]]
 		- [ ] [Disable server feature](#block-the-feature-behind-the-server-feature-flag) for non-critical features 
 
 #### COS HTTP Thread wait time high 
+- [ ] Understand the symptom and related metrics 
+
+#### COS Tenancy check readability violation 
+#### COS Tenancy check writability violation 
+#### COS database connections exhausted 
+- [ ] Understand the symptom and related metrics 
+- [ ] Probable causes 
+- [ ] Mitigation options 
+	- [ ] [Increase the database connection pool]()
+
+#### COS metric degradation 
 
 
 #### COS Shared resource 
-- [ ] Potential cause  
+- [ ] Probable cause  
 	- [ ] [Database](#database)
 	- [ ] [Redis](#redis)
 	- [ ] [Memcache](#memcache)
@@ -239,24 +296,34 @@ Needs to be documented in [[Incident Management]]
 ### Compute Engine 
 
 #### Node restarted 
-- [ ] Identify the problem 
-- [ ] Mitigation 
-- [ ] Potential causes 
-	- [ ] New node added --> Silence these alerts 
+- [ ] Understand the symptom and related metrics
+- [ ] Probable causes 
+	- [ ] [New node added and not in use]()
+- [ ] Mitigation options 
 - [ ] Short term fixes 
 - [ ] Long term fixes 
 
+#### Node added and not in use 
+- [ ] Mitigation options 
+	- [ ] [Silence the alerts]()
+
+#### Node down 
+- [ ] Understand the symptom and related metrics 
+	- [ ] Node went down [Cloud monitoring](https://console.cloud.google.com/logs/query;query=resource.type%3D%22gce_instance%22;?project=clover-prod-apps) 
+- [ ] Probable causes 
+	- [ ] Host failure 
+	- [ ] Taken down for maintenance 
 ### Database
 
 #### Database not available 
 - [ ] Slack or page @dbaoncall
-- [ ] Identify the problem 
+- [ ] Understand the symptom and related metrics
 	- [ ] Database not available 
 	- [ ] [Database connection not available]()
 
 #### Database connection not available
 - [ ] Slack or page @dbaoncall
-- [ ] Identify the problem 
+- [ ] Understand the symptom and related metrics 
 	- [ ] Application connection timeout rate [Grafana - Meta primary](https://clovernetwork.grafana.net/d/NNFA_2JVz/cos-monitoring?orgId=1&viewPanel=240)
 	- [ ] Database Aborted clients metric [Grafana](https://clovernetwork.grafana.net/d/EHD_mpYVk/mysql-server?orgId=1&viewPanel=panel-179)
 	- [ ] [Database high disk usage]()
@@ -264,104 +331,101 @@ Needs to be documented in [[Incident Management]]
 
 #### Database network issue 
 - [ ] Slack or page @dbaoncall
-- [ ] Identify the problem 
-- [ ] Potential causes 
+- [ ] Understand the symptom and related metrics
+- [ ] Probable causes 
 	- [ ] 
 
+#### Database high number of threads running 
 #### Database locking issues  
 - [ ] Slack or page @dbaoncall
-- [ ] Identify the problem
-	- [ ] High time spent in acquiring locks [Grafana](https://clovernetwork.grafana.net/d/f7261946-fb91-4a98-af24-4b15fe68b812/mysql-instance?orgId=1&viewPanel=panel-171)
+- [ ] Understand the symptom and related metrics
+	- [ ] High time spent in acquiring locks [Grafana](https://clovernetwork.grafana.net/d/f7261946-fb91-4a98-af24-4b15fe68b812/mysql-instance?orgId=1&viewPanel=171)
 	- [ ] Something was holding on to the locks for a long time. 
+- [ ] Probable causes 
+	- [ ] High Concurrency 
+	- [ ] Inefficient Locking Mechanisms
+	- [ ] Deadlock 
+	- [ ] Long-running transaction 
+	- [ ] Inefficient query execution 
+- [ ] Short term fixes 
+	- [ ] Fine-tune locking configurations such as lock granularity and timeout settings 
+	- [ ] Fix inefficient queries 
+- [ ] Long term fixes 
+	- [ ] Implement transaction batching and caching
 #### Database high disk usage
 - [ ] Slack or page @dbaoncall
-- [ ] Identify the problem
-	- [ ] High disk reads regardless of storage engine [Grafana](https://clovernetwork.grafana.net/d/f7261946-fb91-4a98-af24-4b15fe68b812/mysql-instance?orgId=1&viewPanel=panel-219)
-	- [ ] High disk reads specific to InnoDB storage engine [Grafana](https://clovernetwork.grafana.net/d/f7261946-fb91-4a98-af24-4b15fe68b812/mysql-instance?orgId=1&viewPanel=panel-146)
-	- [ ] [High number of rows read](#high-number-of-rows-examined)
-	- [ ] [High number of rows written]()
+- [ ] Understand the symptom and related metrics
+	- [ ] High disk reads regardless of storage engine [Grafana](https://clovernetwork.grafana.net/d/f7261946-fb91-4a98-af24-4b15fe68b812/mysql-instance?orgId=1&viewPanel=219)
+	- [ ] High disk reads specific to InnoDB storage engine [Grafana](https://clovernetwork.grafana.net/d/f7261946-fb91-4a98-af24-4b15fe68b812/mysql-instance?orgId=1&viewPanel=146)
+	- [ ] [High lock wait time]() could also indicate long-running transactions 
+- [ ] Probable causes 
+	- [ ] [High number of rows read or written](#high-number-of-rows-examined)
 
 #### Database table missing
 - [ ] Slack or page @dbaoncall
-- [ ] Identify the problem 
+- [ ] Understand the symptom and related metrics
 	- [ ] 
 - [ ] Mitigation options
 	- [ ] [Execute DDL statements in database](#execute-ddl-statements-in-database)
 	- [ ] [Rollback latest release](#rollback-latest-release)
-#### Database query timeout 
-- [ ] Slack or page @dbaoncall
-- [ ] Identify the problem 
-- [ ] Mitigation options 
-	- [ ] [Increase the query timeout value]()
-	- [ ] Look at [Database common](#database-common)
-- [ ] Potential causes
-	- [ ] Database not available 
-	- [ ] Database connectivity issue 
-	- [ ] Database Inefficient queries 
-	- [ ] Database server overload 
-	- [ ] Database locking issues 
-- [ ] Short term fixes 
-	- [ ] Look at [Database common](#database-common)
-- [ ] Long term fixes 
-	- [ ] Don't cache data inefficient queries. You are hiding the problem behind cache. 
-	- [ ] Look at [Database common](#database-common)
-
 #### Database inefficient queries 
 - [ ] Slack or page @dbaoncall
-- [ ] Identify the problem 
-	- [ ] 
-- [ ] Mitigation options
+- [ ] Understand the symptom and related metrics
+	- [ ] Clearly indicates that there is a long running transaction which could be timing out
+	- [ ] Database server overload 
+- [ ] Probable causes
+	- [ ] Database locking issues 
+	- [ ] Full table scan 
+- [ ] Mitigation options 
+	- [ ] [Increase the query timeout value]()
 	- [ ] [Kill the long running query]()
 	- [ ] [Restart the database server]()
 	- [ ] Look at [Database common](#database-common)
-- [ ] Potential causes 
-	- [ ]  Full table scan 
 - [ ] Short term fixes 
-	- [ ] Adding index would reduce the number of rows scanned 
+	- [ ] Look at [Database common](#database-common)
+	- [ ] Adding index could reduce the number of rows scanned 
 	- [ ] [Code fix]() to move the query to database replica if stale reads are ok for few seconds 
 	- [ ] Optimize queries
 		- [ ] Subquery in insert/update --> replace with join 
 		- [ ] Don't select already soft-deleted rows during soft-deletion 
-	- [ ] Look at [Database common](#database-common)
 - [ ] Long term fixes 
+	- [ ] Refactor using LIKE query because data is stored in TEXT column as json. Better to normalize into their own columns or store in a new table. 
 	- [ ] Don't cache data inefficient queries. You are hiding the problem behind cache. 
-	- [ ]  Look at [Database common](#database-common)
+	- [ ] Look at [Database common](#database-common)
 
-#### Database high number of rows read
+#### Database high number of rows read or written 
 - [ ] Slack or page @dbaoncall
-- [ ] Identify the problem
-	- [ ] Identify which table had maximum reads? [Grafana](https://clovernetwork.grafana.net/d/a64ca396-4c8d-429b-b654-eb0f93010036/mysql-table-statistics?viewPanel=panel-7)
+- [ ] Understand the symptom and related metrics
+	- [ ] Metric to indicate high data reads [Grafana](https://clovernetwork.grafana.net/d/f7261946-fb91-4a98-af24-4b15fe68b812/mysql-instance?orgId=1&viewPanel=146)
+		- [ ] Identify which table had maximum reads? [Grafana](https://clovernetwork.grafana.net/d/a64ca396-4c8d-429b-b654-eb0f93010036/mysql-table-statistics?viewPanel=7)
+	- [ ] Identify which table had maximum writes? [Grafana](https://clovernetwork.grafana.net/d/a64ca396-4c8d-429b-b654-eb0f93010036/mysql-table-statistics?viewPanel=9)
 	- [ ] which handler or job? [Slow query logs]()
+- [ ] Probable causes
+	- [ ] Read 
+		- [ ] Full table scan 
+		- [ ] LIKE query 
+		- [ ] Scanning not needed rows or columns 
+			- [ ] Select ALL
+	- [ ] Write 
+		- [ ] Changing rows already modified 
+			- [ ] Already deleted or updated rows 
 - [ ] Mitigation options 
 	- [ ] Adding index would reduce the number of rows scanned 
 	- [ ] Look at [Database common](#database-common)
-- [ ] Potential causes
-	- [ ] Full table scan 
-	- [ ] Scanning not needed rows or columns 
-		- [ ] Select ALL
 - [ ] Short term fixes 
-	- [ ] [Code fix]() to move the query to database replica if stale reads are ok for few seconds 
-	- [ ] Batch job needs to reduce the count of rows reads 
+	- [ ] For read query, [Code fix]() to move the query to database replica if stale reads are ok for few seconds 
+	- [ ] Batch job needs to reduce the count of rows read or written 
 	- [ ] Look at [Database common](#database-common)
 - [ ] Long term fixes 
 	- [ ] Cache the frequently accessed data  
 	- [ ] Look at [Database common](#database-common)
 
-#### Database high number of writes 
-- [ ] Slack or page @dbaoncall
-- [ ] Identify the problem 
-	- [ ] Identify which table had maximum writes? [Grafana](https://clovernetwork.grafana.net/d/a64ca396-4c8d-429b-b654-eb0f93010036/mysql-table-statistics?viewPanel=panel-9)
-	- [ ] which handler or job? [Slow query logs]()
+#### Database stale data being served 
+- [ ] Understand the symptom and related metrics 
+- [ ] Probable causes 
 - [ ] Mitigation options 
-	- [ ] Look at [Database common](#database-common)
-- [ ] Potential causes 
-	- [ ] Changing rows already modified 
-		- [ ] Already deleted or updated rows 
 - [ ] Short term fixes 
-	- [ ] Batch job needs to reduce the count of rows writes 
-	- [ ] Look at [Database common](#database-common)
 - [ ] Long term fixes 
-	- [ ]  Look at [Database common](#database-common)
 
 #### Database common  
 - [ ] Mitigation options 
@@ -377,27 +441,44 @@ Needs to be documented in [[Incident Management]]
 	- [ ] Functional decomposition out of COS if the data is not tightly coupled.
 	- [ ] Data archiving or purging operation 
 
+### ProxySQL 
+
+
 ### Redis 
-- [ ] Virtual node down 
+
+#### Redis node down 
+
+#### Redis high connection 
 
 ### Memcache 
+Memcache is used as the application cache and fallbacks to the database when the cache lookup fails. 
 
-#### Virtual node down 
+#### Memcache node down
+- [ ] Understand the symptom and related metrics 
+	- [ ] Look at [Node not available]()  
+	- [ ] Event executors should not be blocked when memcache node goes down because that would lead to load shedding 
 
 #### Virtual node partially down (Health check passing, not serving requests)
 
+#### Memcache not accepting connections 
+
+
 #### Memcache lookup up methods failed to load 
-- [ ] Identify the problem 
+- [ ] Understand the symptom and related metrics
 	- [ ] Application load success count down [Grafana](https://clovernetwork.grafana.net/d/NNFA_2JVz/cos-monitoring?orgId=1&viewPanel=47)
 	- [ ] Most of the memcache lookup fallback to database. When this metric is high, it usually means the database did not respond back in time. 
+- [ ] Probable causes 
 	- [ ] [Database not available]()
 	- [ ] [Database connection timeout]() 
 
-Memcache hit count dropped 
-- [ ] Identify the problem 
-	- [ ] Application cache hit count metric [Grafana](https://clovernetwork.grafana.net/d/NNFA_2JVz/cos-monitoring?orgId=1&viewPanel=64)
-	- [ ] 
+### Caffeine cache 
+Few of the caches are stored in COS application memory using caffeine library to avoid network call. 
 
+#### Caffeine cache hit count sudden increase
+- [ ] Understand the symptom and related metrics
+	- [ ] Application cache hit count metric [Grafana](https://clovernetwork.grafana.net/d/NNFA_2JVz/cos-monitoring?orgId=1&viewPanel=64)
+	- [ ] [Http requests increase]()
+- [ ] 
 
 ### Snowflake 
 
@@ -408,10 +489,11 @@ Memcache hit count dropped
 ### Web dashboard 
 
 ### Downstream service or platform not responding 
+- [ ] Understand the symptom and related metrics
 - [ ] Page team responsible for degradation 
 	- [ ] Billing service - Page billing-on-call
 	- [ ] Customer service - Page customer-on-call 
-- [ ] Causes 
+- [ ] Probable causes 
 	- [ ] Service down 
 	- [ ] Service returning 5xx 
 	- [ ] Network issue 
@@ -448,12 +530,22 @@ Memcache hit count dropped
 #### Restart database nodes 
 - [ ] Database nodes 
 
+#### Pause the batch job 
+
+#### Restart the batch job 
+
 #### Kill the threads in the application layer 
 - [ ] 
 #### Kill slow queries in database 
 - [ ] Page DBA-on-call 
 
+#### Clear caffeine cache 
+
+#### Clear memcache 
 ### Isolate the problem 
+
+#### Silence the alerts 
+
 
 #### Take the affected node out of rotation 
 
@@ -461,10 +553,12 @@ Memcache hit count dropped
 #### Block an handler 
 
 
-#### Pause the job 
+#### Disable the third party developer app temporarily
 
 
 #### Stop the migration 
+
+#### Disable sync request for a merchant 
 
 
 #### Block the feature behind the server feature flag 
@@ -477,33 +571,34 @@ Memcache hit count dropped
 
 #### Disable network access to impacted nodes 
 
-#### Block IP address 
+#### Block IP address in HAProxy
 
 #### Block web dashboard requests 
 
-
+#### Database query to clean dirty data 
 
 ### Increase application resources 
 
 #### Increase application jvm memory 
-- [ ] 
-	- [ ] Page SRE-on-call 
+- [ ] Page SRE-on-call 
 
 #### Increase application CPU 
-- [ ] 
-	- [ ] Page SRE-on-call 
+- [ ] Page SRE-on-call 
 
 #### Increase application thread pool 
-- [ ] 
-	- [ ] Page SRE-on-call  
+- [ ] Page SRE-on-call  
+
+#### Increase application database connection pool 
+- [ ] Page or slack SRE on-call 
+- [ ] Create a puppet change to increase the connection pool and ask SRE to review. [Example PR](https://github.corp.clover.com/clover/puppet/pull/4362)
+- [ ] Create a CO ticket and ask for approval from leadership team 
+- [ ] Restart COS nodes using rundeck once the puppet PR is merged 
 
 #### Add additional application nodes  
-- [ ] 
-	- [ ] Page SRE-on-call 
+- [ ] Page SRE-on-call 
 
 #### Add additional replica database nodes 
-- [ ] 
-	- [ ] Page DBA-on-call 
+- [ ] Page DBA-on-call 
 
 ### Rollback to a previous stable state 
 

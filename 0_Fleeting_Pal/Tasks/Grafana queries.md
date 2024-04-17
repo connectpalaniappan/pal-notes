@@ -19,26 +19,30 @@ status: Todo
 - Endpoint slow 
 - Where time is spent?
 - Actually causing errors 
-
-Error per handler, per job 
-
-pattern: "<uri_pattern>" AND reqduration:>10000 
-
-Garbage collection time 
-rate(ts("jstat.gc.time", host=web42.prod.clover.com and type=full))
-
-rate(ts(server.handler.*.db.*.db_time.count, source=web42.prod.clover.com)) * ts(server.handler.*.db.*.db_time.mean, source=web42.prod.clover.com) 
+- Error per handler, per job 
+- pattern: "<uri_pattern>" AND reqduration:>10000 
+- Garbage collection time : rate(ts("jstat.gc.time", host=web42.prod.clover.com and type=full))
+- <mark style="background: #FF5582A6;">Error metric: global.logs.error </mark>
+- <mark style="background: #FF5582A6;">Health check endpoint for Clover go: [https://c.clover.com/cos/v1/___ping](https://c.clover.com/cos/v1/___ping) </mark>
+- <mark style="background: #FF5582A6;">server.executor.error.request_queued_too_long: Load shedding metric </mark>
+- Endpoint for rom updates: /v2/internal/updates. Get's called during device reboots. 
 
 ### Application database 
-- {appenv="usprod", filename="/var/log/cos/cos.log-json"} |= `meta.primary - Connection is not available` : Meta connection not available: Not added 
+- <mark style="background: #FF5582A6;"> {appenv="usprod", filename="/var/log/cos/cos.log-json"} |= `meta.primary - Connection is not available` : Meta connection not available: Not added </mark>
 - host_db_[^shard].*_ConnectionTimeoutRate_m5_rate: Meta connection not available: Added 
 - db.shard.0.*.pool.Wait.mean 
 - db.heartbeat.*.mean: Slave delay  
+- rate(ts(server.handler.*.db.*.db_time.count, source=web42.prod.clover.com)) * ts(server.handler.*.db.*.db_time.mean, source=web42.prod.clover.com) 
+- 
 
-
+#### Application caffeine 
+- host_caffeinecache_stats_loadSuccessCount_ 
+- host_memcached_.*_hitCount 
 ## HAProxy metric 
 - host_haproxy_hrsp_2xx : 2xx requests processed : added
 - host_haproxy_hrsp_5xx: 5xx requests processed: added 
+- host_haproxy_qcur: 
+- host_haproxy_qtime
 - host_haproxy_req_tot: Total request processed 
 - host_haproxy_downtime: Downtime of backend service availability 
 - haproxy.bytes_in: HAProxy network bytes: 
@@ -49,6 +53,7 @@ rate(ts(server.handler.*.db.*.db_time.count, source=web42.prod.clover.com)) * ts
 - mysql.threads.running: Threads running 
 - mysql.threads.created: Threads created 
 - mysql.connections
+- host_mysql_threads_running
 - host_diskio_reads: Disk I/O reads 
 - host_mysql_innodb_row_lock_time: Row lock time 
 - host_mysql_innodb_data_reads: Data reads 
@@ -57,6 +62,11 @@ rate(ts(server.handler.*.db.*.db_time.count, source=web42.prod.clover.com)) * ts
 - host_mysql_table_stats_rows_changed_x_indexes: Rows changed along with indexes 
 - host_mysql_schema_table_info_auto_increment: Auto increment row changed 
 - statistics being outdated on that table and that running the analyze plan might fix this issue https://jira.corp.clover.com/browse/SVR-3864 
+- <mark style="background: #FF5582A6;">telegraf.mysql.handler.read.next: handler read next rate is typically high for databases that have to do a lot of table scans. sequential reads usually a result of table scans.</mark>
+- <mark style="background: #FF5582A6;">telegraf.mysql.queries: Number of queries </mark>
+
+ProxySQL 
+- <mark style="background: #FF5582A6;">telegraf.exec.proxysql.stats.mysql.connection.pool.queries</mark>
 
 ### Redis 
 

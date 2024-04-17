@@ -164,3 +164,13 @@
 - [[2024-04-14]] 3:45 PM — Synced 4 highlights from 1 document.
     - 4 highlights from How Pinterest Rebuilt Their Logging Stack
 
+- [[2024-04-15]] 8:42 PM — Synced 5 highlights from 3 documents.
+    - 1 highlights from How Pinterest Rebuilt Their Logging Stack
+    - 1 highlights from Maximizing Cloud SQL Database Availability
+    - 3 highlights from Scaling to Count Billions
+
+- [[2024-04-16]] 8:45 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-04-16]] 11:30 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Scaling to Count Billions
+

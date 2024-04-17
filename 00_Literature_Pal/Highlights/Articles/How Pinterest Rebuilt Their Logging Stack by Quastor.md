@@ -64,3 +64,29 @@ summary:: Pinterest revamped their logging system to enhance observability by ut
 - [n] Interesting to note, you can create custom metrics from logs  * [View Highlight](https://read.readwise.io/read/01hvf228p7881828syz044j26t)
 
 
+## New highlights added April 15, 2024 at 8:42 PM
+### id707258282
+[[2024-04-15]] 16:44
+> **Logging at Pinterest**
+> Building out each part of your Observability stack can be a challenge, especially if you’re working at a massive scale.
+> Pinterest published a [blog post](https://link.mail.beehiiv.com/ss/c/u001.QjwHEd_jinjS0_NVgYI6PyoV0Qx1eJdryem9QXPLhc6lkf1JgxSqgQy-7CWpEcJnL71Pw12Dc88JtYupY7ZUjjY9a_SW-1_MhHocn3ijJn4CPzjwSiiVNJP6E0ddadUllB9uSIIukzCmuIz3qIRYR6xuUTquWjtPfO1OrjQtOxD4CE2OokrXjsoXvIP1EaWk4tO2luBejlRUV-6_3Vbr8GVXRZEPo0PKiaHxDeD22LS2y_wqAgIDJJdjgY2kHoLpldosRdpeVx86oABxw_PHxA-SOfeGs3u1g6mRnWsYWpA/45d/PALeBuGFS9KF_JDdR1nunQ/h15/h001.fIO45Wpi0NC5GkNJfjxFThUXLdrY5LMLW1Mrk6sdUYM) delving into how their Logging System works.
+> *Here’s a summary*
+> In 2020, Pinterest had a critical incident with their iOS app that spiked the number of out-of-memory crashes users were experiencing. While debugging this, they realized they didn’t have enough visibility into how the app was running nor a good system for monitoring and troubleshooting.
+> They decided to overhaul their logging system and create an end-to-end pipeline with the following characteristics
+> • **Flexibility** - the logging payload will just be key-value pairs, so it’s flexible and easy to use.
+> • **Easy to Query and Visualize** - It’s integrated with OpenSearch (Amazon’s fork of Elasticsearch and Kibana) for real time visualization and querying.
+> • **Real Time** - They made it easy to set up real-time alerting with custom metrics based on the logs.
+> Here’s the architecture
+> ![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/1839bc75-effb-4b1c-88a3-05f85a396fbc/Screenshot_2024-04-09_at_2.29.03_PM.png?t=1712687350)
+> The logging payload is key-value pairs sent to Pinterest’s Logservice. The JSON messages are passed to [Singer](https://link.mail.beehiiv.com/ss/c/u001.sukw43JK3wCGk5mFUJJ2vINEFV18Yet3_6SsR89bdKyRoN3_cgelmh44_uiLVCb3FNmpsecsxh-dcCgI4ZmMeIT8_AQzmWAvseKprf0YaOXpNv0otMwgbdVrGJWN2kfGNblnUZMAGESJohx7DxP0DX9n-THAGLa2WoycaxcqSyQ7Gjo3978RO1WiDTtloI6WRoImwDlGDVk1DMSxA5cg9A/45d/PALeBuGFS9KF_JDdR1nunQ/h16/h001.IuKkWt4bZ6cUp7zjYqlT4p_k9Dq0KfYdtT8DqS5LgYU), a logging agent that Pinterest built for uploading data to Kafka (it can be extended to support other storage systems).
+> They’re stored in a Kafka topic and a variety of analytics services at Pinterest can subscribe to consume the data.
+> Pinterest built a data persisting service called Merced to move data from Kafka to AWS S3. From there, developers can write SQL queries to access that data using [Apache Hive](https://link.mail.beehiiv.com/ss/c/u001.GaP25kixWOTuE1E3XPYxBYaNyUGZyVKJhuXIbGlJOOLFh-oABfJQigvNacxbs3sAbABpb4uivmGWsmqANVbshJ6DdIoNDslXwBO-KKxqlFxlGnCgqmphiCsDFrIQrteJPsn93SQ0d2um8GBaIPrcscqvv4FMaTyGA38oFdu0DSACASGu1tUEAkYetmYy7P5Bz0Ku-zTXjzOLhrpZxLAm8w/45d/PALeBuGFS9KF_JDdR1nunQ/h17/h001.rWSzULNozC-GV4C7UUceWc-lbARn9aI4RtbadR4Tei8) (a data warehouse tool that lets you write SQL queries to access data you store on a data lake like S3 or HDFS).
+> Logstash also ingests data from Kafka and sends it to AWS OpenSearch, Amazon’s offering for the [ELK stack](https://link.mail.beehiiv.com/ss/c/u001.BZLbP9XJ2QJxuYXp69zcq55t5DAygTZFeHiPIoHb-Vt5kmpl3h_ZCQtw3IQSudPZr4-cLkb-S3uVSEAVplySbIh_Debg0q7xAHKUueiLVYe8rrlRXlVGd9ZKcqXZHMWFETOvQY4rY_z2pPhkyxkDEH6JXS6NVvb5wrOnHJHAo7l1RufWAJGGNjZVpSxT5eXCp_FQpH91Gz2RNFc1d58sBg/45d/PALeBuGFS9KF_JDdR1nunQ/h18/h001.fYOzhuF3C3RELRjxxg3qR8YltIi5bgxJGAU-C2JDDZA).
+> Pinterest developers now use this pipeline for
+> • **Client Visibility** - Get insights on app performance with metrics around networking, crashes and more.
+> • **Developer Logs** - Gain visibility on the codebase and measure things like how often a certain code path is run in the app. Also, it helps troubleshoot odd bugs that are hard to reproduce locally.
+> • **Real Time Alerting** - Real time alerting if there’s any issues with certain products/features in the app.
+> And more.
+> [](https://link.mail.beehiiv.com/ss/c/u001.8dFPyTsecDoXHzJV_U5eqs8QOK8US9CRyswX2uCjsgCrV-fMBf6UqXQJx7_ptMq-2SM3Sz1sVZy3zUxqKIieoi_-7EAV6iFlovyTfSiXknIguVuiIw7gfM4LSCgQ9_2-EHLqxxqUqbZmhL7I2hbnjR2GBfFPSUW0Wmrom2aO-Unb86jwB5EpLwCULJPNjj6ekG52EahxMLnsZWi1abPm7I1Q5yDJRGUNYMkof59WZDz8Pqr2P8Vc-McYskrfFBR9au_pFw9_4CLi9fnlFiSjvz9o6JMYNWgzu3KiA-znzmmNu1ZZgsm6efEBA2NvCfea/45d/PALeBuGFS9KF_JDdR1nunQ/h19/h001.ioAdkyt87bMJY_3m4odLn2FidKa_nGOSw-9psieDK_g)
+
+
