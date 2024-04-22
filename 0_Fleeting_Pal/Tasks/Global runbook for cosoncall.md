@@ -257,21 +257,36 @@ Clover operating system (COS) is the monolithic service which provides both meta
 #### COS high 499 error rate
 - [ ] Increase in traffic ? 
 
+#### COS High latency 
+- [ ] Understand the symptom and related metrics 
+- [ ] Probable causes 
+	- [ ]  High latency endpoint --> Page the team responsible for the handler 
+- [ ] Mitigation options 
+- [ ] 
+
 #### COS load shedding
+- [ ] Understand the symptom and related metrics 
 - [ ] Probable causes 
 	- [ ] [Event executor blocked](#event-executor-blocked)
 	- [ ] [Http executor blocked](#http-executor-blocked)
 
 #### COS Event executor blocked
 
-#### COS HTTP Executor blocked 
+
+
 - [ ] Internal downstream service returning 5xx
 	- [ ] Page team responsible for 5xx
 	- [ ] Mitigation options
-		- [ ] [Disable server feature](#block-the-feature-behind-the-server-feature-flag) for non-critical features 
+		- [ ] 
 
-#### COS HTTP Thread wait time high 
+#### COS HTTP Executor blocked 
 - [ ] Understand the symptom and related metrics 
+	- [ ] Http thread wait time could be high 
+- [ ] Probable causes 
+	- [ ] [shared resource problem]()
+	- [ ] [High endpoint latency]()
+- [ ] Mitigation options 
+	- [ ] [Disable server feature](#block-the-feature-behind-the-server-feature-flag) for non-critical features 
 
 #### COS Tenancy check readability violation 
 #### COS Tenancy check writability violation 
@@ -292,6 +307,7 @@ Clover operating system (COS) is the monolithic service which provides both meta
 	- [ ] [Snowflake]()
 	- [ ] [Kafka]()
 	- [ ] [Pubsub]()
+	- [ ] [Downstream service or platform]()
 
 ### Compute Engine 
 

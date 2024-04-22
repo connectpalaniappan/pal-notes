@@ -174,3 +174,77 @@
 - [[2024-04-16]] 11:30 PM — Synced 1 highlight from 1 document.
     - 1 highlights from Scaling to Count Billions
 
+- [[2024-04-17]] 5:53 PM — Synced 12 highlights from 2 documents.
+    - 10 highlights from The $65,000 Roth IRA Mistake to Avoid
+    - 2 highlights from Retirement and Estate Planning 2024
+
+- [[2024-04-17]] 10:38 PM — Synced 15 highlights from 1 document.
+    - 15 highlights from Retirement and Estate Planning 2024
+
+- [[2024-04-17]] 11:38 PM — Synced 33 highlights from 1 document.
+    - 33 highlights from Retirement and Estate Planning 2024
+
+- [[2024-04-18]] 12:38 AM — Synced 13 highlights from 1 document.
+    - 13 highlights from Retirement and Estate Planning 2024
+
+- [[2024-04-18]] 10:04 AM — Synced 10 highlights from 1 document.
+    - 10 highlights from Retirement and Estate Planning 2024
+
+- [[2024-04-18]] 4:16 PM — Synced 7 highlights from 3 documents.
+    - 2 highlights from Retirement and Estate Planning 2024
+    - 3 highlights from The Pursuit of Happyness - Job Interview
+    - 2 highlights from Dissecting GitHub Outage - Why Should We Localize Failures? - YouTube |V|0
+
+- [[2024-04-18]] 5:11 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Dissecting GitHub Outage - Why Should We Localize Failures? - YouTube |V|0
+
+- [[2024-04-18]] 10:08 PM — Synced 4 highlights from 1 document.
+    - 4 highlights from Dissecting GitHub Outage - Why Should We Localize Failures? - YouTube |V|0
+
+- [[2024-04-19]] 4:17 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Deep Dive About Reliable Google Cloud Architectures With Egnyte and Cruise Architects
+
+- [[2024-04-20]] 11:57 AM — Synced 4 highlights from 1 document.
+    - 4 highlights from ‘Don’t Trust People,’ Says Woman Who Found $1,000 Gone From Elderly Mom’s Chase Account – The Bank Said It Couldn’t Help
+
+- [[2024-04-20]] 10:44 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from PAY Your Mortgage in 5 YEARS! #Realestate #Investing
+
+- [[2024-04-21]] 3:29 PM — Synced 9 highlights from 6 documents.
+    - 3 highlights from 3 Takeaways on the Path to $800K TC
+    - 1 highlights from The 10 Year Real Estate Market Cycle
+    - 1 highlights from Improving Developer Productivity = Reducing Noise for Developers
+    - 1 highlights from Should I Use a Buyers Agent?
+    - 2 highlights from How I Got a Job at Amazon USA From India
+    - 1 highlights from This AI Tool Extends Your Image 😮
+
+- [[2024-04-21]] 5:32 PM — Synced 2 highlights from 2 documents.
+    - 1 highlights from Squatters Are Ruining Affordable Neighborhood Homes
+    - 1 highlights from 🤔 WARRANTY  WARRANTY WARRANTY  🤔 America-வில் 💢🔥 💢 💥 USA Tamil Vlogs🇺🇸
+
+- [[2024-04-21]] 6:32 PM — Synced 11 highlights from 6 documents.
+    - 6 highlights from Squatters Are Ruining Affordable Neighborhood Homes
+    - 1 highlights from Why the Laser Lightshow in a Vineyard?
+    - 1 highlights from Computer Science Stays on 🔝🔝
+    - 1 highlights from Why Spending Money SAVES Money #Biggerpockets #Realestate #Propertymanagement
+    - 1 highlights from 6 Tax Deductions for Homeowners 🏡
+    - 1 highlights from Haunted by a Loss at the Olympic Games | Neil Adams and Lex Fridman
+
+- [[2024-04-21]] 7:32 PM — Synced 3 highlights from 1 document.
+    - 3 highlights from Texas Will Not Be the Next California
+
+- [[2024-04-21]] 8:40 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from The Billion Dollar Financial Empire Created By....Teachers?!?
+
+- [[2024-04-22]] 10:40 AM — Synced 7 highlights from 4 documents.
+    - 1 highlights from How Do Coachella People Invest Their Money? 🤔
+    - 1 highlights from பயத்துல முடிவு எடுக்காதீங்க! @NanayamVikatanYT #Money #Career
+    - 1 highlights from Successful People Buy a Course & Implement the Info Until They Get Results
+    - 4 highlights from Why I Keep Failing Candidates During Google Interviews…
+
+- [[2024-04-22]] 1:22 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Sleep Deprivation: The Hidden Dangers Explained! 😱 Ft. Anatara X Gutman
+
+- [[2024-04-22]] 2:22 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Beyonce and Jay Z’s Smart Financial Move 💰
+
