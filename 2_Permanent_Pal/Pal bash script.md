@@ -6,6 +6,10 @@ tags:
  - resource/backup
 ---
 
+```shell
+cd /Users/pal.meiyappan/Google Drive/Dropbox/artifacts/scripts_bash
+```
+
 [[archival]]
 
 ```shell
