@@ -7,7 +7,7 @@ tags:
 ---
 
 ```shell
-cd /Users/pal.meiyappan/Google Drive/Dropbox/artifacts/scripts_bash
+cd ~/Google\ Drive/Dropbox/artifacts/scripts_bash
 ```
 
 [[archival]]

@@ -145,3 +145,15 @@ summary:: None
 > Ye, cose.
 
 
+## New highlights added August 4, 2024 at 5:30 PM
+### Time 0:00:00
+[[2024-08-03]] 18:01
+> Episode AI notes
+> 1. Wes and Kevin explore the differences between SQL and NoSQL databases, highlighting the structured query language used by relational databases.
+> 2. SQL databases, such as MySQL and SQLite, store data in a tabular format with maintained relationships through foreign keys, making them suitable for data integrity.
+> 3. SQL databases face performance challenges and limitations in distributed systems due to their ACID compliance, as enforcement of foreign keys and the complexity of joins can slow down operations.
+> 4. To store denormalized data without joins, one must shift towards storing all necessary operation data within a single document, which leads to duplication but can ensure high consistency during write operations.
+> 5. MongoDB supports sharding as a fundamental concept, allowing the distribution of denormalized documents across a system, where each document is assigned a shard key for optimal data allocation.
+> 6. The choice of sharding key in MongoDB is critical for evenly distributing data across servers, which helps maintain performance scalability and can be informed by best practices found in MongoDB documentation.
+
+

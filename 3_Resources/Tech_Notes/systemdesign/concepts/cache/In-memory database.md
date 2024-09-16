@@ -1,4 +1,18 @@
+---
+aliases: 
+ - cache
+tags:
+ - resource/technology
+ - resource/cache
+ - resource/systemdesign
+ - nexus/note_concept
+---
 
+- Purpose:: [[Fast retrieval]]
+<!--SR:!2024-03-22,3,250-->
+- Bottleneck:: [[Unavailability]]
+- Bottleneck:: [[data loss]]
+- Optimization:: [[Clustered architecture]]
 ### Ask whether you really need the cache?
 * If you have a performance issue, can you solve it at the source? 
 * What is slow? Why is it slow? Can you architect it differently to not be slow? 

@@ -466,3 +466,404 @@
 
 - [[2024-06-07]] 4:42 PM — Synced 0 highlights from 0 documents.
 
+- [[2024-06-09]] 11:03 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-06-10]] 11:49 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-06-11]] 11:09 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-11]] 12:09 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-12]] 8:50 AM — Synced 4 highlights from 1 document.
+    - 4 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-12]] 9:50 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-12]] 11:49 AM — Synced 18 highlights from 1 document.
+    - 18 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-12]] 12:49 PM — Synced 9 highlights from 1 document.
+    - 9 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-12]] 1:49 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-13]] 10:59 AM — Synced 10 highlights from 1 document.
+    - 10 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-13]] 12:59 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-13]] 3:02 PM — Synced 5 highlights from 1 document.
+    - 5 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-13]] 5:21 PM — Synced 3 highlights from 1 document.
+    - 3 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-13]] 11:02 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-15]] 5:28 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-16]] 5:41 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-06-16]] 7:08 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-16]] 10:51 PM — Synced 22 highlights from 1 document.
+    - 22 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-17]] 8:48 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-06-17]] 5:27 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-17]] 10:27 PM — Synced 9 highlights from 1 document.
+    - 9 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-18]] 9:47 AM — Synced 8 highlights from 1 document.
+    - 8 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-18]] 10:47 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-19]] 11:42 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-06-19]] 12:42 PM — Synced 7 highlights from 1 document.
+    - 7 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-19]] 1:42 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-19]] 3:42 PM — Synced 12 highlights from 1 document.
+    - 12 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-19]] 4:42 PM — Synced 5 highlights from 1 document.
+    - 5 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-19]] 5:42 PM — Synced 11 highlights from 1 document.
+    - 11 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-19]] 6:42 PM — Synced 4 highlights from 1 document.
+    - 4 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-19]] 7:42 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-20]] 9:21 AM — Synced 5 highlights from 1 document.
+    - 5 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-20]] 10:21 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-20]] 5:21 PM — Synced 7 highlights from 1 document.
+    - 7 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-20]] 6:21 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-20]] 7:21 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-20]] 10:34 PM — Synced 8 highlights from 1 document.
+    - 8 highlights from Designing Data-Intensive Applications
+
+- [[2024-06-21]] 10:39 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-06-22]] 5:52 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from Watch "You Say SQL Databases Can't Scale ? | SQL vs NO-SQL | Similarities and Differences | Arpit Bhayani" on YouTube |V|0
+
+- [[2024-06-23]] 2:15 PM — Synced 6 highlights from 1 document.
+    - 6 highlights from Watch "You Say SQL Databases Can't Scale ? | SQL vs NO-SQL | Similarities and Differences | Arpit Bhayani" on YouTube |V|0
+
+- [[2024-06-23]] 6:09 PM — Synced 5 highlights from 1 document.
+    - 5 highlights from Watch "You Say SQL Databases Can't Scale ? | SQL vs NO-SQL | Similarities and Differences | Arpit Bhayani" on YouTube |V|0
+
+- [[2024-06-24]] 2:58 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from 🤔இப்படி எல்லாம் America-ல Insurance இருக்கா ⁉️ -  #Usatamilvlog
+
+- [[2024-06-24]] 7:51 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Watch "You Say SQL Databases Can't Scale ? | SQL vs NO-SQL | Similarities and Differences | Arpit Bhayani" on YouTube |V|0
+
+- [[2024-06-25]] 8:44 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-06-26]] 11:17 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-06-27]] 10:10 AM — Synced 2 highlights from 2 documents.
+    - 1 highlights from Buying TEA at the Grocery Store - What to Look For...And Avoid!
+    - 1 highlights from 🎥 புதிய ஆடியோ சிஸ்டம் 🎥  Hollyland Lark M2 Leaf Blower🔥 America-La💥USA Tamil Vlogs🇺🇸🔥#shorts
+
+- [[2024-06-27]] 7:18 PM — Synced 3 highlights from 3 documents.
+    - 1 highlights from Top 10 Costco Deals for June
+    - 1 highlights from 🛑Sunscreen Spray🛑
+    - 1 highlights from ☠️Plastic Cutting Boards☠️
+
+- [[2024-06-28]] 3:38 AM — Synced 6 highlights from 1 document.
+    - 6 highlights from Designing Uber's Highly Available Emergency SOS Service - Arpit System Design - YouTube |V|0
+
+- [[2024-06-28]] 8:47 AM — Synced 14 highlights from 1 document.
+    - 14 highlights from Designing Uber's Highly Available Emergency SOS Service - Arpit System Design - YouTube |V|0
+
+- [[2024-06-28]] 10:58 AM — Synced 6 highlights from 2 documents.
+    - 5 highlights from Designing Uber's Highly Available Emergency SOS Service - Arpit System Design - YouTube |V|0
+    - 1 highlights from Shared Database Pattern in Microservices - Designing Microservices - YouTube |V|0
+
+- [[2024-06-28]] 6:37 PM — Synced 15 highlights from 1 document.
+    - 15 highlights from Shared Database Pattern in Microservices - Designing Microservices - YouTube |V|0
+
+- [[2024-06-28]] 10:49 PM — Synced 3 highlights from 1 document.
+    - 3 highlights from Shared Database Pattern in Microservices - Designing Microservices - YouTube |V|0
+
+- [[2024-06-28]] 11:49 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from Shared Database Pattern in Microservices - Designing Microservices - YouTube |V|0
+
+- [[2024-06-29]] 7:51 AM — Synced 5 highlights from 2 documents.
+    - 1 highlights from Shared Database Pattern in Microservices - Designing Microservices - YouTube |V|0
+    - 4 highlights from How Airbnb Designed and Scaled Its Central Authorization System - Himeji
+
+- [[2024-06-29]] 9:06 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from How Airbnb Designed and Scaled Its Central Authorization System - Himeji
+
+- [[2024-06-30]] 9:20 PM — Synced 7 highlights from 2 documents.
+    - 2 highlights from The Viral $488,000 San Francisco Home Has a Buyer — And the Deal Exposes a Dramatic Backstory
+    - 5 highlights from Building Resiliency in Microservices
+
+- [[2024-07-01]] 9:39 AM — Synced 4 highlights from 1 document.
+    - 4 highlights from How Airbnb Designed and Scaled Its Central Authorization System - Himeji
+
+- [[2024-07-01]] 6:38 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from Building Resiliency in Microservices
+
+- [[2024-07-01]] 8:40 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Day 3 Whole Foods and Its Benifits!! Kadi Joke Wellness Series #Food #Drpal #Kidshealth #Comedy
+
+- [[2024-07-02]] 9:11 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-07-03]] 7:39 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from I Bought All My Furniture at Costco for $5K - Take a Look Inside | Unlocked
+
+- [[2024-07-04]] 9:29 AM — Synced 2 highlights from 1 document.
+    - 2 highlights from Wardley Mapping Strategy at BigCorp – A True Story in 1 Minute • Erik Schoen • GOTO 2023
+
+- [[2024-07-05]] 1:19 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-07-05]] 6:11 PM — Synced 4 highlights from 4 documents.
+    - 1 highlights from Costco Summer Finds
+    - 1 highlights from The Poop Enforcer 💩
+    - 1 highlights from ⚠️This Is What Happens When Dr Pal's Gut Craves Filter Coffee!
+    - 1 highlights from The Log: What every software engineer should know about real-time data's unifying abstraction | LinkedIn Engineering |A|0
+
+- [[2024-07-06]] 7:51 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-07-07]] 8:45 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-07-07]] 11:00 PM — Synced 3 highlights from 3 documents.
+    - 1 highlights from Senior vs Staff Engineer #Shorts #Softwaredevelopment #Spotify #Careergrowth
+    - 1 highlights from I Hit $500k TC at Netflix by Consistently Learning!
+    - 1 highlights from Resources I Used to Crack Amazon, Google & Microsoft
+
+- [[2024-07-08]] 11:57 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-07-10]] 9:06 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-07-11]] 11:02 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-07-11]] 10:26 PM — Synced 11 highlights from 1 document.
+    - 11 highlights from A Look at the Evolution of Benchling’s Search Architecture
+
+- [[2024-07-11]] 11:28 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Saleem - I Wanna Talk to You Video | Vishnu Manchu, Ileana d'Cruz
+
+- [[2024-07-12]] 2:43 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from Badri Ki Dulhania (Title Track) Full Video Song |  Varun, Alia, Tanishk, Neha, Monali, Ikka
+
+- [[2024-07-12]] 11:43 AM — Synced 14 highlights from 2 documents.
+    - 10 highlights from From Stagnation to Being the Most Valuable Company in the World
+    - 4 highlights from DragonflyDB Architecture Overview, Internals, and Trade-Offs - Hitting 6.43 Million Ops/Sec
+
+- [[2024-07-12]] 10:54 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from "பணம் பெரிய ஆபத்து கோபி! இது தெரிஞ்சா கோடி கோடியா பணம் கொட்டும்" Aircel Owner பேட்டி
+
+- [[2024-07-13]] 6:45 PM — Synced 6 highlights from 1 document.
+    - 6 highlights from The Rise and Rule of Elon Musk
+
+- [[2024-07-14]] 10:42 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from What Niche Makes the Most $ on YouTube?
+
+- [[2024-07-14]] 11:37 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Economist Explains Why India Can Never Grow Like China
+
+- [[2024-07-15]] 11:02 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from The Inside Story of Zerodha's Success: From 0 to 7.6M Active Users!!
+
+- [[2024-07-15]] 11:13 PM — Synced 15 highlights from 2 documents.
+    - 1 highlights from Goodbye MongoDB
+    - 14 highlights from Ten Years and Counting: My Affair With Microservices
+
+- [[2024-07-16]] 12:13 AM — Synced 3 highlights from 1 document.
+    - 3 highlights from How Booking.com Scaled Their Customer Review System
+
+- [[2024-07-16]] 9:56 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from Consistent Hashing | Algorithms You Should Know #1
+
+- [[2024-07-16]] 7:37 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from #1 Test to Know if You Are Too Busy | George Mack
+
+- [[2024-07-16]] 11:15 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from How Reddit Serves 100K Metadata Requests Per Second
+
+- [[2024-07-17]] 3:56 PM — Synced 4 highlights from 1 document.
+    - 4 highlights from Break the Laws of Innovation With First Principles
+
+- [[2024-07-18]] 2:13 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Scaling From First Principles
+
+- [[2024-07-18]] 3:13 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-07-19]] 4:03 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-07-20]] 10:35 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-07-21]] 11:26 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-07-23]] 12:15 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-07-24]] 12:27 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-07-24]] 10:44 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from Design A Key-value Store
+
+- [[2024-07-25]] 11:47 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-07-27]] 10:24 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-07-28]] 9:09 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from Scaling Up the Prime Video Audio/Video Monitoring Service and Reducing Costs by 90%
+
+- [[2024-07-29]] 11:05 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-07-30]] 11:34 AM — Synced 3 highlights from 1 document.
+    - 3 highlights from Scaling Our Customer Review System for Peak Traffic
+
+- [[2024-07-31]] 11:46 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-01]] 12:26 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-02]] 4:00 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-03]] 9:20 PM — Synced 10 highlights from 3 documents.
+    - 1 highlights from FSPregnant 4web.indd
+    - 6 highlights from Scaling Our Customer Review System for Peak Traffic
+    - 3 highlights from How Notion Decreased Latency by 20% With Caching
+
+- [[2024-08-04]] 5:30 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from SQL vs noSQL Databases
+
+- [[2024-08-04]] 9:51 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Can Meesho's Business Strategy Beat Amazon and Flipkart? | Business Case Study
+
+- [[2024-08-05]] 10:34 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-06]] 11:07 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-07]] 11:54 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-09]] 8:58 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-10]] 10:11 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-12]] 9:47 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from How Uber Minimizes Flaky Tests
+
+- [[2024-08-13]] 12:28 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-14]] 12:38 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-15]] 1:28 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-16]] 1:32 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-17]] 4:24 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-19]] 2:15 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-20]] 9:15 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-21]] 10:08 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-22]] 11:43 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-23]] 12:37 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-24]] 3:50 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-25]] 3:57 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-26]] 4:18 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-27]] 5:17 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-28]] 6:19 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-08-29]] 11:07 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Introduction to Generative AI
+
+- [[2024-08-30]] 11:50 AM — Synced 7 highlights from 1 document.
+    - 7 highlights from Introduction to Generative AI
+
+- [[2024-08-30]] 3:19 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-09-01]] 10:05 AM — Synced 4 highlights from 2 documents.
+    - 2 highlights from Philosophy of Ikigai - வாழ்ந்து, ஜெயிச்சு & Still வாழ்க்கைய வாழ்றாங்க | Gobinath
+    - 2 highlights from Introduction to Generative AI
+
+- [[2024-09-02]] 10:32 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-09-02]] 10:23 PM — Synced 5 highlights from 1 document.
+    - 5 highlights from Introduction to Generative AI
+
+- [[2024-09-03]] 5:00 PM — Synced 5 highlights from 1 document.
+    - 5 highlights from Introduction to Generative AI
+
+- [[2024-09-04]] 5:22 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-09-05]] 2:49 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Millions of Requests Per Hour: SoundCloud’s Microservices Evolution
+
+- [[2024-09-05]] 7:16 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from SCALER POD 05 Ft. Kailash Nadh, CTO Zerodha | Side Projects, Hacker Culture and Scaling With Sense
+
+- [[2024-09-06]] 8:10 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-09-07]] 8:11 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-09-08]] 9:55 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-09-09]] 10:31 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-09-10]] 7:15 PM — Synced 2 highlights from 2 documents.
+    - 1 highlights from What Is the Right Level of Abstraction for Your Platform?
+    - 1 highlights from Build Abstractions, Not Illusions | PlatformCon 2023
+
+- [[2024-09-10]] 10:47 PM — Synced 6 highlights from 1 document.
+    - 6 highlights from Introduction to Large Language Models
+
+- [[2024-09-10]] 11:47 PM — Synced 4 highlights from 1 document.
+    - 4 highlights from Introduction to Large Language Models
+
+- [[2024-09-12]] 12:22 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-09-13]] 12:36 AM — Synced 0 highlights from 0 documents.
+
+- [[2024-09-13]] 9:38 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from Non  IT Professional's 7 Year Plan to Be Back in India After 18 Years in US
+
+- [[2024-09-14]] 1:42 PM — Synced 0 highlights from 0 documents.
+
+- [[2024-09-15]] 10:17 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from Uber Eats, PayTM and Free Food: What Happened?
+

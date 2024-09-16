@@ -169,7 +169,7 @@ Clover operating system (COS) is the monolithic service which provides both meta
 	1. Error dashboard to identify the trending errors [Grafana](https://clovernetwork.grafana.net/d/b7471d51-badd-4a96-8f0a-2e7ef9ad4b12/log-error-trending?orgId=1)
 2. Probable causes 
 	1. [Database table missing](#COSRunbook-Databasetablemissing) 
-	2. [Downstream service or platform not responding](#COSRunbook-Downstreamserviceorplatformnotresponding)
+	2. [Downstream service or platform not responding](#COSRunbook-Downstreamserviceorplatformproblems)
 	3. [Database connection error](#COSRunbook-Databaseconnectionnotavailable)
 	4. [SQL server running in readonly mode](#COSRunbook-SQLserverrunninginreadonlymode)
 3. Mitigation options 
@@ -396,13 +396,13 @@ Clover operating system (COS) is the monolithic service which provides both meta
 
 #### COS Shared resource 
 1. Probable cause  
-	1. [Database](#database)
-	1. [Redis](#redis)
-	1. [Memcache](#memcache)
-	1. [Snowflake]()
-	1. [Kafka]()
-	1. [Pubsub]()
-	1. [Downstream service or platform]()
+	1. [Database](#COSRunbook-Databaseproblems)
+	1. [Redis](#COSRunbook-Redisproblems)
+	1. [Memcache](#COSRunbook-Memcacheproblems)
+	1. [Snowflake](#COSRunbook-Snowflakeproblems)
+	1. [Kafka](#COSRunbook-Kafkaproblems)
+	1. [Pubsub](#COSRunbook-Pubsubproblems)
+	1. [Downstream service or platform](#COSRunbook-Downstreamserviceorplatformproblems)
 
 ### Compute Engine problems
 
@@ -410,7 +410,7 @@ Clover operating system (COS) is the monolithic service which provides both meta
 1. Understand the symptom and related metrics
 	1. Check in [Google cloud console](https://console.cloud.google.com/logs/query;query=%2528resource.type%3D%22gce_instance%22%2529;duration=PT1H?authuser=1&project=clover-prod-apps)
 2. Probable causes 
-	1. [New node added and not in use]() --> Ask SRE to mute the alerts 
+	1. New node added and not in use --> Ask SRE to mute the alerts 
 	2. Maintenance activity 
 3. Mitigation options 
 4. Short term fixes 
@@ -439,7 +439,7 @@ Clover operating system (COS) is the monolithic service which provides both meta
 1. Slack or page @dbaoncall
 2. Understand the symptom and related metrics
 	1. Database not available. Uptime metric?
-	2. [Database connection not available]()
+	2. [Database connection not available](#COSRunbook-Databaseconnectionnotavailable)
 
 #### Database connection not available
 1. Slack or page @dbaoncall
@@ -447,9 +447,9 @@ Clover operating system (COS) is the monolithic service which provides both meta
 	1. COS connection timeout rate [Grafana - Meta primary](https://clovernetwork.grafana.net/d/NNFA_2JVz/cos-monitoring?orgId=1&viewPanel=240) [Grafana - order shards](https://clovernetwork.grafana.net/d/NNFA_2JVz/cos-monitoring?orgId=1&viewPanel=239)
 	2. Database Aborted clients metric [Grafana](https://clovernetwork.grafana.net/d/EHD_mpYVk/mysql-server?orgId=1&viewPanel=91)
 3. Probable causes 
-	1. [Database high disk usage]()
-	2. [Database locking issues]()
-	3. [Disaster recovery]()
+	1. [Database high disk usage](#COSRunbook-Databasehighdiskusage)
+	2. [Database locking issues](#COSRunbook-Databaselockingissues)
+	3. Disaster recovery
 	4. Holding a database connection and calling an external service 
 4. Mitigation options 
 5. Short term fixes 
@@ -469,7 +469,7 @@ Clover operating system (COS) is the monolithic service which provides both meta
 2. Understand the symptom and related metrics 
 	1. Database CPU metric [Grafana](https://clovernetwork.grafana.net/d/a7ee3708-2502-4d4d-aaee-5c03c88b4237/mysql-platform?orgId=1&viewPanel=84)
 3. Probable causes 
-	1. [Database inefficient queries]()
+	1. [Database inefficient queries](#COSRunbook-Databaseinefficientqueries)
 	2. COS making multiple network calls to update each resource individually 
 4. Short -term fixes 
 5. Long-term fixes 
@@ -498,16 +498,16 @@ Clover operating system (COS) is the monolithic service which provides both meta
 	2. High disk reads specific to InnoDB storage engine [Grafana](https://clovernetwork.grafana.net/d/f7261946-fb91-4a98-af24-4b15fe68b812/mysql-instance?orgId=1&viewPanel=146)
 3. Probable causes 
 	1. Ask DBA on when backups are taken 
-	2. [High lock wait time]() could also indicate long-running transactions 
-	3. [High number of rows read or written](#high-number-of-rows-examined)
+	2. [High lock wait time](#COSRunbook-Databaselockingissues) could also indicate long-running transactions 
+	3. [High number of rows read or written](#COSRunbook-Databasehighnumberofrowsreadorwritten)
 
 #### Database table missing
 1. Slack or page @dbaoncall
 2. Understand the symptom and related metrics
 	1. 
 3. Mitigation options
-	1. [Execute DDL statements in database](#execute-ddl-statements-in-database)
-	1. [Rollback latest release](#rollback-latest-release)
+	1. [Execute DDL statements in database](#COSRunbook-Databasequerytocleandirtydata)
+	1. [Rollback latest release](#COSRunbook-Rollbackrelease)
 #### Database inefficient queries 
 1. Slack or page @dbaoncall
 2. Understand the symptom and related metrics
@@ -519,21 +519,21 @@ Clover operating system (COS) is the monolithic service which provides both meta
 	2. Full table scan 
 	3. Subqueries are bad in MySQL. Joins are better. TODO: Find the source link? 
 4. Mitigation options 
-	1. [Increase the query timeout value]()
-	2. [Kill the long running query]()
-	3. [Restart the database server]()
-	4. Look at [Database common](#database-common)
+	1. [Increase the query timeout value](#COSRunbook-Increasethequerytimeoutvalue)
+	2. [Kill the long running query](#COSRunbook-Killslowqueriesindatabase)
+	3. [Restart the database server](#COSRunbook-Restartdatabasenodes)
+	4. Look at [Database common](#COSRunbook-Databasecommon)
 5. Short term fixes 
-	1. Look at [Database common](#database-common)
+	1. Look at [Database common](#COSRunbook-Databasecommon)
 	2. Adding index could reduce the number of rows scanned 
-	3. [Code fix]() to move the query to database replica if stale reads are ok for few seconds 
+	3. [Code fix](#COSRunbook-Fixtheproblemviacodechange) to move the query to database replica if stale reads are ok for few seconds 
 	4. Optimize queries
 		1. Subquery in insert/update --> replace with join 
 		2. Don't select already soft-deleted rows during soft-deletion 
 6. Long term fixes 
 	1. Refactor using LIKE query because data is stored in TEXT column as json. Better to normalize into their own columns or store in a new table. 
 	2. Don't cache data inefficient queries. You are hiding the problem behind cache. 
-	3. Look at [Database common](#database-common)
+	3. Look at [Database common](#COSRunbook-Databasecommon)
 
 #### Database high number of rows read or written 
 1. Slack or page @dbaoncall
@@ -553,14 +553,14 @@ Clover operating system (COS) is the monolithic service which provides both meta
 			1. Already deleted or updated rows 
 4. Mitigation options 
 	1. Adding index would reduce the number of rows scanned 
-	1. Look at [Database common](#database-common)
+	1. Look at [Database common](#COSRunbook-Databasecommon)
 5. Short term fixes 
-	1. For read query, [Code fix]() to move the query to database replica if stale reads are ok for few seconds 
+	1. For read query, [Code fix](#COSRunbook-Fixtheproblemviacodechange) to move the query to database replica if stale reads are ok for few seconds 
 	1. Batch job needs to reduce the count of rows read or written 
-	1. Look at [Database common](#database-common)
+	1. Look at [Database common](#COSRunbook-Databasecommon)
 6. Long term fixes 
 	1. Cache the frequently accessed data  
-	1. Look at [Database common](#database-common)
+	1. Look at [Database common](#COSRunbook-Databasecommon)
 
 #### SQL server running in readonly mode  
 1. Understand the symptom and related metrics
@@ -570,8 +570,8 @@ Clover operating system (COS) is the monolithic service which provides both meta
 2. Probable causes 
 	1. Active datacenter 
 		1. Someone set the primary database to read-only mode. Page DBA on-call 
-		2. Database could have crashed and came back in read-only mode. [Database not available]()
-		3. Pointing to the wrong database [Puppet]()
+		2. Database could have crashed and came back in read-only mode. [Database not available](#COSRunbook-Databasenotavailable)
+		3. Pointing to the wrong database. Fix in puppet. 
 	2. Inactive datacenter 
 		1. Could be due to devices not flushing DNS and still sending write requests to inactive datacenter. 
 3. Mitigation options 
@@ -588,8 +588,8 @@ Clover operating system (COS) is the monolithic service which provides both meta
 #### Database common  
 1. Mitigation options 
 	1. Stop any database or feature migration happening
-	1. [Disable the handler in HAProxy]() 
-	1. [Pause the batch job]() 
+	1. [Disable the handler in HAProxy](#COSRunbook-Blockanhandler) 
+	1. [Pause the batch job](#COSRunbook-Pausethebatchjob) 
 2. Short term fixes 
 	1. Reduce the frequency of batch jobs 
 	1. Fine-tune the database server config
@@ -641,8 +641,8 @@ Memcache is used as the application cache and fallbacks to the database when the
 	1. Application load success count down [Grafana](https://clovernetwork.grafana.net/d/NNFA_2JVz/cos-monitoring?orgId=1&viewPanel=47)
 	1. Most of the memcache lookup fallback to database. When this metric is high, it usually means the database did not respond back in time. 
 2. Probable causes 
-	1. [Database not available]()
-	1. [Database connection timeout]() 
+	1. [Database not available](#COSRunbook-Databasenotavailable)
+	1. [Database connection timeout](#COSRunbook-Databaseconnectionnotavailable) 
 
 ### Caffeine cache problems
 Few of the caches are stored in COS application memory using caffeine library to avoid network call. 
@@ -650,7 +650,7 @@ Few of the caches are stored in COS application memory using caffeine library to
 #### Caffeine cache hit count sudden increase
 1. Understand the symptom and related metrics
 	1. Application cache hit count metric [Grafana](https://clovernetwork.grafana.net/d/NNFA_2JVz/cos-monitoring?orgId=1&viewPanel=64)
-	1. [Http requests increase]()
+	1. [Http requests increase](#COSRunbook-HAProxyIncreaseintraffic)
 2. 
 
 ### Snowflake problems
@@ -673,10 +673,10 @@ Few of the caches are stored in COS application memory using caffeine library to
 	2. Customer service - Page customer-on-call 
 3. Probable causes 
 4. Mitigation options
-	1. [Disable server feature](#block-the-feature-behind-the-server-feature-flag) for non-critical features in the impacted service 
-	2. [Puppet change](#fix-the-problem-via-config-change) to reduce time-out 
-	3. [Kill blocked threads](#kill-the-threads-in-the-application-layer)
-	4. [Rolling restart COS process](#restart-cos-application)
+	1. [Disable server feature](#COSRunbook-Blockthefeaturebehindtheserverfeatureflag) for non-critical features in the impacted service 
+	2. [Puppet change](#COSRunbook-Puppetconfigchange) to reduce time-out 
+	3. [Kill blocked threads](#COSRunbook-Killthethreadsintheapplicationlayer)
+	4. [Rolling restart COS process](#COSRunbook-RestartCOSapplication)
 5. Short term fixes 
 	1. Circuit breaking in COS 
 	2. Moving the request to SlowRequest executor pool to unblock http executor 
@@ -792,6 +792,9 @@ Few of the caches are stored in COS application memory using caffeine library to
 #### Stop the migration 
 
 #### Database query to clean dirty data 
+
+#### Increase the query time-out value 
+1. Page DBA-on-call 
 
 #### Kill slow queries in database 
 1. Page DBA-on-call 
