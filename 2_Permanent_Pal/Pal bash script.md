@@ -49,3 +49,9 @@ cp ../../../Dropbox/obsidian-config/.obsidian-pal-mac-m1/community-plugins.json 
 cat ../../../Dropbox/.obsidian-pal-mac-m1/community-plugins.json
 ls ../../../Dropbox/.obsidian-pal-mac-m1/plugins
 ```
+
+
+
+```
+find . -name "Icon?" -print0 | xargs -0 rm -rf
+```
