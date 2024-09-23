@@ -28,16 +28,16 @@ sh backup_git.sh ../../pal-notes
 sh backup_git.sh ../../uma-notes
 sh backup_git.sh .
 
-cp -r ../../.obsidian-pal-mac-intel/* ../../obsidian-config/.obsidian-pal-mac-intel
-cp -r ../../.obsidian-pal-mac-m1/* ../../obsidian-config/.obsidian-pal-mac-m1
-cp -r ../../.obsidian-uma/* ../../obsidian-config/.obsidian-uma
-sh backup_git.sh ../../obsidian-config
-
 sh backup_git.sh ../../../Public/life-resources/
 sh backup_git.sh ../../../Public/tech-coding/code-practice
 sh backup_git.sh ../../../Public/tech-resources/
 
 sh backup_git.sh ../../../Private/family-resources/
+
+cp -r ../../.obsidian-pal-mac-intel/* ../../obsidian-config/.obsidian-pal-mac-intel
+cp -r ../../.obsidian-pal-mac-m1/* ../../obsidian-config/.obsidian-pal-mac-m1
+cp -r ../../.obsidian-uma/* ../../obsidian-config/.obsidian-uma
+sh backup_git.sh ../../obsidian-config
 
 ```
 
@@ -52,6 +52,6 @@ ls ../../../Dropbox/.obsidian-pal-mac-m1/plugins
 
 
 
-```
+```shell
 find . -name "Icon?" -print0 | xargs -0 rm -rf
 ```
