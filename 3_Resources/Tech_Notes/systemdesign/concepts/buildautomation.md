@@ -1,6 +1,0 @@
-
-
-### Maven
-#### maven bom
-
-### Gradle

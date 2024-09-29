@@ -7,14 +7,17 @@ tags:
 ---
 
 ```shell
+cd ~/Google\ Drive/Dropbox
+find . -name "Icon?" -print0 | xargs -0 rm -rf
 cd ~/Google\ Drive/Dropbox/artifacts/scripts_bash
 ```
 
 [[archival]]
 
 ```shell
-sh archival.sh ../../../Private ~/Google\ Drive/Archive
-sh archival.sh ../../../Public ~/Google\ Drive/Archive
+sh archival.sh ../../../Private/family-resources ~/Google\ Drive/Archive
+sh archival.sh ../../../Public/life-resources ~/Google\ Drive/Archive
+sh archival.sh ../../../Public/tech-resources ~/Google\ Drive/Archive
 sh archival.sh ../../../Dropbox ~/Google\ Drive/Archive
 ```
 
@@ -53,5 +56,4 @@ ls ../../../Dropbox/.obsidian-pal-mac-m1/plugins
 
 
 ```shell
-find . -name "Icon?" -print0 | xargs -0 rm -rf
 ```

@@ -1,5 +1,0 @@
-## Efficieny
-
-### Latency
-
-### Throughput

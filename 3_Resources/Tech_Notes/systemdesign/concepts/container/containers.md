@@ -1,5 +1,0 @@
-
-### Docker
-### rkt
-### LXC
-TODO
