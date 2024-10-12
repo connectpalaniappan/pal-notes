@@ -12,4 +12,3 @@ work: analysis
 
 reference:: [[active-active service]][[active-passive service]] [[Pubsub]]
 
-Need to learn on to send requests from [[active-active service]] to a [[active-passive service]] running in a [[data center]]
