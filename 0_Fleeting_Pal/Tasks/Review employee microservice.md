@@ -10,7 +10,7 @@ tags:
 work: analysis
 ---
 
-reference:: [[tech-notes/Pal/2_Permanent_Tech/Backup/Microservice|Microservice]]
+reference:: [[family-notes/Backup/Pal_Tech_Note/Backup/Microservice|Microservice]]
 
 Review employee microservice 
 

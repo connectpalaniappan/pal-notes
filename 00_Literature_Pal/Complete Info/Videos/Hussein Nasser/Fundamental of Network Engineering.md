@@ -519,7 +519,7 @@ And let's get started.
 WEBVTT
 
 00:00.150 --> 00:04.440
-So I thought we start with the [[client]] [[server]] architecture.
+So I thought we start with the [[Client]] [[server]] architecture.
 
 00:05.190 --> 00:07.770
 This is the revolution that started it all.

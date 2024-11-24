@@ -44,7 +44,9 @@ sh backup_git.sh ../../obsidian-config
 
 ```
 
-### git sync plugin
+-----
+
+### git sync plugin (Not needed as not using both office laptops)
 
 ```bash
 cp -rf ../../../Dropbox/obsidian-config/.obsidian-pal-mac-m1/plugins/ ../../../Dropbox/.obsidian-pal-mac-intel/plugins/
