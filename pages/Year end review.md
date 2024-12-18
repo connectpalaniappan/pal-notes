@@ -18,6 +18,74 @@
 	- **Collaboration with Ramya:** Provided essential support to Ramya in achieving these milestones, demonstrating teamwork and contributing to the project's success.
 	- **Next Steps: Streamlit Integration:** The focus is now shifting towards integrating the chatbot with Streamlit. This will involve deploying the chatbot as a cloud function and linking it to Streamlit within Omnibot updates. This will make the chatbot accessible and user-friendly.
 	- **Phase 1 Completion:** The successful completion of embedding creation and LLM integration marks a significant milestone in the chatbot AI project. This sets the stage for further development and enhancement in the upcoming phases.
+- COS reliability
+  collapsed:: true
+	- Year end review
+	  collapsed:: true
+		- **Improved Fault Tolerance:**
+			- **Bulkheading:** Introduced bulkheads to limit resource usage and prevent one service from consuming all available resources. (COS-113)
+		- **Optimized Resource Management:**
+			- **Improve resource:** Optimize CPU, thread and disk utilization. (COS-93, COS-95, COS-67)
+			- **Load Balancing:** Utilized load balancing to distribute traffic evenly across servers. (COS-165)
+			- **Sharding & Partitioning:** Optimized adding and need to optimize remove shard to distribute data and improve performance. (COS-65, COS-109, COS-129, COS-131)
+		- **Minimized Manual Intervention:**
+			- **Auto Remediation:** Developed auto-remediation mechanisms to automatically address common issues. (COS-118)
+			- **Avoid Manual Restarts:** Minimized the need for manual restarts through automation. (COS-103)
+		- **Enhanced Performance & Efficiency:**
+			- **Caching:** Work with CORESERV team to optimize caching for read and write operations to improve response times. (COS-85, CORESERV-1253, CORESERV-1592, SRE-7233)
+			- **Optimization:** Conducted profiling and optimization to identify and address performance bottlenecks. (COS-6, COS-57, COS-71)
+		- **Improved Error Handling & Resilience:**
+			- **Unblocking HTTP Requests:** Optimized request handling to prevent blocking and improve throughput. (COS-58, COS-199, COS-208, COS-207, COS-206, COS-205)
+			- **Timeout & Fallback:** Implemented timeouts and fallbacks to handle failures gracefully. (COS-54, COS-101)
+			- **Proper Error Handling:** Ensured comprehensive error handling to capture and address issues effectively. (COS-119)
+		- **Increased Observability:**
+			- **Metrics, Logs, Tracing:** Collected and analyzed metrics, logs, and traces to gain insights into system behavior. (COS-2, COS-24, CPE-2660)
+			- **Alerts:** Set up alerts to notify on critical events and potential issues. (COS-1)
+		- **Controlled Rollouts & Feature Management:**
+			- **Disable via Feature Flags:** Enabled the ability to disable features via feature flags for controlled rollouts and testing.
+		- **Traffic Management:**
+			- **Rate Limiting:** Introduced rate limiting to control traffic flow and prevent abuse. (COS-69, COS-87, COS-180, DP-7414)
+	- Task breakdown note
+	  collapsed:: true
+		- **Enhancing COS Reliability**
+		- **Improved Fault Tolerance:**
+			- **Circuit Breakers:** Implemented circuit breakers to prevent cascading failures and isolate faulty services. (COS-2, COS-1, COS-174)
+			- **Bulkheading:** Introduced bulkheads to limit resource usage and prevent one service from consuming all available resources. (COS-113)
+			- **Rolling Restarts:** Enabled rolling restarts to minimize downtime during deployments and updates.
+			- **Disaster Recovery:**  Established disaster recovery procedures to ensure business continuity in case of catastrophic events.
+		- **Optimized Resource Management:**
+			- **Automatic Scaling:** Implemented automatic scaling to dynamically adjust resources based on demand. (COS-93, COS-95)
+			- **Load Balancing:** Utilized load balancing to distribute traffic evenly across servers. (COS-165)
+			- **Queueing:** Introduced queues to handle traffic spikes and prevent overload. (COS-67)
+			- **Sharding & Partitioning:**  Implemented sharding and partitioning to distribute data and improve performance. (COS-65, COS-109, COS-129, COS-131)
+			- **Horizontal & Vertical Scaling:** Enabled both horizontal and vertical scaling to adapt to changing needs.
+		- **Minimized Manual Intervention:**
+			- **Auto Remediation:**  Developed auto-remediation mechanisms to automatically address common issues. (COS-118)
+			- **Automatic Restarts:** Configured automatic restarts for failed services.
+			- **Avoid Manual Restarts:** Minimized the need for manual restarts through automation. (COS-103)
+		- **Enhanced Performance & Efficiency:**
+			- **Caching:** Implemented caching for read and write operations to improve response times. (COS-85, CORESERV-1253, CORESERV-1592, SRE-7233, COS-121)
+			- **Asynchronous Processing:** Introduced asynchronous processing to improve responsiveness and throughput.
+			- **Optimization:** Conducted profiling and optimization to identify and address performance bottlenecks. (COS-6, COS-57, COS-71)
+		- **Improved Error Handling & Resilience:**
+			- **Transaction Processing:**  Ensured reliable transaction processing with compensation transactions and reverse transactions.
+			- **Unblocking HTTP Requests:**  Optimized request handling to prevent blocking and improve throughput. (COS-58, COS-199, COS-208, COS-207, COS-206, COS-205)
+			- **Timeout & Fallback:** Implemented timeouts and fallbacks to handle failures gracefully. (COS-54, COS-101)
+			- **Default Values & Available Data Sources:** Utilized default values and alternative data sources to provide fallback mechanisms.
+			- **Proper Error Handling:**  Ensured comprehensive error handling to capture and address issues effectively. (COS-119)
+		- **Increased Observability:**
+			- **Metrics, Logs, Tracing:** Collected and analyzed metrics, logs, and traces to gain insights into system behavior. (COS-2, COS-24, CPE-2660)
+			- **Alerts:** Set up alerts to notify on critical events and potential issues. (COS-1, COS-26)
+		- **Controlled Rollouts & Feature Management:**
+			- **Disable via Feature Flags:**  Enabled the ability to disable features via feature flags for controlled rollouts and testing.
+		- **Traffic Management:**
+			- **Backpressure:** Implemented backpressure mechanisms to prevent overload and ensure stability.
+			- **Rate Limiting:** Introduced rate limiting to control traffic flow and prevent abuse. (COS-69, COS-87, COS-180, DP-7414)
+		- **Code & Design Best Practices:**
+			- **Functional Decomposition:**  Applied functional decomposition to break down complex systems into smaller, more manageable components.
+	- Thank you note
+	  collapsed:: true
+		- "I'm incredibly proud of the monumental improvements we've achieved in COS reliability! It's been a challenging but rewarding journey, and the results are truly amazing.  Big thanks to Priya for setting up that initial meeting with Tatsuro, Loki, and Noel - their insights and support were invaluable.  We've tackled complex issues, implemented innovative solutions, and significantly boosted COS stability and performance.  Tatsuro and Loki, your appreciation for this work means a lot!  This success is a testament to our collective efforts and dedication."
 -
 -
 - ## Tasks
