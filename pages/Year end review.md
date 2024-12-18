@@ -120,7 +120,7 @@
 	- TODO [#A] I was wondering if you could look over [https://github.corp.clover.com/clover/server/pull/17774/files](https://github.corp.clover.com/clover/server/pull/17774/files) for me with a critical eye. I am concerned that I may have been too aggressive in what is a token read. I have commented on the lines I am concerned about.
 	  DEADLINE: <2024-12-10 Tue>
 - Architecture guild
-- Year end review notes
+  collapsed:: true
 	- **Active Architecture Guild Participation:** Consistently reviewed key project architectures, providing valuable feedback and ensuring alignment with company standards.
 	- **Influential Leadership:** Actively participated in Architecture Guild meetings, guiding discussions and helping steer key initiatives in the right direction.
 	- **Strategic Vision:** Played a crucial role in setting the architectural trajectory for company projects, impacting technology choices and development practices.
@@ -134,6 +134,10 @@
 	- ## Tasks
 	- TODO [#B] Eric document on saving timestamp review
 	- TODO [#B] Review Push decomposition by Rishab https://github.corp.clover.com/clover/architecture/pull/110/files
+-
+-
+- ## Tasks
+- TODO [#A] COS guideline project complete
 -
 -
 -
