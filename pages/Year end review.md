@@ -86,7 +86,41 @@
 	- Thank you note
 	  collapsed:: true
 		- "I'm incredibly proud of the monumental improvements we've achieved in COS reliability! It's been a challenging but rewarding journey, and the results are truly amazing.  Big thanks to Priya for setting up that initial meeting with Tatsuro, Loki, and Noel - their insights and support were invaluable.  We've tackled complex issues, implemented innovative solutions, and significantly boosted COS stability and performance.  Tatsuro and Loki, your appreciation for this work means a lot!  This success is a testament to our collective efforts and dedication."
+- COS oncall
+  collapsed:: true
+	- Year end review
+	  collapsed:: true
+		- **Leadership & Responsibilities**
+		- **Defined Roles:** Clearly define roles and responsibilities for each engineer on the on-call rotation. This could include specialization in certain areas of the COS monolith or specific tasks like incident response, triage, and communication.
+		- **Mentorship:** Encourage engineers to mentor less experienced team members to improve their skills and confidence in handling incidents.
+		- **Weekly training meeting:** Provided engineers with training from other infra and product teams to understand and improve the overall handling of COS outages.
+		  
+		  **Runbook Optimization**
+		- **Comprehensive Documentation:** Ensure your COS runbook is thorough and up-to-date. It should include:
+			- Common error messages and their solutions
+			- Step-by-step guides for troubleshooting frequent issues
+			- Escalation procedures for complex problems
+			- Contact information for relevant teams
+		- **Easy Access:** Make the runbook easily accessible to the on-call team (e.g., a central knowledge base, a dedicated Slack channel).
+		- **Continuous Improvement:** Regularly review and update the runbook based on new incidents and feedback from the on-call team.
+		  
+		  **Effective Weekly Meetings**
+		- **Incident Review:** Dedicate time during weekly meetings to discuss recent incidents, identify root causes, and document solutions in the runbook.
+		- **Knowledge Sharing:** Encourage staff engineers to share their experiences, tips, and best practices related to on-call duty and the COS monolith.
+		- **Proactive Problem Solving:** Use the meetings to brainstorm potential issues, identify areas for improvement in the COS system, and proactively prevent future incidents.
+		- **Feedback and Communication:** Create an open forum for feedback on the on-call process, the runbook, and any challenges faced by the team.
+		  
+		  **Beyond the Basics**
+		- **On-Call Tools:** Explore using on-call management tools to streamline scheduling, alerting, and communication.
+		- **Postmortems:** For major incidents, conduct more detailed postmortems to analyze the incident's impact, timeline, and contributing factors. This can lead to more significant system improvements and prevent similar incidents in the future.
+		- **Automation:** Identify opportunities to automate tasks and processes within the COS monolith to reduce manual intervention and the risk of human error.
+	-
 -
+-
+-
+- ## Tasks
+	- TODO [#B] Performance testing by Swaraj documentation
+	- TODO [#B] Write a runbook to debug capability issues https://cloverpos.slack.com/archives/G01J0R3D5BN/p1732652887673679
 -
 - ## Tasks
 - DONE [#B] Find out what type of task to give to #Krishna #Ramya #Priya 
