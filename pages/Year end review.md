@@ -115,7 +115,8 @@
 		- **Postmortems:** For major incidents, conduct more detailed postmortems to analyze the incident's impact, timeline, and contributing factors. This can lead to more significant system improvements and prevent similar incidents in the future.
 		- **Automation:** Identify opportunities to automate tasks and processes within the COS monolith to reduce manual intervention and the risk of human error.
 	-
--
+- COS authtoken deletion
+	-
 -
 -
 - ## Tasks
