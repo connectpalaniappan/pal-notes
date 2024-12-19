@@ -7,6 +7,7 @@ page_type:: tasks
 	- TODO [#A] Design review
 	- TODO [#A] Code review
 - #### Clover Tasks
+  collapsed:: true
 	- TODO [#B] Tempo 
 	  SCHEDULED: <2024-12-20 Fri ++1w>
 	  id:: 67610d87-52e9-42a9-865e-94f67c090db9
@@ -20,22 +21,28 @@ page_type:: tasks
 	- TODO [#A] write a review for everyone in team 
 	  DEADLINE: <2024-12-17 Tue>
 	- TODO [#B] 10AM to 11:30AM: COS runbook demo
-	- DONE Ask #Priya about RTO exemptions.
-		- DONE March office exemptions
-	- DONE [#A] self performance review #Priya 
-	  DEADLINE: <2024-12-09 Mon>
 	- TODO [#A] Platform abstraction questions 
 	  DEADLINE: <2024-12-17 Tue>
 	- TODO [#A] Kubevelan design review
 	- TODO  [#A] submit RTO exemption form
 	  DEADLINE: <2024-12-18 Wed>
+	- Completed
+	  collapsed:: true
+		- DONE Ask #Priya about RTO exemptions.
+			- DONE March office exemptions
+		- DONE [#A] self performance review #Priya 
+		  DEADLINE: <2024-12-09 Mon>
 - #### Pal Home tasks
+  collapsed:: true
 	- TODO [#B] Cleanup house (Pantry items)
-	- TODO [#A] Laptop setup
+	- TODO [#A] setup git
 	- TODO [#B] T-Mobile call
 	- TODO [#A] Submit letter to DPS on traffic safety completion
 	- TODO [#A] malaysian visa book
 	- TODO [#A] malaysian book hotel
+	- Completed
+	  collapsed:: true
+		- DONE [#A] Laptop setup
 - #### Uma Home tasks
   collapsed:: true
 	- TODO [#B] Scanning
