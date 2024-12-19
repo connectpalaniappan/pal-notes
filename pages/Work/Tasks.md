@@ -13,6 +13,7 @@ page_type:: tasks
 	  :LOGBOOK:
 	  * State "DONE" from "TODO" [2024-12-07 Sat 19:28]
 	  * State "DONE" from "TODO" [2024-12-18 Wed 09:55]
+	  CLOCK: [2024-12-19 Thu 09:56:28]--[2024-12-19 Thu 09:56:29] =>  00:00:01
 	  :END:
 	- TODO [#A] write a review for #Karan 
 	  DEADLINE: <2024-12-16 Mon>
