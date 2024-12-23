@@ -3,7 +3,6 @@ page_type:: tasks
 -
 - Tasks
 	- Tasks with priority A
-	  collapsed:: true
 		- {{query (and (priority A) (task TODO))}}
 	- Tasks with priority B
 	  collapsed:: true
@@ -51,9 +50,9 @@ page_type:: tasks
 	- TODO [#B] Cleanup house (Pantry items)
 	- TODO [#A] setup git
 	- TODO [#B] T-Mobile call
-	- TODO [#A] Submit letter to DPS on traffic safety completion
+	- DONE [#A] Submit letter to DPS on traffic safety completion
 	- TODO [#A] malaysian visa book
-	- TODO [#A] malaysian book hotel
+	- DONE [#A] malaysian book hotel
 	- Completed
 	  collapsed:: true
 		- DONE [#A] Laptop setup
