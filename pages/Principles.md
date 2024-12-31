@@ -1,0 +1,3 @@
+-
+- Produce more good things than what you consume as good things with visibility
+- Good things

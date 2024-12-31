@@ -1,0 +1,123 @@
+status:: #completed
+year:: [[2022]]
+tags:: goal,project
+identity:: #Productive
+
+- Completed
+	- [x] Fingerprint in Xiaomi
+	- [x] SSN Office - Remove restrictions on SSN
+	- [x] Pal - Renew license
+	- [x] T-Mobile bill not receiving
+	- [x] call M & T bank and close the account
+	- [x] Book a ticket
+	- [x] Add pronounciation to linkedin name? [https://www.linkedin.com/help/linkedin/answer/120710/record-and-display-your-name-pronunciation-on-your-profile?lang=en#:~:text=Tap your profile picture > View,or replace the existing recording](https://www.linkedin.com/help/linkedin/answer/120710/record-and-display-your-name-pronunciation-on-your-profile?lang=en#:~:text=Tap%20your%20profile%20picture%20%3E%20View,or%20replace%20the%20existing%20recording).
+	- [x] Phone - Grayscale your screen
+	- [x] Phone - Do not install any social media apps
+	- [x] Phone - Turn off non-human notifications
+	- [x] Phone - Put in do not disturb mode and enable pagerduty bypass
+	- [x] Discuss on accountability buddy
+	- [x] Keep a life journal of decisions in notion
+	- [x] Send a mail to check for charges on withdrawing the funds
+	- [x] Schedule car maintenance
+	- [x] Go to library
+	- [x] Call Nagaraj Aiya
+	- [x] Pal - Transfer car name in DMV
+	- [x] Technical writer - jai_sre@hotmail.co
+	- [x] pillaiyar karaiku
+	- [x] Refund clipper card
+	- [x] Renew Book
+	- [x] Renew library book
+	- [x] Renew Sunnyvale library books
+	- [x] Reply for flickr email
+	- [x] Shop for diwali
+	- [x] Check whether English speaking coaching can be claimed in fiserv
+	- [x] Search for English speaking coaching class
+	- [x] Register for English speaking coaching class
+	- [x] Change address for Pal
+	- [x] Join nanbaen
+	- [x] Try out costco shirts
+	- [x] Tie rope outside rental house
+	- [x] Goto arrowwood to enquire about maintainance requests
+	- [x] House clean
+	- [x] Wire tie in balcony
+	- [x] Try out costco clothers
+	- [x] Send Krishna jailer movie $17
+	- [x] Varalakshmi pooja. Is it ok to buy fruits
+	- [x] Ask someone who could take you to Varalakshmi pooja
+	- [x] AllState device setup
+	- [x] Call prassi? Plan, Jayashree cake
+	- [x] Jayashree cake
+	- [x] Wedding cake
+	- [x] Search and place order for blouse stitching
+	- [x] Pack clothes
+	- [x] Get letters from prassi
+	- [x] Give key to Krishna
+	- [x] Car maintenance
+	- [x] Dance participation
+	- [x] DMV registration
+	- [x] Backup notion. Need for notion:
+	- [x] Go to locker
+	- [x] Check with driving school how long is the payment hold 1 year
+	- [x] Change address for Uma
+	- [x] Write code to automate organizing linkedin notes
+	  
+	  Note taking app
+	  |   |   |   |   |
+	  |---|---|---|---|
+	  ||Notion|Obisidian||
+	  |Owning control over the files||||
+	  |Toggle down to compress information||||
+	  |Collaboration||||
+	  |Edit in Mac||||
+	  |Edit in android app||||
+	  |Saved interesting blogs||TODO: Possible with a plugin.||
+	  |Easy to take notes|Nope|Need to explore||
+	  |Linking information||Graph||
+	  |Save linked posts|Custom plugin|Convert excel sheet to markdown files||
+	  |Files supported in github|Nope|Should be as github understands markdown||
+	  |Able to create flowcharts||Canvas||
+	  TODO app
+	  |   |   |   |   |
+	  |---|---|---|---|
+	  ||Notion|Remember the milk||
+	  |Things to do today||||
+	  |End of the week||||
+	  |Widget on the phone||||
+	  |Task split by project||||
+	  |Easy to add a todo task||||
+	  |Temporary data||||
+	  |||||
+- Apps to use
+    
+    Install the following apps (Have these apps on your phone screen)
+	- whatsapp
+	- notion (evernote replace)
+	- 1password
+	- remember the milk
+	- uber
+	- lyft
+	- Google mail
+	- Google maps
+	- Google voice
+	- Google photos
+	- medium
+	- dropbox
+- Apps to avoid
+    
+    Avoid the following apps (whatever has infinite scrolling instead of pagination)
+	- youtube
+	- facebook -
+	- linkedin
+	- Quora
+	- Reddit
+	- instagram
+	- pinterest
+	- twitter
+	- Slack
+- Address change
+	- USCIS Pal
+	    
+	    ![[Screenshot_2024-01-31_at_12.54.41_PM.png|Screenshot_2024-01-31_at_12.54.41_PM.png]]
+	- USCIS Uma
+	    
+	    ![[Screenshot_2024-01-31_at_12.56.44_PM.png|Screenshot_2024-01-31_at_12.56.44_PM.png]]

@@ -1,0 +1,19 @@
+-
+- 2022
+- 2021
+- 2020
+- 2019
+- 2018
+- 2017
+- 2016
+  collapsed:: true
+	- Manager: Pals is self starter and enthusiastic engineer.
+	- Manager: Pals has demonstrated his technical skills by working with many projects and suggested best possible solutions for that
+	- Manager: Apart of SDF project he also suggested and lead a project to Create a module using restful api's to make Bundler Automation faster.
+	- Team member: "Pals technical skills have been of great value to the team. He has done a tremendous job of testing support for Saved Searches in SDF. He is able to provide technical requirements to the SuiteAnalytics team as well as report issues in a way that make it easier for them to see the problem"
+	- Team member: "I’ve seen him battle with developers and stand on his ground when he believes there is a bug and the developer does not. He does it confidently but with a positive attitude."
+	- Team member: "Pals is eager to learn, hardworking and detail oriented. He always willing to walk the extra mile even the work is completed."
+	- Team member: "Pals gives me confidence about the work he inspects. He always able to come up with most of the edge cases during QA process. This makes the team more productive since developers can fully focus on the implementation layer"
+	- Team member: "During this release he earned a reputation with the group of been the toughest door to pass"
+	-
+-
