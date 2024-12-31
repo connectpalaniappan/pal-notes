@@ -4,12 +4,15 @@
   query-properties:: [:page :created :assignedto :targetcompletiondate :completed :type :year :tags :nexttaskdate :created-at :updated-at]
 - Future
 	- {{query (and (page-tags [[goal]]) (page-property :year Future))}}
-	  query-properties:: [:page :identity :year :status]
+	  query-properties:: [:page :identity :archetype :ideas]
+	  query-sort-by:: identity
+	  query-sort-desc:: false
 - 2025
-	- {{query (and (page-tags [[goal]]) (page-property :year [[2025]]))}}
+	- {{query (and (page-tags [[goal]]) (page-property :year [[2025]]) (not (page-property :status "#completed")))}}
 	  id:: 6772207e-99f3-4a20-95ed-04a96c49ab34
-	  query-properties:: [:page :identity :year :status]
+	  query-properties:: [:page :identity :archetype :metric :ideas]
 - 2024
+  collapsed:: true
 	- {{query (and (page-tags [[goal]]) (page-property :year [[2024]]))}}
 	  query-properties:: [:page :identity :year :status]
 - 2023

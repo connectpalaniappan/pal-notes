@@ -1,12 +1,14 @@
 status:: #completed
 year:: [[2023]]
 tags:: goal,project
-identity:: #Hustler
+identity:: #hustler
+archetype:: #giver
 
 - Teach a course
 - Conduct an event
 - Gain popularity to earn from event participation
 - Blogger
+  collapsed:: true
 	- Tasks
 		- [ ] Coursera affliate program - nearly 1000 unique visitors
 			- Information

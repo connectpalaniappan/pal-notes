@@ -1,4 +1,6 @@
 identity:: #Runner
-year:: [[2024]]
+year:: [[2025]]
 tags:: goal,project
-status:: #completed
+status::
+
+-

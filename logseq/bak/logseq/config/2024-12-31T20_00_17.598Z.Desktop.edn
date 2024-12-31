@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["Tasks"]
+ :favorites ["template" "Achievement" "project" "Feedback" "Project"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -419,4 +419,6 @@
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :feature/enable-timetracking? true}
+ :feature/enable-timetracking? true
+ :editor/preferred-pasting-file? true
+ :journal/page-title-format "yyyy-MM-dd EEEE"}

@@ -1,7 +1,7 @@
 status:: #completed
 year:: [[2022]]
 tags:: goal,project
-identity:: #Productive
+identity:: #Doer
 
 - Completed
 	- [x] Fingerprint in Xiaomi

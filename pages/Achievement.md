@@ -1,6 +1,4 @@
-- {{query (page-property :status "#completed")}}
-  query-properties:: [:page :identity :year]
-  query-sort-by:: year
+- {{query (page-property :achievement)}}
+  query-properties:: [:page :identity :achievement :year]
+  query-sort-by:: achievement
   query-sort-desc:: true
--
--

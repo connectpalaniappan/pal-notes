@@ -1,7 +1,8 @@
 identity:: #Architect
+archetype:: #giver
 year:: [[2022]],[[2023]],[[2024]],[[2025]]
 tags:: goal,project
-status::
+status:: #todo
 
 -
 -

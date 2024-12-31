@@ -9,7 +9,7 @@ tags:
 [[Seeking different perspective]]
 [[Questioning assumptions]]
 [[Embracing uncertainty]]
-[[Continuous learning]]
+[[Career depth learning]]
 
 
 

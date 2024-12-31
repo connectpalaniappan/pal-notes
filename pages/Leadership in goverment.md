@@ -1,6 +1,8 @@
 status:: #todo
 year:: Future
 tags:: goal,project
-identity:: #speaker
+identity:: #leader
+archetype:: #giver
 
+-
 -
