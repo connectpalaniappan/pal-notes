@@ -1,6 +1,6 @@
-status:: #completed
+status:: #done
 year:: [[2017]]
-tags:: goal,project
+document:: #Project
 identity:: #writer,#consumer
 
 

@@ -1,6 +1,6 @@
-status:: #completed
+status:: #done
 year:: [[2015]]
-tags:: goal,project
+document:: #Project
 identity:: #graduate
 
 16th May - Graduation Day

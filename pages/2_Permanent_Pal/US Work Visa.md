@@ -1,6 +1,6 @@
-status:: #completed
+status:: #done
 year:: [[2016]]
-tags:: goal,project
+document:: #Project
 identity:: #immigrant
 title:: US Work Visa
 

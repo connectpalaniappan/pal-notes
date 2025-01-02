@@ -1,9 +1,8 @@
 identity:: #Learner
-metric:: Complete all the topics Prassi assigned
-achievement:: 
-year:: [[2022]],[[2023]],[[2024]],[[2025]]
+metric:: courses completed,
+year:: [[future]],[[2025]],[[2024]],[[2023]],[[2022]]
 ideas:: System design, coding, ML, AI, Data engineering
-tags:: goal,project
+document:: #Area
 status:: #todo
 
 -
@@ -59,10 +58,9 @@ status:: #todo
   > 10. Personal Learning Plan: Developing and regularly updating a personal learning plan that outlines specific goals, strategies, and resources for continuous learning and professional development.
   > 
   > By embracing these practices, individuals and organizations can better embody the principle of Continuous Learning, which can lead to personal growth, adaptability, innovation, and the ability to stay relevant and competitive in a rapidly changing world.
-identity:: #Learner
-archetype:: #taker
-year:: Future
-tags:: goal,project
-status::
-
+  identity:: #Learner
+  archetype:: #taker
+  year:: Future
+  tags:: goal,project
+  status::
 -

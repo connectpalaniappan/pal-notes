@@ -1,6 +1,6 @@
-status:: #completed
+status:: #done
 year:: [[2015]]
-tags:: goal,project
+document:: #Project
 identity:: #engineer
 title:: Netsuite Employment
 
@@ -9,3 +9,5 @@ title:: Netsuite Employment
 4th February - NetSuite Interview and Offer
 
 7th January - Entered California
+
+-

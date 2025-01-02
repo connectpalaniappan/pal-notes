@@ -1,6 +1,6 @@
-status:: #completed
+status:: #done
 year:: [[2023]]
-tags:: goal,project
+document:: #Area
 identity:: #hustler
 archetype:: #giver
 
