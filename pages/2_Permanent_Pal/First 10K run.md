@@ -2,7 +2,7 @@ identity:: #Runner
 archetype:: #giver
 Metric::  10K complete
 year:: [[2024]]
-area:: [[Run every week]] 
+area:: [[Running]] 
 document:: [[Project]] 
 status:: #done
 

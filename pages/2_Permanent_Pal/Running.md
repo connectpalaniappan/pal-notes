@@ -4,7 +4,7 @@ metric::  miles per year, runs per year
 ideas:: 
 year:: [[future]],[[2025]],[[2024]],
 document:: #Area 
-status:: #todo
+status:: #inprogress
 
 -
 - {{query (page-property :area [[Participate in running race]])}}

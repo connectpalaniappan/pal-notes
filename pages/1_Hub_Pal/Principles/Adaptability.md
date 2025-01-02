@@ -6,7 +6,7 @@ tags:
  - date/2024-04-03
 ---
 
-[[Career depth learning]]
+[[Learning]]
 [[Embracing change]]
 [[Agile mindset]]
 [[Scenario planning]]

@@ -2,7 +2,7 @@ identity:: #Architect
 archetype:: #giver
 year:: [[future]],[[2022]],[[2023]],[[2024]],[[2025]]
 document:: #Area
-status:: #todo
+status:: #inprogress
 
 -
 -

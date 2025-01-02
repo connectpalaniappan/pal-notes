@@ -7,3 +7,7 @@ document:: #Area
 status:: #todo
 
 -
+- Photography
+- Videography
+-
+-
