@@ -1,9 +1,10 @@
-identity:: #Learner
-archetype:: #taker
-metric:: Consume atleast 10 content every month 
-year:: [[future]],[[2025]],[[2024]]
-document:: #Area 
-status:: #todo
-
+-
+- identity:: #Learner 
+  archetype:: #taker
+  metric:: Consume atleast 10 content every month 
+  area:: [[Non career depth learning]], [[Career depth learning]] 
+  year:: [[future]]
+  document:: #Project
+  status:: #todo
 	-
 -
